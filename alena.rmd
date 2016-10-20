@@ -1,11 +1,12 @@
 ---
 title: "Analysis of Alena Shkumatava miRNASeq Data"
 author: "Anton Enright"
-date: "19th Oct 2016"
+date: "`r format(Sys.Date())`"
 output:
   html_document:
     fig_height: 7
     toc: yes
+    keep_md: true
   pdf_document:
     toc: yes
 ---
