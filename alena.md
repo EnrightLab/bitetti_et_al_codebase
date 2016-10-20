@@ -1,6 +1,6 @@
 # Analysis of Alena Shkumatava miRNASeq Data
 Anton Enright  
-19th Oct 2016  
+`r format(Sys.Date())`  
 
 
 
