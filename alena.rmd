@@ -3,10 +3,10 @@ title: "Analysis of Alena Shkumatava miRNASeq Data"
 author: "Anton Enright"
 date: "19th Oct 2016"
 output:
-  pdf_document:
-    toc: yes
   html_document:
     fig_height: 7
+    toc: yes
+  pdf_document:
     toc: yes
 ---
 
@@ -51,7 +51,7 @@ spectral <- colorRampPalette(rev(brewer.pal(11, "Spectral")), space="Lab")(100)
 ## Count Loading
 We can now load all the count data
 ```{r}
-setwd("/Users/aje/Dropbox/alena_mirna/newdata")
+setwd("/Users/aje/anton_r_notebook/alena_mirna_oct_2016/")
 mircounts <- read.table("mouse_counts3.txt",header=TRUE,row.names=1)
 mircounts=mircounts[-nrow(mircounts),]
 
@@ -295,7 +295,7 @@ legend("topright",levels(as.factor(rownames(length_table))),fill=colours[levels(
 
 We can now load all the count data
 ```{r}
-setwd("/Users/aje/Dropbox/alena_mirna/newdata")
+setwd("/Users/aje/anton_r_notebook/alena_mirna_oct_2016/")
 mircounts <- read.table("zebrafish_counts3.txt",header=TRUE,row.names=1)
 mircounts=mircounts[-nrow(mircounts),]
 
