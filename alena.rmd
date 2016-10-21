@@ -6,7 +6,7 @@ output:
   html_document:
     keep_md: yes
     theme: flatly
-    fig_retina: yes
+    fig_retina: 2
     toc: yes
   pdf_document:
     toc: yes
@@ -15,6 +15,9 @@ output:
 ```{r setup, results='hide',message=F, warning=F, echo=F}
 require(knitr)
 opts_knit$set(root.dir = '/Users/aje/anton_r_notebook/alena_mirna_oct_2016')
+opts_chunk$set(dev="png", 
+               dev.args=list(type="cairo"),
+               dpi=300)
 ```
 
 # Experiment Setup
