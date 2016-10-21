@@ -329,7 +329,7 @@ write.table(cbind(as.matrix(counts(dds,normalized=T)[rownames(res),]),as.matrix(
 ## Length Analysis
 
 Now we load in the length data from the mapping analysis separately to analyse.
-We will analyse the top 10 expressed, top 10 differential miRs and the miR-29 family, (Excluding miRs with norm counts sum < 50)
+We will analyse the top 10 expressed, top 10 differential miRs and the miR-29 family, (Excluding miRs with norm counts sum < 30)
 
 
 
@@ -342,7 +342,7 @@ mirlist=unique(c(rownames(counts(dds,normalized=T)[1:10,]),rownames(res[1:15,]),
 for (i in 1:length(mirlist)){
 mir=mirlist[i]
 
-if (median(normcounts[mirlist[i],]) >= 50){
+if (median(normcounts[mirlist[i],]) >= 30){
 length_table=as.matrix(length_mouse[length_mouse$V1==mir,4:34])/apply(as.matrix(length_mouse[length_mouse$V1==mir,4:34]),1,max)
 rownames(length_table)=length_mouse[length_mouse$V1==mir,"genotype"]
 
