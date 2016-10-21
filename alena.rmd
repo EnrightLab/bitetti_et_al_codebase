@@ -11,8 +11,10 @@ output:
   pdf_document:
     toc: yes
   md_document:
-    toc: yes
+    toc: true
+    toc_depth: 2
 ---
+
 
 ```{r setup, results='hide',message=F, warning=F, echo=F}
 require(knitr)
@@ -226,7 +228,8 @@ Volcanoplots of Significant Hits
 ```{r}
 plot(res$log2FoldChange,-log(res$padj,10),ylab="-log10(Adjusted P)",xlab="Log2 FoldChange",main=paste("Volcano Plot","WT v Scr\nmir-29 in green\nsig. in red"),pch=19,cex=0.4)      
 if (length(sig)>=1){
-text(res[sig,]$log2FoldChange,-log(res[sig,]$padj,10),labels=rownames(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],]),pos=3,cex=0.6)
+text(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],]$log2FoldChange,-log(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],]$padj,10),labels=rownames(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],]),pos=3,cex=0.6)
+text(res[sig,]$log2FoldChange,-log(res[sig,]$padj,10),labels=sig,pos=3,cex=0.6)
 points(res[sig,"log2FoldChange"],-log(res[sig,"padj"],10),pch=19,cex=0.4,col="red")
 points(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],"log2FoldChange"],-log(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],"padj"],10),pch=19,cex=0.6,col="green")
 
@@ -399,7 +402,6 @@ pca <- princomp(vstcounts)
 
 
 quartz()
-par(mfrow=c(2,1))
 plot(pca$loadings, col=cond_colours,  pch=19, cex=2, main="Sample to Sample PCA (VST)")
 text(pca$loadings, as.vector(colnames(mircounts)), pos=3, cex=0.4)
 legend("topright",levels(conds),fill=cond_colours[levels(conds)],cex=0.4)
@@ -467,12 +469,16 @@ sig = rownames(res[(abs(res$log2FoldChange) > lfc_threshold) & (res$padj < p_thr
 Volcanoplots of Significant Hits
 ```{r}
 plot(res$log2FoldChange,-log(res$padj,10),ylab="-log10(Adjusted P)",xlab="Log2 FoldChange",main=paste("Volcano Plot","WT v Del\nmir-7 in green\nsig. in red"),pch=19,cex=0.4)      
+
 if (length(sig)>=1){
-text(res[sig,]$log2FoldChange,-log(res[sig,]$padj,10),labels=rownames(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],]),pos=3,cex=0.6)
-points(res[sig,"log2FoldChange"],-log(res[sig,"padj"],10),pch=19,cex=0.4,col="red")
-points(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],"log2FoldChange"],-log(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],"padj"],10),pch=19,cex=0.6,col="green")
+  
+  text(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],]$log2FoldChange,-log(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],]$padj,10),labels=rownames(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],]),pos=3,cex=0.6)
+  text(res[sig,]$log2FoldChange,-log(res[sig,]$padj,10),labels=sig,pos=3,cex=0.6)
+  points(res[sig,"log2FoldChange"],-log(res[sig,"padj"],10),pch=19,cex=0.4,col="red")
+  points(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],"log2FoldChange"],-log(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],"padj"],10),pch=19,cex=0.6,col="green")
 
 }
+
 abline(h=-log10(p_threshold),lty=3)
 abline(v=-lfc_threshold,lty=3)
 abline(v=lfc_threshold,lty=3)   
