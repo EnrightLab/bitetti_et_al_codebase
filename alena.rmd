@@ -14,7 +14,6 @@ opts_knit$set(root.dir = '/Users/aje/anton_r_notebook/alena_mirna_oct_2016')
 opts_chunk$set(dev="png", 
                dev.args=list(type="cairo"),
                dpi=300)
-
 ```
 
 # Experiment Setup
@@ -46,7 +45,6 @@ library(reshape2)
 library(ggplot2)
 hmcol = colorRampPalette(brewer.pal(9, "GnBu"))(100)
 spectral <- colorRampPalette(rev(brewer.pal(11, "Spectral")), space="Lab")(100)
-
 ```
 
 # Mouse Analysis
@@ -57,10 +55,6 @@ We can now load all the count data
 setwd("/Users/aje/anton_r_notebook/alena_mirna_oct_2016/")
 mircounts <- read.table("mouse_counts3.txt",header=TRUE,row.names=1)
 mircounts=mircounts[-nrow(mircounts),]
-
-
-
-
 ```
 
 As well as the pdata, which contains information on each sample. We will subset for one species at a time, now Mouse
