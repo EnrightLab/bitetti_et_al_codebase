@@ -1,0 +1,1052 @@
+Target gene	Representative transcript	Gene name	3P-seq tags + 5	Conserved sites total	Conserved 8mer sites	Conserved 7mer-m8 sites	Conserved 7mer-A1 sites	Poorly conserved sites total	Poorly conserved 8mer sites	Poorly conserved 7mer-m8 sites	Poorly conserved 7mer-A1 sites	6mer sites	Representative miRNA	Cumulative weighted context++ score	Total context++ score	Aggregate PCT	Previous TargetScan publication(s)
+Tet3	ENSMUST00000089622.5	tet methylcytosine dioxygenase 3 	1592	7	2	4	1	3	0	2	1	5	mmu-miR-29a-3p	-5.79	-5.93	> 0.99	2011
+Col4a5	ENSMUST00000112931.2	collagen, type IV, alpha 5 	288	2	2	0	0	1	1	0	0	0	mmu-miR-29b-3p	-3.03	-3.52	> 0.99	2005, 2007, 2009, 2011
+Glis2	ENSMUST00000014447.7	GLIS family zinc finger 2 	406	1	1	0	0	3	0	1	2	1	mmu-miR-29b-3p	-2.25	-2.27	0.81	2005, 2007, 2009, 2011
+Unc13b	ENSMUST00000079978.7	unc-13 homolog B (C. elegans) 	533	2	1	1	0	0	0	0	0	0	mmu-miR-29b-3p	-1.56	-1.56	0.78	2005, 2007, 2009, 2011
+Bach2	ENSMUST00000171600.1	BTB and CNC homology 2 	72	1	1	0	0	1	0	0	1	0	mmu-miR-29a-3p	-1.51	-1.55	0.92	2005, 2007, 2009, 2011
+Nav2	ENSMUST00000184945.2	neuron navigator 2 	536	2	1	1	0	0	0	0	0	1	mmu-miR-29b-3p	-1.46	-1.65	0.81	2005, 2007, 2009, 2011
+Atad2b	ENSMUST00000045664.5	ATPase family, AAA domain containing 2B 	253	3	3	0	0	0	0	0	0	0	mmu-miR-29a-3p	-1.35	-1.41	> 0.99	2009, 2011
+Dpysl5	ENSMUST00000114729.2	dihydropyrimidinase-like 5 	364	1	1	0	0	1	0	0	1	1	mmu-miR-29a-3p	-1.31	-1.49	0.92	2009, 2011
+Traf3	ENSMUST00000117269.2	TNF receptor-associated factor 3 	465	2	0	1	1	2	0	2	0	2	mmu-miR-29b-3p	-1.28	-1.73	> 0.99	2009, 2011
+Rpl5	ENSMUST00000082223.7	ribosomal protein L5 	1500	1	1	0	0	0	0	0	0	2	mmu-miR-29b-3p	-1.27	-1.31	< 0.1	2011
+Mybl2	ENSMUST00000018005.4	myeloblastosis oncogene-like 2 	1006	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-1.25	-1.25	0.92	2005, 2007, 2009, 2011
+Rgs8	ENSMUST00000041776.6	regulator of G-protein signaling 8 	5	1	0	1	0	2	0	2	0	2	mmu-miR-29a-3p	-1.23	-1.23	0.82	2009, 2011
+Adamts10	ENSMUST00000087623.7	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 10 	641	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-1.16	-1.17	0.78	2007, 2011
+Tmc5	ENSMUST00000121715.2	transmembrane channel-like gene family 5 	36	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-1.15	-1.24	< 0.1	2005, 2007, 2009, 2011
+Col6a2	ENSMUST00000001181.7	collagen, type VI, alpha 2 	2004	1	1	0	0	1	0	0	1	1	mmu-miR-29c-3p	-1.14	-1.59	0.16	2009, 2011
+Tet2	ENSMUST00000098603.3	tet methylcytosine dioxygenase 2 	429	4	2	2	0	1	0	1	0	0	mmu-miR-29a-3p	-1.14	-1.14	> 0.99	2009, 2011
+Col1a1	ENSMUST00000001547.7	collagen, type I, alpha 1 	8243	1	1	0	0	2	0	0	2	0	mmu-miR-29b-3p	-1.13	-1.17	0.90	2005, 2007
+Eln	ENSMUST00000015138.9	elastin 	885	3	2	1	0	0	0	0	0	0	mmu-miR-29b-3p	-1.12	-1.12	> 0.99	2007, 2009, 2011
+Smek2	ENSMUST00000020755.6	SMEK homolog 2, suppressor of mek1 (Dictyostelium) 	1618	1	0	1	0	2	0	1	1	1	mmu-miR-29a-3p	-1.12	-1.45	0.88	2005, 2009, 2011
+Olfr701	ENSMUST00000075414.2	olfactory receptor 701 	7	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-1.08	-1.08	< 0.1	2009, 2011
+Adamts17	ENSMUST00000107478.2	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 17 	23	2	1	1	0	1	0	0	1	4	mmu-miR-29b-3p	-1.05	-1.08	0.98	2007, 2009, 2011
+Tmem236	ENSMUST00000077517.7	transmembrane protein 236 	14	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-1.05	-1.05	< 0.1	2009, 2011
+Plag1	ENSMUST00000003369.4	pleiomorphic adenoma gene 1 	77	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-1.01	-1.14	0.92	2005, 2007
+Entpd7	ENSMUST00000081079.5	ectonucleoside triphosphate diphosphohydrolase 7 	146	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.99	-0.99	0.92	2005, 2007, 2009, 2011
+Arf5	ENSMUST00000020717.6	ADP-ribosylation factor 5 	3204	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.97	-0.97	0.21	2007
+Otub2	ENSMUST00000179684.1	OTU domain, ubiquitin aldehyde binding 2 	41	1	1	0	0	0	0	0	0	1	mmu-miR-29b-3p	-0.92	-1.09	< 0.1	2007, 2009, 2011
+Col3a1	ENSMUST00000087883.7	collagen, type III, alpha 1 	15234	2	1	0	1	0	0	0	0	1	mmu-miR-29b-3p	-0.91	-1.49	> 0.99	2005, 2007, 2009, 2011
+Col5a3	ENSMUST00000004201.7	collagen, type V, alpha 3 	1478	3	1	2	0	1	0	1	0	0	mmu-miR-29a-3p	-0.91	-0.96	> 0.99	2005, 2007, 2009, 2011
+Trib2	ENSMUST00000020922.7	tribbles homolog 2 (Drosophila) 	63	3	0	2	1	0	0	0	0	0	mmu-miR-29b-3p	-0.87	-1.49	> 0.99	2005, 2007, 2009, 2011
+Ifi30	ENSMUST00000034299.5	interferon gamma inducible protein 30 	316	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.87	-0.94	0.63	2005, 2007, 2009, 2011
+Eif4e2	ENSMUST00000113233.2	eukaryotic translation initiation factor 4E member 2 	2023	1	1	0	0	1	0	1	0	0	mmu-miR-29a-3p	-0.85	-0.98	0.75	2005, 2007, 2011
+Foxn2	ENSMUST00000112238.3	forkhead box N2 	33	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.84	-0.92	< 0.1	2007, 2009, 2011
+Syncrip	ENSMUST00000174391.2	synaptotagmin binding, cytoplasmic RNA interacting protein 	2608	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.82	-1.06	0.87	2009, 2011
+Mga	ENSMUST00000079934.6	MAX gene associated 	1277	1	0	1	0	0	0	0	0	4	mmu-miR-29a-3p	-0.81	-1.14	0.87	2007, 2009, 2011
+Tdg	ENSMUST00000151390.2	thymine DNA glycosylase 	15	2	1	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.81	-0.81	0.91	2005, 2007, 2009, 2011
+Angptl4	ENSMUST00000002360.10	angiopoietin-like 4 	519	1	0	1	0	1	0	0	1	1	mmu-miR-29a-3p	-0.77	-0.77	0.58	2005, 2007, 2009, 2011
+Zfp174	ENSMUST00000041778.7	zinc finger protein 174 	81	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.76	-0.91	< 0.1	2009, 2011
+Adamts12	ENSMUST00000061318.7	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 12 	155	4	3	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.76	-0.80	> 0.99	
+Adamts9	ENSMUST00000113438.2	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 9 	198	2	1	0	1	0	0	0	0	0	mmu-miR-29b-3p	-0.75	-0.77	> 0.99	2005, 2007, 2009, 2011
+Col11a1	ENSMUST00000092155.6	collagen, type XI, alpha 1 	54	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.75	-0.75	0.96	2005, 2007, 2009, 2011
+Dusp2	ENSMUST00000028846.6	dual specificity phosphatase 2 	20	1	0	1	0	2	0	1	1	0	mmu-miR-29a-3p	-0.75	-0.75	0.77	2005, 2007, 2009, 2011
+Nfia	ENSMUST00000092532.7	nuclear factor I/A 	153	3	1	2	0	0	0	0	0	1	mmu-miR-29b-3p	-0.74	-0.95	> 0.99	2005, 2007, 2009, 2011
+Clk2	ENSMUST00000121212.3	CDC-like kinase 2 	1296	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.74	-0.74	0.87	2005, 2007, 2011
+Nav3	ENSMUST00000032719.8	neuron navigator 3 	226	4	1	2	1	0	0	0	0	0	mmu-miR-29a-3p	-0.72	-0.74	> 0.99	2005, 2007, 2009, 2011
+Lysmd1	ENSMUST00000066386.5	LysM, putative peptidoglycan-binding, domain containing 1 	7	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.72	-0.72	0.91	2007, 2011
+Kcna2	ENSMUST00000038695.1	potassium voltage-gated channel, shaker-related subfamily, member 2 	106	1	0	1	0	1	0	0	1	2	mmu-miR-29a-3p	-0.71	-0.76	0.49	
+Kctd20	ENSMUST00000118762.2	potassium channel tetramerisation domain containing 20 	395	2	0	2	0	1	1	0	0	0	mmu-miR-29a-3p	-0.70	-0.71	0.94	2007, 2009, 2011
+Trim37	ENSMUST00000041282.7	tripartite motif-containing 37 	395	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.69	-0.69	0.86	2005, 2007, 2009, 2011
+Hrk	ENSMUST00000054836.6	harakiri, BCL2 interacting protein (contains only BH3 domain) 	5	2	1	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.69	-0.69	0.97	2009, 2011
+Spns1	ENSMUST00000119754.2	spinster homolog 1 	446	1	1	0	0	0	0	0	0	1	mmu-miR-29b-3p	-0.69	-0.69	< 0.1	2007, 2009, 2011
+Kif26b	ENSMUST00000160789.1	kinesin family member 26B 	26	1	1	0	0	1	0	1	0	1	mmu-miR-29a-3p	-0.68	-0.92	0.93	2007, 2011
+Sparc	ENSMUST00000018737.7	secreted acidic cysteine rich glycoprotein 	4861	2	0	0	2	0	0	0	0	1	mmu-miR-29b-3p	-0.68	-0.74	> 0.99	2005, 2007, 2009, 2011
+Hnf4g	ENSMUST00000017832.9	hepatocyte nuclear factor 4, gamma 	34	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.68	-0.68	0.86	2005, 2007, 2009, 2011
+Eva1b	ENSMUST00000106152.2	eva-1 homolog B (C. elegans) 	1189	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.68	-0.69	< 0.1	2007, 2009, 2011
+Col9a1	ENSMUST00000054588.9	collagen, type IX, alpha 1 	9	1	1	0	0	1	0	1	0	0	mmu-miR-29a-3p	-0.68	-0.68	0.51	2005, 2007, 2009, 2011
+Ddx6	ENSMUST00000170489.1	DEAD (Asp-Glu-Ala-Asp) box polypeptide 6 	585	1	0	1	0	0	0	0	0	3	mmu-miR-29b-3p	-0.67	-0.71	0.63	2009, 2011
+Rlf	ENSMUST00000168615.2	rearranged L-myc fusion sequence 	806	1	1	0	0	0	0	0	0	1	mmu-miR-29b-3p	-0.67	-0.77	0.93	2005, 2007, 2009, 2011
+Adam19	ENSMUST00000011400.7	a disintegrin and metallopeptidase domain 19 (meltrin beta) 	1262	2	0	2	0	1	0	0	1	0	mmu-miR-29a-3p	-0.67	-0.67	0.90	2005, 2007, 2009, 2011
+Abhd4	ENSMUST00000180359.2	abhydrolase domain containing 4 	652	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.67	-0.67	0.76	2005, 2007, 2009, 2011
+Erp29	ENSMUST00000052590.7	endoplasmic reticulum protein 29 	77	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.67	-0.76	0.92	2007, 2009, 2011
+Tbc1d13	ENSMUST00000044556.6	TBC1 domain family, member 13 	1424	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.67	-0.67	0.78	2005, 2007, 2009, 2011
+Dnmt3a	ENSMUST00000020991.9	DNA methyltransferase 3A 	1717	3	1	1	1	3	1	2	0	7	mmu-miR-29c-3p	-0.66	-3.75	> 0.99	2005, 2007, 2009, 2011
+Stag2	ENSMUST00000115073.3	stromal antigen 2 	3749	1	0	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.66	-1.01	0.88	2007, 2009, 2011
+Ppic	ENSMUST00000025419.7	peptidylprolyl isomerase C 	1510	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.66	-0.69	0.92	2005, 2007, 2009, 2011
+Gpr37	ENSMUST00000054867.6	G protein-coupled receptor 37 	7	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.66	-0.66	0.83	2005, 2007, 2009, 2011
+Nrep	ENSMUST00000051087.9	neuronal regeneration related protein 	693	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.65	-0.66	0.91	2007, 2009, 2011
+Sestd1	ENSMUST00000102660.2	SEC14 and spectrin domains 1 	260	2	2	0	0	3	0	3	0	0	mmu-miR-29a-3p	-0.65	-0.76	0.99	2005, 2007, 2009, 2011
+Suv420h2	ENSMUST00000098853.3	suppressor of variegation 4-20 homolog 2 (Drosophila) 	450	2	1	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.64	-0.64	0.98	2005, 2009, 2011
+Ccdc117	ENSMUST00000020776.4	coiled-coil domain containing 117 	586	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.64	-0.77	0.87	2007, 2009, 2011
+Mex3b	ENSMUST00000082237.5	mex3 homolog B (C. elegans) 	9	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.64	-0.64	0.92	2007, 2011
+Lmtk2	ENSMUST00000041804.7	lemur tyrosine kinase 2 	931	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.64	-0.64	0.74	2005, 2007, 2009, 2011
+Adamts2	ENSMUST00000040523.8	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 2 	244	2	0	2	0	2	0	2	0	3	mmu-miR-29b-3p	-0.63	-0.72	0.91	
+Slc30a3	ENSMUST00000031037.8	solute carrier family 30 (zinc transporter), member 3 	7	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.63	-0.63	0.89	2005, 2007, 2009, 2011
+Tet1	ENSMUST00000050826.8	tet methylcytosine dioxygenase 1 	33	5	1	3	1	3	0	3	0	2	mmu-miR-29b-3p	-0.63	-2.51	> 0.99	2007, 2011
+Has3	ENSMUST00000034385.6	hyaluronan synthase 3 	30	2	1	1	0	1	0	1	0	2	mmu-miR-29a-3p	-0.63	-0.64	0.68	2005, 2007, 2009, 2011
+Zdhhc21	ENSMUST00000030110.9	zinc finger, DHHC domain containing 21 	885	1	1	0	0	1	1	0	0	1	mmu-miR-29a-3p	-0.63	-0.65	0.90	2005, 2007, 2009, 2011
+Fem1b	ENSMUST00000034775.8	feminization 1 homolog b (C. elegans) 	813	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.62	-0.64	0.93	2005, 2007, 2009, 2011
+Mlf1	ENSMUST00000061322.8	myeloid leukemia factor 1 	5970	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.62	-0.69	< 0.1	2005, 2007, 2009, 2011
+Col7a1	ENSMUST00000112070.2	collagen, type VII, alpha 1 	52	2	1	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.62	-0.62	0.91	2005, 2007, 2009, 2011
+Tmem169	ENSMUST00000027380.6	transmembrane protein 169 	55	2	0	2	0	1	0	1	0	0	mmu-miR-29a-3p	-0.61	-0.80	0.93	2007, 2009, 2011
+Psme4	ENSMUST00000041231.8	proteasome (prosome, macropain) activator subunit 4 	808	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.61	-0.62	0.53	2005, 2007, 2009, 2011
+Traf4	ENSMUST00000017530.3	TNF receptor associated factor 4 	2393	2	0	1	1	0	0	0	0	0	mmu-miR-29a-3p	-0.61	-0.61	0.99	2005, 2007, 2009, 2011
+Rnf13	ENSMUST00000041826.9	ring finger protein 13 	4649	1	0	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.61	-0.96	0.81	2007, 2009, 2011
+Bak1	ENSMUST00000078691.6	BCL2-antagonist/killer 1 	55	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.61	-0.62	0.91	2005, 2007, 2009, 2011
+Gpr156	ENSMUST00000061274.7	G protein-coupled receptor 156 	12	1	1	0	0	2	0	1	1	1	mmu-miR-29b-3p	-0.60	-0.60	0.21	2009, 2011
+Gm9726	ENSMUST00000180321.1	predicted gene 9726 	14	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.60	-0.60	< 0.1	
+Klhl28	ENSMUST00000021331.7	kelch-like 28 	187	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.60	-0.65	0.92	2007, 2009, 2011
+Enho	ENSMUST00000127306.1	energy homeostasis associated 	1775	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.60	-0.60	0.51	2007, 2009, 2011
+Smim17	ENSMUST00000160218.1	small integral membrane protein 17 	7	1	1	0	0	1	0	0	1	2	mmu-miR-29b-3p	-0.60	-0.60	< 0.1	2009, 2011
+Cldn1	ENSMUST00000023154.2	claudin 1 	183	2	1	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.59	-0.69	0.76	2005, 2007, 2009, 2011
+Pmp22	ENSMUST00000018361.4	peripheral myelin protein 22 	8938	1	1	0	0	1	1	0	0	0	mmu-miR-29a-3p	-0.59	-0.87	0.85	2005, 2007, 2009, 2011
+Ireb2	ENSMUST00000034843.7	iron responsive element binding protein 2 	1630	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.59	-0.59	0.92	2005, 2007, 2009, 2011
+Suv420h1	ENSMUST00000113977.3	suppressor of variegation 4-20 homolog 1 (Drosophila) 	632	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.59	-0.68	0.87	2005, 2009, 2011
+Mtx3	ENSMUST00000076169.3	metaxin 3 	491	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.58	-0.62	0.82	2011
+Rnf39	ENSMUST00000040498.6	ring finger protein 39 	215	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.58	-0.60	0.90	2005, 2007
+Abcb6	ENSMUST00000027396.9	ATP-binding cassette, sub-family B (MDR/TAP), member 6 	585	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.58	-0.60	0.28	2005, 2007, 2009, 2011
+Pgap2	ENSMUST00000120879.2	post-GPI attachment to proteins 2 	1356	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.57	-0.57	0.90	2009, 2011
+Cbx6	ENSMUST00000109623.2	chromobox 6 	183	1	0	0	1	2	0	1	1	3	mmu-miR-29b-3p	-0.57	-0.58	0.86	2005, 2007, 2009, 2011
+Ptp4a1	ENSMUST00000027232.8	protein tyrosine phosphatase 4a1 	153	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.57	-0.57	0.62	2005, 2007, 2009, 2011
+Rnd3	ENSMUST00000154545.1	Rho family GTPase 3 	111	1	0	1	0	2	0	1	1	1	mmu-miR-29a-3p	-0.57	-0.70	0.65	2005, 2007, 2009, 2011
+Wisp1	ENSMUST00000118823.1	WNT1 inducible signaling pathway protein 1 	499	1	0	1	0	1	1	0	0	0	mmu-miR-29b-3p	-0.57	-0.57	0.52	2009, 2011
+Icos	ENSMUST00000102827.3	inducible T cell co-stimulator 	23	1	1	0	0	0	0	0	0	1	mmu-miR-29b-3p	-0.56	-0.56	0.71	2005, 2007, 2009, 2011
+Zbtb34	ENSMUST00000113158.2	zinc finger and BTB domain containing 34 	575	2	1	1	0	2	0	1	1	2	mmu-miR-29b-3p	-0.56	-0.59	0.99	2009, 2011
+Col4a1	ENSMUST00000033898.9	collagen, type IV, alpha 1 	5885	2	1	0	1	0	0	0	0	0	mmu-miR-29c-3p	-0.56	-0.60	0.98	2005, 2007, 2009, 2011
+Lims1	ENSMUST00000020077.5	LIM and senescent cell antigen-like domains 1 	8422	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.56	-0.57	0.77	2009, 2011
+Pi15	ENSMUST00000088476.3	peptidase inhibitor 15 	34	3	1	1	1	0	0	0	0	1	mmu-miR-29a-3p	-0.56	-1.00	> 0.99	2005, 2007, 2011
+Tbx21	ENSMUST00000001484.2	T-box 21 	11	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.56	-0.56	0.79	2005, 2007, 2009, 2011
+Pan2	ENSMUST00000005825.6	PAN2 polyA specific ribonuclease subunit homolog (S. cerevisiae) 	97	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.55	-0.55	0.84	2007, 2009, 2011
+Lox	ENSMUST00000171470.2	lysyl oxidase 	6524	2	0	2	0	1	0	1	0	1	mmu-miR-29a-3p	-0.55	-0.57	0.95	2009, 2011
+Smtnl2	ENSMUST00000108500.2	smoothelin-like 2 	874	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.54	-0.56	0.91	2007, 2009, 2011
+Eps15	ENSMUST00000102729.4	epidermal growth factor receptor pathway substrate 15 	2282	1	0	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.54	-0.61	0.65	2005, 2007, 2009, 2011
+Slc19a3	ENSMUST00000045560.9	solute carrier family 19, member 3 	8	1	1	0	0	1	0	1	0	0	mmu-miR-29a-3p	-0.54	-0.54	< 0.1	2011
+Dot1l	ENSMUST00000105336.3	DOT1-like, histone H3 methyltransferase (S. cerevisiae) 	448	2	0	1	1	1	0	1	0	5	mmu-miR-29b-3p	-0.53	-0.58	0.98	2009, 2011
+Eomes	ENSMUST00000035020.9	eomesodermin homolog (Xenopus laevis) 	55	1	0	1	0	1	0	0	1	1	mmu-miR-29a-3p	-0.53	-0.56	0.81	2005, 2007, 2009, 2011
+Tmem183a	ENSMUST00000049470.5	transmembrane protein 183A 	960	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.53	-0.69	0.88	2007, 2009, 2011
+AI118078	ENSMUST00000085754.4	expressed sequence AI118078 	37	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.53	-0.53	0.39	2007, 2009, 2011
+Grip1	ENSMUST00000041962.9	glutamate receptor interacting protein 1 	7	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.53	-0.53	0.90	2009, 2011
+Ky	ENSMUST00000039390.5	kyphoscoliosis peptidase 	113	1	0	0	1	1	0	1	0	2	mmu-miR-29a-3p	-0.53	-0.60	0.93	2005, 2007, 2009, 2011
+Kdelc1	ENSMUST00000065767.3	KDEL (Lys-Asp-Glu-Leu) containing 1 	811	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.53	-0.53	0.86	2005, 2007, 2009, 2011
+Ybx3	ENSMUST00000032309.7	Y box protein 3 	3008	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.53	-0.60	0.93	2007, 2009, 2011
+3110057O12Rik	ENSMUST00000159774.2	RIKEN cDNA 3110057O12 gene 	410	1	0	1	0	1	1	0	0	1	mmu-miR-29b-3p	-0.53	-0.75	0.78	
+0610030E20Rik	ENSMUST00000077783.3	RIKEN cDNA 0610030E20 gene 	1246	1	1	0	0	2	0	2	0	0	mmu-miR-29a-3p	-0.52	-0.57	< 0.1	2011
+Zfp36l1	ENSMUST00000021552.1	zinc finger protein 36, C3H type-like 1 	1389	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.52	-0.52	0.83	2005, 2007, 2009, 2011
+Npffr1	ENSMUST00000020287.6	neuropeptide FF receptor 1 	2	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.52	-0.52	0.34	
+Cav2	ENSMUST00000000058.6	caveolin 2 	4227	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.52	-0.55	0.82	2005, 2007, 2009, 2011
+Col2a1	ENSMUST00000023123.9	collagen, type II, alpha 1 	5	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.52	-0.52	0.91	2005, 2007, 2009, 2011
+Stmn2	ENSMUST00000029002.7	stathmin-like 2 	1778	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.52	-0.54	0.91	2009, 2011
+Narf	ENSMUST00000103015.3	nuclear prelamin A recognition factor 	1634	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.52	-0.54	0.79	2009, 2011
+Frat2	ENSMUST00000059231.2	frequently rearranged in advanced T cell lymphomas 2 	68	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.51	-0.53	0.79	2005, 2007, 2009, 2011
+Map2k6	ENSMUST00000020949.6	mitogen-activated protein kinase kinase 6 	142	1	0	0	1	1	0	1	0	1	mmu-miR-29b-3p	-0.51	-0.91	0.93	2005, 2007, 2009, 2011
+Zfp346	ENSMUST00000021937.6	zinc finger protein 346 	773	2	2	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.51	-0.51	> 0.99	2009, 2011
+Brwd3	ENSMUST00000150434.2	bromodomain and WD repeat domain containing 3 	489	3	0	3	0	1	1	0	0	1	mmu-miR-29a-3p	-0.51	-0.93	0.96	2005, 2007, 2009, 2011
+Hnrnpf	ENSMUST00000180341.1	heterogeneous nuclear ribonucleoprotein F 	53	1	0	0	1	0	0	0	0	0	mmu-miR-29b-3p	-0.50	-0.50	0.92	2007, 2009, 2011
+C1qtnf6	ENSMUST00000023075.8	C1q and tumor necrosis factor related protein 6 	212	2	0	2	0	0	0	0	0	2	mmu-miR-29b-3p	-0.50	-0.50	0.92	2005, 2007, 2011
+Col4a2	ENSMUST00000033899.8	collagen, type IV, alpha 2 	1325	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.50	-0.50	0.95	2005, 2007, 2009, 2011
+Zfp36	ENSMUST00000051241.5	zinc finger protein 36 	247	1	0	1	0	1	0	1	0	0	mmu-miR-29b-3p	-0.50	-0.50	0.83	2005, 2007, 2009, 2011
+Cacng4	ENSMUST00000021066.3	calcium channel, voltage-dependent, gamma subunit 4 	8	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.50	-0.50	0.66	2005, 2007
+Islr2	ENSMUST00000114144.3	immunoglobulin superfamily containing leucine-rich repeat 2 	34	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.50	-0.50	0.90	2007, 2009, 2011
+Clec2l	ENSMUST00000114874.3	C-type lectin domain family 2, member L 	19	2	0	2	0	0	0	0	0	0	mmu-miR-29b-3p	-0.50	-0.50	0.91	2009, 2011
+Fbn1	ENSMUST00000028633.7	fibrillin 1 	243	2	1	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.50	-0.75	0.98	2005, 2007, 2009, 2011
+Brwd1	ENSMUST00000113829.2	bromodomain and WD repeat domain containing 1 	547	1	1	0	0	1	0	1	0	0	mmu-miR-29a-3p	-0.50	-1.57	0.79	2005, 2007
+Tfeb	ENSMUST00000086932.4	transcription factor EB 	786	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.50	-0.50	0.80	2005, 2007, 2009, 2011
+Nckap5	ENSMUST00000094609.4	NCK-associated protein 5 	81	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.49	-0.53	0.67	2007, 2009, 2011
+Gxylt2	ENSMUST00000032157.7	glucoside xylosyltransferase 2 	24	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.49	-0.53	0.85	2007, 2009, 2011
+Pxdn	ENSMUST00000122328.2	peroxidasin homolog (Drosophila) 	2118	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.49	-0.49	0.93	2007, 2009, 2011
+Zbtb5	ENSMUST00000055028.8	zinc finger and BTB domain containing 5 	46	2	0	1	1	2	1	1	0	0	mmu-miR-29a-3p	-0.49	-0.67	0.97	2005, 2007, 2009, 2011
+Ss18l1	ENSMUST00000041126.8	synovial sarcoma translocation gene on chromosome 18-like 1 	91	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.49	-0.52	0.88	2005, 2007, 2009, 2011
+Dpp3	ENSMUST00000025851.3	dipeptidylpeptidase 3 	391	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.49	-0.49	0.85	2005, 2007, 2009, 2011
+Amer1	ENSMUST00000084535.5	APC membrane recruitment 1 	249	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.49	-0.50	0.77	2007, 2009, 2011
+Tnfrsf1a	ENSMUST00000032491.9	tumor necrosis factor receptor superfamily, member 1a 	3742	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.49	-0.49	0.90	2005, 2007, 2009, 2011
+Cd276	ENSMUST00000039788.5	CD276 antigen 	42	1	1	0	0	1	0	1	0	0	mmu-miR-29b-3p	-0.48	-0.48	0.85	2007, 2009, 2011
+Tectb	ENSMUST00000025936.6	tectorin beta 	19	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.48	-0.48	0.90	2009, 2011
+Col24a1	ENSMUST00000029848.4	collagen, type XXIV, alpha 1 	24	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.48	-0.49	0.81	2007, 2009, 2011
+Snx24	ENSMUST00000165032.2	sorting nexing 24 	240	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.47	-0.47	0.85	2005, 2007, 2009, 2011
+Xkr6	ENSMUST00000119973.2	X Kell blood group precursor related family member 6 homolog 	5	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.47	-0.47	0.80	2005, 2007, 2011
+Npas3	ENSMUST00000101432.2	neuronal PAS domain protein 3 	17	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.47	-0.47	0.92	2009, 2011
+Col27a1	ENSMUST00000036300.7	collagen, type XXVII, alpha 1 	295	2	0	1	1	0	0	0	0	2	mmu-miR-29b-3p	-0.47	-0.47	> 0.99	2009, 2011
+Atp5g1	ENSMUST00000090541.6	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit C1 (subunit 9) 	55	1	0	1	0	2	0	1	1	0	mmu-miR-29a-3p	-0.47	-0.56	0.59	2005, 2007, 2009, 2011
+Lep	ENSMUST00000069789.6	leptin 	429	1	0	1	0	1	1	0	0	1	mmu-miR-29a-3p	-0.47	-0.47	0.50	2005, 2007, 2009, 2011
+Shprh	ENSMUST00000044053.7	SNF2 histone linker PHD RING helicase 	422	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.47	-0.68	0.85	2005, 2007, 2011
+Tfec	ENSMUST00000031533.7	transcription factor EC 	97	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.47	-0.47	0.92	2007, 2009, 2011
+Ankrd13c	ENSMUST00000040787.8	ankyrin repeat domain 13c 	2424	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.46	-0.75	0.89	2005, 2007, 2009, 2011
+Dgkd	ENSMUST00000027517.8	diacylglycerol kinase, delta 	2455	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.46	-0.46	0.92	2005, 2007, 2011
+Dtwd2	ENSMUST00000163590.2	DTW domain containing 2 	122	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.46	-0.46	0.66	2005, 2007, 2009, 2011
+Arf2	ENSMUST00000057921.4	ADP-ribosylation factor 2 	1710	1	1	0	0	1	0	1	0	0	mmu-miR-29a-3p	-0.46	-0.46	0.55	2009, 2011
+Kctd3	ENSMUST00000085678.2	potassium channel tetramerisation domain containing 3 	873	1	0	0	1	0	0	0	0	2	mmu-miR-29a-3p	-0.46	-0.53	0.93	2005, 2007, 2009, 2011
+Morf4l1	ENSMUST00000085248.6	mortality factor 4 like 1 	24	1	0	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.46	-0.52	0.74	2005, 2007, 2009, 2011
+4931406P16Rik	ENSMUST00000108074.2	RIKEN cDNA 4931406P16 gene 	1173	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.46	-0.47	0.83	2009, 2011
+Pdgfc	ENSMUST00000029652.3	platelet-derived growth factor, C polypeptide 	820	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.45	-0.46	0.90	2005, 2007, 2009, 2011
+Per1	ENSMUST00000021271.8	period circadian clock 1 	365	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.45	-0.45	0.87	2005, 2007, 2009, 2011
+Zfp282	ENSMUST00000061890.7	zinc finger protein 282 	425	2	1	0	1	2	0	1	1	2	mmu-miR-29b-3p	-0.45	-0.58	> 0.99	2009, 2011
+Mcl1	ENSMUST00000037947.9	myeloid cell leukemia sequence 1 	13830	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.45	-0.46	0.88	2005, 2007, 2009, 2011
+Tubb2a	ENSMUST00000056427.8	tubulin, beta 2A class IIA 	791	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.45	-0.45	0.55	2007, 2009, 2011
+Cep97	ENSMUST00000023270.8	centrosomal protein 97 	262	1	0	0	1	2	1	1	0	0	mmu-miR-29b-3p	-0.45	-0.49	0.92	2009, 2011
+P2ry4	ENSMUST00000053373.1	pyrimidinergic receptor P2Y, G-protein coupled, 4 	68	1	0	1	0	1	1	0	0	1	mmu-miR-29a-3p	-0.45	-0.49	0.44	
+Nkiras2	ENSMUST00000017981.4	NFKB inhibitor interacting Ras-like protein 2 	400	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.45	-0.47	0.78	2005, 2007, 2009, 2011
+Elf2	ENSMUST00000108053.3	E74-like factor 2 	1686	1	1	0	0	1	0	0	1	1	mmu-miR-29b-3p	-0.45	-0.56	0.93	2005, 2007, 2009, 2011
+Per3	ENSMUST00000103204.5	period circadian clock 3 	288	1	0	1	0	2	0	2	0	0	mmu-miR-29b-3p	-0.45	-0.46	0.54	2005, 2007, 2009, 2011
+Hdac4	ENSMUST00000097644.3	histone deacetylase 4 	652	1	0	1	0	1	0	1	0	3	mmu-miR-29b-3p	-0.45	-0.45	0.85	2005, 2007, 2009, 2011
+Stard8	ENSMUST00000036606.8	START domain containing 8 	1843	2	1	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.45	-0.45	0.55	2005, 2007, 2009, 2011
+Fam57b	ENSMUST00000098032.5	family with sequence similarity 57, member B 	1591	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.45	-0.45	0.89	2005, 2007, 2011
+Dynlt1a	ENSMUST00000169415.1	dynein light chain Tctex-type 1A 	5	1	0	0	1	0	0	0	0	2	mmu-miR-29a-3p	-0.44	-0.51	0.93	2011
+Dynlt1b	ENSMUST00000179569.1	dynein light chain Tctex-type 1B 	5	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.44	-0.44	0.91	2009, 2011
+Phc1	ENSMUST00000081849.4	polyhomeotic-like 1 (Drosophila) 	917	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.44	-0.44	0.89	2005, 2007, 2009, 2011
+Adamts16	ENSMUST00000080145.7	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 16 	9	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.44	-0.44	0.36	2007, 2009, 2011
+Dynlt1f	ENSMUST00000179554.1	dynein light chain Tctex-type 1F 	5	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.44	-0.44	0.91	2011
+Ammecr1l	ENSMUST00000115808.2	AMME chromosomal region gene 1-like 	2444	1	1	0	0	0	0	0	0	3	mmu-miR-29b-3p	-0.44	-0.47	0.90	2007, 2011
+Nudt11	ENSMUST00000103007.3	nudix (nucleoside diphosphate linked moiety X)-type motif 11 	949	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.44	-0.44	0.73	2007, 2009, 2011
+Btg2	ENSMUST00000020692.6	B cell translocation gene 2, anti-proliferative 	3163	2	0	1	1	0	0	0	0	0	mmu-miR-29b-3p	-0.44	-0.45	0.95	2005, 2007, 2009, 2011
+Pdgfa	ENSMUST00000046901.8	platelet derived growth factor, alpha 	720	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.43	-0.43	0.78	2007, 2009, 2011
+Mycn	ENSMUST00000043396.8	v-myc myelocytomatosis viral related oncogene, neuroblastoma derived (avian) 	232	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.43	-0.44	0.84	2005, 2007, 2009, 2011
+Kctd5	ENSMUST00000017090.5	potassium channel tetramerisation domain containing 5 	3058	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.43	-0.44	0.92	2005, 2007, 2009, 2011
+Mllt11	ENSMUST00000065482.5	myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila); translocated to, 11 	2318	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.43	-0.43	0.88	2005, 2007, 2009, 2011
+Taf5	ENSMUST00000026027.5	TAF5 RNA polymerase II, TATA box binding protein (TBP)-associated factor 	231	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.43	-0.43	0.69	2005, 2007, 2009, 2011
+Adamts18	ENSMUST00000093113.4	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 18 	5	2	0	2	0	0	0	0	0	1	mmu-miR-29c-3p	-0.43	-0.43	0.93	2005, 2007, 2009, 2011
+Dnmt3b	ENSMUST00000072997.4	DNA methyltransferase 3B 	6428	1	0	0	1	1	0	1	0	2	mmu-miR-29a-3p	-0.43	-0.43	0.93	2005, 2007, 2009, 2011
+Hmgn3	ENSMUST00000185315.1	high mobility group nucleosomal binding domain 3 	119	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.43	-0.43	0.80	2005, 2007, 2009, 2011
+Ddx3x	ENSMUST00000000804.6	DEAD/H (Asp-Glu-Ala-Asp/His) box polypeptide 3, X-linked 	6252	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.43	-0.43	0.92	2005, 2007, 2009, 2011
+1810013L24Rik	ENSMUST00000023150.5	RIKEN cDNA 1810013L24 gene 	1935	1	0	1	0	2	0	1	1	0	mmu-miR-29a-3p	-0.43	-0.66	0.89	2009, 2011
+Elovl4	ENSMUST00000034796.8	elongation of very long chain fatty acids (FEN1/Elo2, SUR4/Elo3, yeast)-like 4 	11	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.42	-0.42	0.66	2005, 2007, 2009, 2011
+Trim63	ENSMUST00000105875.2	tripartite motif-containing 63 	569	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.42	-0.43	0.77	2005, 2007, 2009, 2011
+Tpk1	ENSMUST00000067888.8	thiamine pyrophosphokinase 	834	1	1	0	0	1	1	0	0	0	mmu-miR-29b-3p	-0.42	-0.74	0.14	2007, 2009, 2011
+Nckap5l	ENSMUST00000023747.8	NCK-associated protein 5-like 	15	1	0	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.42	-0.42	0.73	2009, 2011
+Dgkh	ENSMUST00000074729.5	diacylglycerol kinase, eta 	45	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.42	-0.42	0.93	2005, 2007, 2009, 2011
+9530068E07Rik	ENSMUST00000109057.2	RIKEN cDNA 9530068E07 gene 	361	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.42	-0.44	0.80	2009, 2011
+Crispld1	ENSMUST00000095075.4	cysteine-rich secretory protein LCCL domain containing 1 	43	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.42	-0.43	0.88	2005, 2007, 2009, 2011
+Col6a3	ENSMUST00000097653.5	collagen, type VI, alpha 3 	2092	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.42	-0.42	0.88	2005, 2007, 2011
+Gm20721	ENSMUST00000168292.1	predicted gene, 20721 	5	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.42	-0.42	ORF	
+Col15a1	ENSMUST00000102917.5	collagen, type XV, alpha 1 	3316	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.42	-0.51	0.90	2005, 2007, 2009, 2011
+Zdhhc5	ENSMUST00000035840.5	zinc finger, DHHC domain containing 5 	3066	2	1	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.42	-0.43	0.75	2005, 2007, 2009, 2011
+Kif26a	ENSMUST00000128402.2	kinesin family member 26A 	542	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.41	-0.41	0.91	2009, 2011
+Sms	ENSMUST00000112529.2	spermine synthase 	2364	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.41	-0.41	0.86	2005, 2007, 2009, 2011
+Col4a3	ENSMUST00000113457.3	collagen, type IV, alpha 3 	655	2	0	2	0	2	0	2	0	0	mmu-miR-29b-3p	-0.41	-0.45	0.93	2005, 2007, 2009, 2011
+Efna5	ENSMUST00000076840.6	ephrin A5 	184	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.41	-0.46	0.90	2009, 2011
+Ccnyl1	ENSMUST00000114077.2	cyclin Y-like 1 	20	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.41	-0.41	0.86	2007, 2009, 2011
+Plp1	ENSMUST00000033800.7	proteolipid protein (myelin) 1 	31	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.41	-0.60	0.86	2005, 2007, 2009, 2011
+Fam168b	ENSMUST00000167518.2	family with sequence similarity 168, member B 	808	2	0	2	0	0	0	0	0	1	mmu-miR-29a-3p	-0.41	-0.49	0.97	2007, 2009, 2011
+Nos1ap	ENSMUST00000179801.1	nitric oxide synthase 1 (neuronal) adaptor protein 	89	1	1	0	0	2	0	1	1	1	mmu-miR-29a-3p	-0.41	-0.41	< 0.1	
+Mafg	ENSMUST00000058162.8	v-maf musculoaponeurotic fibrosarcoma oncogene family, protein G (avian) 	999	1	0	1	0	2	0	2	0	2	mmu-miR-29a-3p	-0.41	-0.44	0.86	2005, 2007, 2009, 2011
+Hif3a	ENSMUST00000108492.3	hypoxia inducible factor 3, alpha subunit 	15	2	1	0	1	1	0	1	0	0	mmu-miR-29a-3p	-0.41	-0.61	> 0.99	2007, 2009, 2011
+Mbtd1	ENSMUST00000063718.5	mbt domain containing 1 	347	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.41	-0.47	0.92	2009, 2011
+Gm17296	ENSMUST00000170518.1	predicted gene, 17296 	125	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.41	-0.41	0.84	2011
+Ppp1r3d	ENSMUST00000058678.4	protein phosphatase 1, regulatory subunit 3D 	17	1	0	1	0	2	0	1	1	0	mmu-miR-29a-3p	-0.40	-0.40	0.60	2005, 2007, 2009, 2011
+Chfr	ENSMUST00000112519.3	checkpoint with forkhead and ring finger domains 	1174	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.40	-0.48	0.87	2005, 2007, 2009, 2011
+Ibsp	ENSMUST00000031246.8	integrin binding sialoprotein 	6	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.40	-0.40	0.11	2009, 2011
+Tspan14	ENSMUST00000047652.5	tetraspanin 14 	620	2	0	1	1	2	0	2	0	1	mmu-miR-29b-3p	-0.40	-0.53	0.97	2005, 2007, 2009, 2011
+Sh3bp5l	ENSMUST00000116376.3	SH3 binding domain protein 5 like 	165	2	0	1	1	1	0	1	0	3	mmu-miR-29a-3p	-0.40	-0.64	0.98	2005, 2007, 2009, 2011
+Tanc1	ENSMUST00000037526.5	tetratricopeptide repeat, ankyrin repeat and coiled-coil containing 1 	1122	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.40	-0.42	0.93	2007, 2009, 2011
+Bsnd	ENSMUST00000054472.3	Bartter syndrome, infantile, with sensorineural deafness (Barttin) 	23	1	1	0	0	1	0	1	0	1	mmu-miR-29b-3p	-0.40	-0.40	0.12	2009, 2011
+N4bp2l1	ENSMUST00000016279.7	NEDD4 binding protein 2-like 1 	48	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.40	-0.46	0.76	2007, 2009, 2011
+Fam136b-ps	ENSMUST00000068987.5	family with sequence similarity 136, member B, pseudogene 	36	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.40	-0.40	< 0.1	
+Prpf3	ENSMUST00000015892.8	PRP3 pre-mRNA processing factor 3 homolog (yeast) 	133	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.40	-0.40	< 0.1	2005, 2007, 2009, 2011
+Onecut2	ENSMUST00000175965.3	one cut domain, family member 2 	387	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.40	-0.52	0.88	2007, 2009, 2011
+Eml5	ENSMUST00000065716.6	echinoderm microtubule associated protein like 5 	205	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.40	-0.40	0.92	2005, 2007, 2009, 2011
+Ankrd49	ENSMUST00000034406.3	ankyrin repeat domain 49 	215	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.40	-0.40	0.82	2007, 2009, 2011
+Fam167a	ENSMUST00000121288.1	family with sequence similarity 167, member A 	7	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.40	-0.40	0.91	2007, 2009, 2011
+Nap1l3	ENSMUST00000079490.5	nucleosome assembly protein 1-like 3 	27	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.39	-0.39	< 0.1	2005, 2007, 2009, 2011
+Erlin2	ENSMUST00000033873.7	ER lipid raft associated 2 	512	1	1	0	0	1	0	1	0	0	mmu-miR-29a-3p	-0.39	-0.43	0.92	2007, 2009, 2011
+Pdgfrb	ENSMUST00000025522.5	platelet derived growth factor receptor, beta polypeptide 	1178	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.39	-0.40	0.85	2005, 2007, 2009, 2011
+Ccnt2	ENSMUST00000112570.1	cyclin T2 	793	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.39	-0.48	0.92	2005, 2007
+Lepre1	ENSMUST00000030393.7	leprecan 1 	615	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.39	-0.39	ORF	2007
+Mfap5	ENSMUST00000121656.1	microfibrillar associated protein 5 	724	1	1	0	0	1	0	1	0	0	mmu-miR-29a-3p	-0.39	-1.06	< 0.1	2005, 2007, 2009, 2011
+Eml6	ENSMUST00000058902.5	echinoderm microtubule associated protein like 6 	83	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.39	-0.44	0.83	2009, 2011
+Lif	ENSMUST00000066283.6	leukemia inhibitory factor 	146	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.39	-0.39	0.87	2005, 2007, 2009, 2011
+Pthlh	ENSMUST00000052296.6	parathyroid hormone-like peptide 	21	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.39	-0.39	0.78	2009, 2011
+Fbxl18	ENSMUST00000110766.2	F-box and leucine-rich repeat protein 18 	693	1	0	0	1	2	0	2	0	2	mmu-miR-29a-3p	-0.39	-0.39	0.92	
+Cmpk1	ENSMUST00000030491.8	cytidine monophosphate (UMP-CMP) kinase 1 	645	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.39	-0.42	0.77	2007, 2009, 2011
+Cps1	ENSMUST00000027144.7	carbamoyl-phosphate synthetase 1 	16807	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.39	-0.41	0.84	2005, 2007
+Dio2	ENSMUST00000082432.3	deiodinase, iodothyronine, type II 	24	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.38	-0.41	0.87	2005, 2007, 2009, 2011
+Bcl2l2	ENSMUST00000133397.2	BCL2-like 2 	238	1	0	0	1	2	0	2	0	0	mmu-miR-29a-3p	-0.38	-0.45	0.91	2005, 2007, 2009, 2011
+Slc16a2	ENSMUST00000042664.6	solute carrier family 16 (monocarboxylic acid transporters), member 2 	98	1	0	0	1	0	0	0	0	1	mmu-miR-29a-3p	-0.38	-0.40	0.61	2005, 2007, 2009, 2011
+Zbtb46	ENSMUST00000029106.7	zinc finger and BTB domain containing 46 	146	1	0	1	0	1	0	0	1	2	mmu-miR-29a-3p	-0.38	-0.38	0.84	2007
+Col8a1	ENSMUST00000089332.4	collagen, type VIII, alpha 1 	277	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.38	-0.39	0.93	2009, 2011
+Fbxw7	ENSMUST00000107679.2	F-box and WD-40 domain protein 7 	536	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.38	-0.38	0.92	2007, 2011
+AF529169	ENSMUST00000044491.7	cDNA sequence AF529169 	11	3	0	3	0	0	0	0	0	0	mmu-miR-29b-3p	-0.38	-0.47	0.96	
+Sgk1	ENSMUST00000020145.6	serum/glucocorticoid regulated kinase 1 	5205	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.38	-0.38	0.87	2007, 2009, 2011
+Dynlt1c	ENSMUST00000092966.4	dynein light chain Tctex-type 1C 	5	1	0	0	1	0	0	0	0	1	mmu-miR-29b-3p	-0.38	-0.38	0.93	2011
+Usp34	ENSMUST00000180046.2	ubiquitin specific peptidase 34 	1472	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.38	-0.38	0.84	2007, 2011
+Proser1	ENSMUST00000058577.4	proline and serine rich 1 	373	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.38	-0.38	0.87	2007, 2009, 2011
+Ccnl2	ENSMUST00000030944.5	cyclin L2 	2876	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.38	-0.38	0.72	2007, 2009, 2011
+Fam219b	ENSMUST00000093833.4	family with sequence similarity 219, member B 	211	2	0	2	0	0	0	0	0	1	mmu-miR-29a-3p	-0.38	-0.39	0.69	2007, 2009, 2011
+Mark3	ENSMUST00000084953.6	MAP/microtubule affinity-regulating kinase 3 	1326	1	1	0	0	1	0	0	1	1	mmu-miR-29a-3p	-0.38	-0.72	0.93	2005, 2007, 2009, 2011
+Tll1	ENSMUST00000066166.4	tolloid-like 	70	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.38	-0.45	0.93	2005, 2007, 2009, 2011
+Ccnd2	ENSMUST00000000188.8	cyclin D2 	9744	1	0	1	0	1	0	1	0	0	mmu-miR-29b-3p	-0.37	-0.37	0.67	2005, 2007, 2009, 2011
+Kctd15	ENSMUST00000108069.2	potassium channel tetramerisation domain containing 15 	292	1	0	1	0	1	0	0	1	0	mmu-miR-29b-3p	-0.37	-0.37	0.86	2005, 2007, 2009, 2011
+Kif18b	ENSMUST00000021311.9	kinesin family member 18B 	146	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.37	-0.92	< 0.1	2009, 2011
+Hmgcr	ENSMUST00000022176.9	3-hydroxy-3-methylglutaryl-Coenzyme A reductase 	1378	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.37	-0.42	0.86	2005, 2007, 2009, 2011
+Nanp	ENSMUST00000066640.4	N-acetylneuraminic acid phosphatase 	47	1	0	1	0	1	0	0	1	0	mmu-miR-29b-3p	-0.37	-0.52	0.50	2007, 2009, 2011
+Frem1	ENSMUST00000170248.3	Fras1 related extracellular matrix protein 1 	74	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.37	-0.37	0.78	2009, 2011
+Agtr2	ENSMUST00000089188.3	angiotensin II receptor, type 2 	6	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.37	-0.37	0.74	2005, 2007, 2009, 2011
+Cbx2	ENSMUST00000026662.7	chromobox 2 	84	1	0	1	0	1	0	0	1	1	mmu-miR-29a-3p	-0.37	-0.37	0.62	2007, 2009, 2011
+Chsy1	ENSMUST00000036372.6	chondroitin sulfate synthase 1 	945	1	0	1	0	1	0	0	1	2	mmu-miR-29a-3p	-0.37	-0.40	0.88	2005, 2007, 2009, 2011
+Vamp3	ENSMUST00000030797.3	vesicle-associated membrane protein 3 	73	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.37	-0.53	0.79	2005, 2007, 2009, 2011
+Xkr4	ENSMUST00000070533.4	X Kell blood group precursor related family member 4 	5	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.37	-0.37	0.80	2005, 2007, 2009, 2011
+Upk1b	ENSMUST00000057767.4	uroplakin 1B 	100	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.37	-0.37	0.71	2007, 2009, 2011
+Dolpp1	ENSMUST00000028209.9	dolichyl pyrophosphate phosphatase 1 	745	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.37	-0.37	0.65	2005, 2007, 2009, 2011
+Wasf3	ENSMUST00000016143.7	WAS protein family, member 3 	168	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.37	-0.43	0.43	2005, 2007
+Gid8	ENSMUST00000029090.3	GID complex subunit 8 homolog (S. cerevisiae) 	1788	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.37	-0.45	0.88	2007
+Trafd1	ENSMUST00000042312.8	TRAF type zinc finger domain containing 1 	449	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.36	-0.36	0.81	2005, 2007, 2009, 2011
+Tcf4	ENSMUST00000078486.7	transcription factor 4 	2787	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.36	-0.40	0.50	2007, 2009, 2011
+Gtpbp2	ENSMUST00000024748.8	GTP binding protein 2 	585	1	1	0	0	1	0	1	0	0	mmu-miR-29a-3p	-0.36	-0.36	< 0.1	2005, 2007, 2009, 2011
+Commd2	ENSMUST00000160959.2	COMM domain containing 2 	1051	1	0	1	0	1	0	1	0	2	mmu-miR-29a-3p	-0.36	-0.45	0.84	2005, 2007, 2009, 2011
+Znf512b	ENSMUST00000108789.3	zinc finger protein 512B 	280	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.36	-0.37	0.92	2011
+Hcn1	ENSMUST00000006991.7	hyperpolarization-activated, cyclic nucleotide-gated K+ 1 	25	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.36	-0.39	0.88	2007, 2009, 2011
+Cep85l	ENSMUST00000095691.5	centrosomal protein 85-like 	76	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.36	-0.39	0.90	
+Cilp2	ENSMUST00000057831.7	cartilage intermediate layer protein 2 	5	1	0	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.36	-0.36	0.62	2007, 2009, 2011
+Spry1	ENSMUST00000108109.2	sprouty homolog 1 (Drosophila) 	291	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.36	-0.44	0.88	2005, 2007, 2009, 2011
+Rlim	ENSMUST00000121153.2	ring finger protein, LIM domain interacting 	1532	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.36	-0.38	0.92	2007, 2009, 2011
+Fam193b	ENSMUST00000021957.6	family with sequence similarity 193, member B 	908	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.36	-0.36	0.83	2009, 2011
+Ppm1d	ENSMUST00000020835.10	protein phosphatase 1D magnesium-dependent, delta isoform 	949	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.36	-0.38	0.88	2005, 2007, 2009, 2011
+Mog	ENSMUST00000102665.5	myelin oligodendrocyte glycoprotein 	5	1	0	0	1	0	0	0	0	0	mmu-miR-29b-3p	-0.36	-0.36	0.78	2005, 2009, 2011
+Ric8	ENSMUST00000026558.6	resistance to inhibitors of cholinesterase 8 homolog (C. elegans) 	3466	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.36	-0.40	0.87	2009, 2011
+Mxd4	ENSMUST00000042701.7	Max dimerization protein 4 	2773	1	1	0	0	1	0	0	1	1	mmu-miR-29a-3p	-0.35	-0.41	0.51	2005, 2007
+Nup160	ENSMUST00000057481.6	nucleoporin 160 	762	1	1	0	0	1	0	1	0	1	mmu-miR-29a-3p	-0.35	-0.38	0.93	2005, 2007, 2009, 2011
+Slc16a14	ENSMUST00000027422.6	solute carrier family 16 (monocarboxylic acid transporters), member 14 	219	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.35	-0.38	0.85	2005, 2007
+Dennd6a	ENSMUST00000037585.7	DENN/MADD domain containing 6A 	582	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.35	-0.35	0.89	2007, 2009, 2011
+Pik3r1	ENSMUST00000055518.7	phosphatidylinositol 3-kinase, regulatory subunit, polypeptide 1 (p85 alpha) 	238	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.35	-0.35	0.87	2005, 2007, 2009, 2011
+Adamts20	ENSMUST00000035342.5	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 20 	24	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.35	-0.43	0.77	2011
+Arrdc3	ENSMUST00000099356.3	arrestin domain containing 3 	456	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.35	-0.48	0.98	2005, 2007, 2009, 2011
+Bmpr1a	ENSMUST00000165280.2	bone morphogenetic protein receptor, type 1A 	1312	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.35	-0.36	0.88	2005, 2007, 2009, 2011
+G6pc	ENSMUST00000019469.2	glucose-6-phosphatase, catalytic 	2389	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.35	-0.36	0.43	2005, 2007, 2009, 2011
+Sypl2	ENSMUST00000029486.8	synaptophysin-like 2 	3244	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.35	-0.67	0.96	2005, 2007, 2009, 2011
+Bdh1	ENSMUST00000115227.4	3-hydroxybutyrate dehydrogenase, type 1 	3075	1	0	1	0	3	1	2	0	0	mmu-miR-29b-3p	-0.35	-0.78	0.34	2007, 2009, 2011
+Serpinh1	ENSMUST00000169437.2	serine (or cysteine) peptidase inhibitor, clade H, member 1 	8538	1	0	0	1	1	0	1	0	1	mmu-miR-29b-3p	-0.35	-0.43	0.93	2007, 2009, 2011
+Lypla1	ENSMUST00000119612.3	lysophospholipase 1 	6785	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.35	-0.35	0.93	2005, 2007, 2009, 2011
+Farp2	ENSMUST00000122402.2	FERM, RhoGEF and pleckstrin domain protein 2 	565	1	1	0	0	3	1	1	1	1	mmu-miR-29b-3p	-0.35	-0.35	0.27	
+Ypel2	ENSMUST00000018571.4	yippee-like 2 (Drosophila) 	27	2	0	2	0	0	0	0	0	0	mmu-miR-29b-3p	-0.35	-0.78	0.98	2005, 2007, 2009, 2011
+Spata2l	ENSMUST00000166768.1	spermatogenesis associated 2-like 	143	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.34	-0.34	0.80	2007, 2009, 2011
+Ldlrad3	ENSMUST00000058790.6	low density lipoprotein receptor class A domain containing 3 	313	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.34	-0.34	0.66	2009, 2011
+Insig1	ENSMUST00000059155.10	insulin induced gene 1 	5734	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.34	-0.35	0.66	2005, 2007, 2009, 2011
+4921524J17Rik	ENSMUST00000047749.5	RIKEN cDNA 4921524J17 gene 	467	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.34	-0.35	0.92	2009, 2011
+Golga7	ENSMUST00000121783.2	golgi autoantigen, golgin subfamily a, 7 	160	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.34	-0.34	0.93	2005, 2007, 2009, 2011
+Mfap2	ENSMUST00000071977.8	microfibrillar-associated protein 2 	32	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.34	-0.34	0.78	2005, 2007, 2009, 2011
+Ing4	ENSMUST00000032480.8	inhibitor of growth family, member 4 	787	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.34	-0.34	0.73	2005, 2007, 2009, 2011
+Emp1	ENSMUST00000032330.10	epithelial membrane protein 1 	9288	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.34	-0.34	0.92	2005, 2007, 2009, 2011
+Emid1	ENSMUST00000062821.7	EMI domain containing 1 	32	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.34	-0.34	0.72	2005, 2007, 2009, 2011
+Vegfa	ENSMUST00000024747.8	vascular endothelial growth factor A 	3158	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.34	-0.69	0.86	2007, 2009, 2011
+Isl1	ENSMUST00000036060.7	ISL1 transcription factor, LIM/homeodomain 	18	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.34	-0.34	0.84	2005, 2007, 2009, 2011
+A330050F15Rik	ENSMUST00000169935.1	RIKEN cDNA A330050F15 gene 	5	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.34	-0.34	0.56	2011
+Naa40	ENSMUST00000025675.9	N(alpha)-acetyltransferase 40, NatD catalytic subunit, homolog (S. cerevisiae) 	826	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.34	-0.35	0.85	2007, 2011
+Ldlrap1	ENSMUST00000037828.6	low density lipoprotein receptor adaptor protein 1 	567	1	0	1	0	2	0	1	1	2	mmu-miR-29a-3p	-0.34	-0.46	0.76	2005, 2007, 2009, 2011
+Ap4e1	ENSMUST00000002063.9	adaptor-related protein complex AP-4, epsilon 1 	759	1	0	1	0	1	1	0	0	2	mmu-miR-29a-3p	-0.34	-0.85	0.79	2007, 2009, 2011
+Bmf	ENSMUST00000090219.7	BCL2 modifying factor 	24	1	1	0	0	1	0	0	1	0	mmu-miR-29a-3p	-0.34	-0.59	0.91	2005, 2007, 2009, 2011
+Abce1	ENSMUST00000080536.6	ATP-binding cassette, sub-family E (OABP), member 1 	6720	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.34	-0.34	0.69	2005, 2007, 2009, 2011
+Strn	ENSMUST00000145910.3	striatin, calmodulin binding protein 	522	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.34	-0.38	0.78	
+Rab30	ENSMUST00000032879.8	RAB30, member RAS oncogene family 	202	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.34	-0.50	0.93	2005, 2007, 2009, 2011
+Chic2	ENSMUST00000075452.5	cysteine-rich hydrophobic domain 2 	492	1	0	1	0	2	1	1	0	0	mmu-miR-29a-3p	-0.34	-0.59	0.89	2005, 2007, 2009, 2011
+Foxo3	ENSMUST00000105502.2	forkhead box O3 	2275	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.34	-0.34	0.85	2007
+Urm1	ENSMUST00000091142.3	ubiquitin related modifier 1 homolog (S. cerevisiae) 	556	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.34	-0.34	0.90	2007, 2009, 2011
+5730508B09Rik	ENSMUST00000057198.7	RIKEN cDNA 5730508B09 gene 	182	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.33	-0.60	0.85	2011
+Ankrd13b	ENSMUST00000092892.4	ankyrin repeat domain 13b 	17	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.33	-0.40	0.79	2005, 2007, 2009, 2011
+Col4a6	ENSMUST00000101205.2	collagen, type IV, alpha 6 	10	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.33	-0.33	0.92	2005, 2007, 2009, 2011
+Thsd4	ENSMUST00000098660.4	thrombospondin, type I, domain containing 4 	53	1	1	0	0	2	0	1	1	0	mmu-miR-29a-3p	-0.33	-0.34	< 0.1	2007, 2009, 2011
+Eml4	ENSMUST00000096766.5	echinoderm microtubule associated protein like 4 	126	1	0	1	0	1	0	1	0	1	mmu-miR-29b-3p	-0.33	-0.33	0.74	2005, 2007, 2009, 2011
+Fos	ENSMUST00000021674.6	FBJ osteosarcoma oncogene 	164	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.33	-0.33	0.81	2005, 2007, 2009, 2011
+Bcl7a	ENSMUST00000120593.2	B cell CLL/lymphoma 7A 	79	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.33	-0.54	0.87	2005, 2007, 2009, 2011
+Sptan1	ENSMUST00000113717.2	spectrin alpha, non-erythrocytic 1 	2220	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.33	-0.33	0.52	2005, 2007, 2009, 2011
+Trp53inp1	ENSMUST00000029865.3	transformation related protein 53 inducible nuclear protein 1 	2791	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.33	-0.34	0.89	2009, 2011
+Gpcpd1	ENSMUST00000110136.2	glycerophosphocholine phosphodiesterase GDE1 homolog (S. cerevisiae) 	908	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.33	-0.35	0.92	2007, 2009, 2011
+Atg9a	ENSMUST00000189702.1	autophagy related 9A 	222	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.33	-0.33	0.84	2007, 2009, 2011
+Tbc1d7	ENSMUST00000179852.2	TBC1 domain family, member 7 	30	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.33	-0.39	0.64	2007, 2009, 2011
+Iffo1	ENSMUST00000119527.2	intermediate filament family orphan 1 	104	1	1	0	0	1	0	1	0	1	mmu-miR-29a-3p	-0.33	-0.61	0.90	2007, 2009, 2011
+Apcdd1	ENSMUST00000096554.5	adenomatosis polyposis coli down-regulated 1 	456	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.33	-0.34	0.19	
+Ddx3y	ENSMUST00000091190.6	DEAD (Asp-Glu-Ala-Asp) box polypeptide 3, Y-linked 	375	1	0	0	1	1	0	0	1	0	mmu-miR-29a-3p	-0.33	-0.39	0.77	2005, 2007, 2009, 2011
+Hmgcs1	ENSMUST00000179869.1	3-hydroxy-3-methylglutaryl-Coenzyme A synthase 1 	5	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.33	-0.33	0.53	2005, 2007, 2009, 2011
+Cep68	ENSMUST00000050611.8	centrosomal protein 68 	211	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.32	-0.33	0.37	2009, 2011
+Kdm5b	ENSMUST00000112198.2	lysine (K)-specific demethylase 5B 	613	2	0	1	1	0	0	0	0	0	mmu-miR-29a-3p	-0.32	-0.44	> 0.99	2007, 2009, 2011
+Nlrx1	ENSMUST00000168499.2	NLR family member X1 	29	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.32	-0.32	0.54	2009, 2011
+Amot	ENSMUST00000112835.2	angiomotin 	105	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.32	-0.32	0.55	2005, 2007, 2009, 2011
+Hecw1	ENSMUST00000110516.2	HECT, C2 and WW domain containing E3 ubiquitin protein ligase 1 	5	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.32	-0.32	0.98	2005, 2007, 2009, 2011
+Gpr101	ENSMUST00000057645.5	G protein-coupled receptor 101 	5	1	0	0	1	0	0	0	0	1	mmu-miR-29a-3p	-0.32	-0.32	0.87	2009, 2011
+Srcrb4d	ENSMUST00000111153.2	scavenger receptor cysteine rich domain containing, group B (4 domains) 	54	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.32	-0.32	0.74	2007, 2011
+Gjd2	ENSMUST00000090275.4	gap junction protein, delta 2 	5	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.32	-0.32	0.51	2009, 2011
+Med12l	ENSMUST00000040325.8	mediator complex subunit 12-like 	64	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.32	-0.34	0.84	2005, 2007, 2011
+Samd4	ENSMUST00000100672.4	sterile alpha motif domain containing 4 	1813	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.32	-0.35	0.81	2011
+Dbt	ENSMUST00000000349.6	dihydrolipoamide branched chain transacylase E2 	2152	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.32	-0.32	0.76	2005, 2007, 2009, 2011
+Nlgn3	ENSMUST00000118111.2	neuroligin 3 	18	1	0	1	0	2	0	0	2	0	mmu-miR-29a-3p	-0.32	-0.38	0.85	2005, 2007, 2009, 2011
+Fam76b	ENSMUST00000059579.6	family with sequence similarity 76, member B 	1077	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.32	-0.32	0.77	2005, 2007, 2009, 2011
+Jazf1	ENSMUST00000074541.5	JAZF zinc finger 1 	199	1	0	0	1	0	0	0	0	0	mmu-miR-29b-3p	-0.32	-0.33	0.93	2005, 2007, 2009, 2011
+Ccdc85a	ENSMUST00000093253.4	coiled-coil domain containing 85A 	253	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.32	-0.32	0.93	2007, 2011
+Plekha8	ENSMUST00000119706.2	pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 8 	269	1	0	0	1	0	0	0	0	0	mmu-miR-29b-3p	-0.32	-0.32	0.93	2011
+Rapgefl1	ENSMUST00000107479.2	Rap guanine nucleotide exchange factor (GEF)-like 1 	18	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.32	-0.32	0.92	2005, 2007, 2009, 2011
+Prrt4	ENSMUST00000159200.1	proline-rich transmembrane protein 4 	7	1	0	1	0	1	0	0	1	1	mmu-miR-29a-3p	-0.32	-0.32	0.48	2009, 2011
+Col4a4	ENSMUST00000087050.6	collagen, type IV, alpha 4 	472	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.32	-0.58	0.97	2005, 2007, 2009, 2011
+Usp42	ENSMUST00000053287.5	ubiquitin specific peptidase 42 	58	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.32	-0.32	0.83	2007, 2009, 2011
+Fstl1	ENSMUST00000114763.2	follistatin-like 1 	201	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.31	-0.51	0.93	2005, 2007, 2009, 2011
+Ptbp3	ENSMUST00000030076.6	polypyrimidine tract binding protein 3 	2804	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.31	-0.32	0.77	2007, 2009, 2011
+Uhrf1bp1	ENSMUST00000114849.1	UHRF1 (ICBP90) binding protein 1 	677	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.31	-0.36	0.70	2007, 2009, 2011
+Zfp651	ENSMUST00000093772.3	zinc finger protein 651 	2088	1	1	0	0	2	1	1	0	3	mmu-miR-29b-3p	-0.31	-0.38	0.89	2011
+Shroom4	ENSMUST00000089520.2	shroom family member 4 	1496	1	0	0	1	1*	0	0	0	0	mmu-miR-29b-3p	-0.31	-0.32	0.92	2007
+Oxtr	ENSMUST00000053306.6	oxytocin receptor 	34	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.31	-0.33	0.12	2005, 2007, 2009, 2011
+Larp4b	ENSMUST00000091829.3	La ribonucleoprotein domain family, member 4B 	1657	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.31	-0.31	0.78	2007, 2009, 2011
+Tspan4	ENSMUST00000026585.8	tetraspanin 4 	5489	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.31	-0.31	0.69	2005, 2007, 2009, 2011
+Cdc7	ENSMUST00000031221.6	cell division cycle 7 (S. cerevisiae) 	943	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.31	-0.31	0.40	2005, 2007, 2009, 2011
+Pdhx	ENSMUST00000011058.3	pyruvate dehydrogenase complex, component X 	3882	2	1	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.31	-0.61	0.91	2005, 2007, 2009, 2011
+AI593442	ENSMUST00000098768.2	expressed sequence AI593442 	6	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.31	-0.36	0.89	2009, 2011
+Pigm	ENSMUST00000052455.2	phosphatidylinositol glycan anchor biosynthesis, class M 	557	1	1	0	0	1	0	0	1	1	mmu-miR-29a-3p	-0.31	-0.34	< 0.1	2005, 2007, 2009, 2011
+Runx1t1	ENSMUST00000006761.4	runt-related transcription factor 1; translocated to, 1 (cyclin D-related) 	51	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.31	-0.44	0.85	2009, 2011
+Ahr	ENSMUST00000116436.3	aryl-hydrocarbon receptor 	376	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.31	-0.31	0.51	2005, 2007, 2009, 2011
+Asxl3	ENSMUST00000097655.3	additional sex combs like 3 (Drosophila) 	16	2	0	2	0	0	0	0	0	0	mmu-miR-29b-3p	-0.31	-0.39	0.98	2011
+1700019D03Rik	ENSMUST00000050567.5	RIKEN cDNA 1700019D03 gene 	105	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.31	-0.31	0.93	2009, 2011
+Endou	ENSMUST00000100249.3	endonuclease, polyU-specific 	6	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.31	-0.31	< 0.1	2007, 2009, 2011
+Josd1	ENSMUST00000023061.5	Josephin domain containing 1 	597	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.31	-0.31	0.83	2007, 2009, 2011
+Mfap3	ENSMUST00000108849.2	microfibrillar-associated protein 3 	118	1	1	0	0	1	0	1	0	1	mmu-miR-29b-3p	-0.30	-0.34	0.88	2005, 2007, 2009, 2011
+Nkrf	ENSMUST00000057093.6	NF-kappaB repressing factor 	517	1	0	1	0	1	0	1	0	1	mmu-miR-29b-3p	-0.30	-0.62	0.83	2005, 2007, 2009, 2011
+R3hdm4	ENSMUST00000045628.8	R3H domain containing 4 	128	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.30	-0.38	0.77	2007, 2009, 2011
+Senp1	ENSMUST00000044189.10	SUMO1/sentrin specific peptidase 1 	594	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.30	-0.30	0.87	2005, 2007, 2009, 2011
+Ywhae	ENSMUST00000067664.4	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, epsilon polypeptide 	3698	1	0	1	0	0	0	0	0	3	mmu-miR-29b-3p	-0.30	-0.33	0.89	2005, 2007, 2009, 2011
+Akap5	ENSMUST00000095610.3	A kinase (PRKA) anchor protein 5 	2350	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.30	-0.35	0.92	2009, 2011
+Gm16515	ENSMUST00000019075.3	predicted gene, Gm16515 	258	1	1	0	0	0	0	0	0	1	mmu-miR-29b-3p	-0.30	-0.39	0.67	2007, 2009, 2011
+Cd46	ENSMUST00000160817.2	CD46 antigen, complement regulatory protein 	73	2	2	0	0	2	0	2	0	1	mmu-miR-29b-3p	-0.30	-1.14	> 0.99	2007
+B3galt1	ENSMUST00000112346.2	UDP-Gal:betaGlcNAc beta 1,3-galactosyltransferase, polypeptide 1 	244	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.30	-0.30	0.88	2009, 2011
+Orai2	ENSMUST00000041048.1	ORAI calcium release-activated calcium modulator 2 	16	1	0	1	0	1	0	0	1	2	mmu-miR-29a-3p	-0.30	-0.35	0.49	2009, 2011
+Rap1gds1	ENSMUST00000098574.3	RAP1, GTP-GDP dissociation stimulator 1 	358	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.29	-0.31	0.88	2005, 2007, 2009, 2011
+Cpsf7	ENSMUST00000038379.3	cleavage and polyadenylation specific factor 7 	1459	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.29	-0.29	0.81	2007, 2009, 2011
+H2afx	ENSMUST00000052686.3	H2A histone family, member X 	585	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.29	-0.30	0.42	2007, 2009, 2011
+Klf4	ENSMUST00000107619.2	Kruppel-like factor 4 (gut) 	7	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.29	-0.29	0.89	2005, 2007, 2009, 2011
+Fbn2	ENSMUST00000025497.6	fibrillin 2 	12	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.29	-0.29	0.83	2005, 2007, 2009, 2011
+Arl5b	ENSMUST00000069870.4	ADP-ribosylation factor-like 5B 	451	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.29	-0.37	0.49	
+Calm3	ENSMUST00000019514.9	calmodulin 3 	1213	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.29	-0.56	0.93	2005, 2007, 2009, 2011
+Itgb1	ENSMUST00000090006.6	integrin beta 1 (fibronectin receptor beta) 	11574	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.29	-0.31	0.89	2005, 2007, 2009, 2011
+Rab15	ENSMUST00000021459.8	RAB15, member RAS oncogene family 	37	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.29	-0.29	0.70	2005, 2007, 2009, 2011
+Vcl	ENSMUST00000022369.7	vinculin 	4532	1	0	1	0	1	0	1	0	0	mmu-miR-29b-3p	-0.29	-0.29	0.79	2005, 2007, 2009, 2011
+Rnf122	ENSMUST00000046941.7	ring finger protein 122 	104	1	0	0	1	1	1	0	0	5	mmu-miR-29b-3p	-0.29	-0.67	0.92	2005, 2007, 2009, 2011
+Col19a1	ENSMUST00000115244.3	collagen, type XIX, alpha 1 	25	2	1	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.29	-0.38	0.99	2005, 2007, 2009, 2011
+Fbxw9	ENSMUST00000095220.3	F-box and WD-40 domain protein 9 	580	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.29	-0.29	0.83	2005, 2007, 2009, 2011
+Mtss1l	ENSMUST00000052457.9	metastasis suppressor 1-like 	1632	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.29	-0.33	0.87	2007, 2009, 2011
+Zkscan7	ENSMUST00000063980.6	zinc finger with KRAB and SCAN domains 7 	160	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.29	-0.31	0.23	2007
+Ap1g1	ENSMUST00000093157.7	adaptor protein complex AP-1, gamma 1 subunit 	3408	1	0	1	0	1	0	1	0	1	mmu-miR-29b-3p	-0.29	-0.31	0.69	2005, 2007, 2009, 2011
+Rev3l	ENSMUST00000019986.7	REV3-like, catalytic subunit of DNA polymerase zeta RAD54 like (S. cerevisiae) 	63	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.29	-0.29	0.83	2005, 2007, 2009, 2011
+Fam184b	ENSMUST00000016023.7	family with sequence similarity 184, member B 	14	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.29	-0.29	0.69	2009, 2011
+Strn4	ENSMUST00000019220.10	striatin, calmodulin binding protein 4 	1679	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.29	-0.29	0.62	2005, 2007, 2009, 2011
+Rora	ENSMUST00000034766.8	RAR-related orphan receptor alpha 	953	2	1	0	1	1	0	1	0	0	mmu-miR-29b-3p	-0.29	-0.32	0.97	
+Hmcn1	ENSMUST00000074783.6	hemicentin 1 	49	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.29	-0.29	0.79	2005, 2007, 2009, 2011
+1810041L15Rik	ENSMUST00000080751.3	RIKEN cDNA 1810041L15 gene 	25	1	1	0	0	1	0	0	1	0	mmu-miR-29b-3p	-0.29	-0.38	0.71	2011
+Kcnip2	ENSMUST00000162528.3	Kv channel-interacting protein 2 	76	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.29	-0.29	0.83	2005, 2007
+Scamp5	ENSMUST00000046587.6	secretory carrier membrane protein 5 	36	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.29	-0.43	0.92	2005, 2007, 2009, 2011
+Prkab2	ENSMUST00000045743.7	protein kinase, AMP-activated, beta 2 non-catalytic subunit 	1595	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.29	-0.30	0.71	2005, 2007
+Setdb1	ENSMUST00000107171.4	SET domain, bifurcated 1 	301	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.28	-0.28	0.83	2005, 2007, 2009, 2011
+Klf12	ENSMUST00000097079.4	Kruppel-like factor 12 	363	1	1	0	0	2	0	2	0	0	mmu-miR-29b-3p	-0.28	-0.30	0.87	2005, 2007, 2009, 2011
+Slc7a1	ENSMUST00000048116.9	solute carrier family 7 (cationic amino acid transporter, y+ system), member 1 	254	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.28	-0.28	0.83	2005, 2007, 2009, 2011
+Snx4	ENSMUST00000023502.4	sorting nexin 4 	669	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.28	-0.31	0.68	2005, 2007, 2009, 2011
+Csrnp2	ENSMUST00000061457.5	cysteine-serine-rich nuclear protein 2 	35	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.28	-0.30	0.93	2007, 2009, 2011
+Sppl2b	ENSMUST00000035597.8	signal peptide peptidase like 2B 	273	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.28	-0.28	0.56	2005, 2007, 2009, 2011
+Klhl9	ENSMUST00000094993.2	kelch-like 9 	1056	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.28	-0.34	0.62	2007, 2009, 2011
+Lasp1	ENSMUST00000043843.6	LIM and SH3 protein 1 	3589	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.28	-0.28	0.85	2005, 2007, 2009, 2011
+Ppm1e	ENSMUST00000055438.4	protein phosphatase 1E (PP2C domain containing) 	49	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.28	-0.28	0.70	2005, 2007, 2009, 2011
+Spast	ENSMUST00000024869.6	spastin 	1625	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.28	-0.40	0.85	2005, 2007, 2011
+Pcyt1b	ENSMUST00000113933.3	phosphate cytidylyltransferase 1, choline, beta isoform 	45	2	0	1	1	0	0	0	0	0	mmu-miR-29a-3p	-0.28	-0.38	0.94	2007, 2009, 2011
+Slc43a2	ENSMUST00000042561.8	solute carrier family 43, member 2 	861	1	1	0	0	2	0	2	0	0	mmu-miR-29a-3p	-0.28	-0.31	0.93	2005, 2007, 2009, 2011
+Ltbr	ENSMUST00000032489.7	lymphotoxin B receptor 	98	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.28	-0.28	0.63	2007, 2009, 2011
+Schip1	ENSMUST00000182532.2	schwannomin interacting protein 1 	1132	1	0	0	1	0	0	0	0	0	mmu-miR-29b-3p	-0.28	-0.28	0.92	2005, 2007, 2009, 2011
+Naa60	ENSMUST00000186375.1	N(alpha)-acetyltransferase 60, NatF catalytic subunit 	1502	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.28	-0.28	0.89	2007, 2009, 2011
+Col22a1	ENSMUST00000159993.2	collagen, type XXII, alpha 1 	50	1	0	0	1	2	0	2	0	0	mmu-miR-29b-3p	-0.27	-0.27	0.93	2005, 2007, 2011
+Dcx	ENSMUST00000033642.4	doublecortin 	5	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.27	0.85	2005, 2007, 2009, 2011
+Htr1b	ENSMUST00000183482.1	5-hydroxytryptamine (serotonin) receptor 1B 	64	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.27	0.61	
+Fam134c	ENSMUST00000107295.4	family with sequence similarity 134, member C 	467	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.27	-0.31	0.56	2007, 2009, 2011
+Atxn1	ENSMUST00000180110.2	ataxin 1 	414	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.29	0.84	2005, 2007, 2011
+Ctdspl2	ENSMUST00000036647.7	CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase like 2 	546	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.28	0.76	2007, 2009, 2011
+Pik3r3	ENSMUST00000030464.8	phosphatidylinositol 3 kinase, regulatory subunit, polypeptide 3 (p55) 	310	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.27	0.83	2005, 2007, 2009, 2011
+Rere	ENSMUST00000105682.3	arginine glutamic acid dipeptide (RE) repeats 	443	1	0	0	1	0	0	0	0	0	mmu-miR-29b-3p	-0.27	-0.30	0.93	2005, 2007, 2009, 2011
+Zfp191	ENSMUST00000066497.6	zinc finger protein 191 	2139	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.28	0.46	2009, 2011
+Ina	ENSMUST00000037636.3	internexin neuronal intermediate filament protein, alpha 	74	1	0	0	1	0	0	0	0	0	mmu-miR-29b-3p	-0.27	-0.27	0.91	2005, 2007, 2009, 2011
+Epha1	ENSMUST00000073387.2	Eph receptor A1 	377	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.27	0.60	2005, 2007, 2009, 2011
+Shroom2	ENSMUST00000101141.3	shroom family member 2 	189	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.30	0.92	2007, 2009, 2011
+Dennd1b	ENSMUST00000168527.2	DENN/MADD domain containing 1B 	918	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.27	-0.27	0.69	2007, 2009, 2011
+Zc4h2	ENSMUST00000120620.2	zinc finger, C4H2 domain containing 	14	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.27	0.92	2007, 2009, 2011
+Zfp91	ENSMUST00000038627.8	zinc finger protein 91 	823	1	0	1	0	1	1	0	0	0	mmu-miR-29a-3p	-0.27	-0.50	0.85	2005, 2007, 2009, 2011
+Hinfp	ENSMUST00000034629.4	histone H4 transcription factor 	137	1	0	1	0	0	0	0	0	3	mmu-miR-29a-3p	-0.27	-0.33	0.62	2007, 2009, 2011
+Dpysl2	ENSMUST00000022629.8	dihydropyrimidinase-like 2 	278	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.28	0.41	2007, 2009, 2011
+Slc16a7	ENSMUST00000063318.3	solute carrier family 16 (monocarboxylic acid transporters), member 7 	330	1	0	0	1	2	0	0	2	1	mmu-miR-29b-3p	-0.27	-0.52	0.94	
+Cyth3	ENSMUST00000116456.4	cytohesin 3 	1264	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.27	-0.27	< 0.1	2007, 2009, 2011
+Gfod1	ENSMUST00000055341.5	glucose-fructose oxidoreductase domain containing 1 	124	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.27	-0.27	0.83	2009, 2011
+Vash2	ENSMUST00000047409.7	vasohibin 2 	439	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.27	-0.29	0.88	2007, 2009, 2011
+Slc5a8	ENSMUST00000020255.6	solute carrier family 5 (iodide transporter), member 8 	255	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.46	0.61	2007, 2009, 2011
+Sh3rf3	ENSMUST00000153031.1	SH3 domain containing ring finger 3 	101	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.27	-0.27	0.89	2009, 2011
+Wbp1l	ENSMUST00000138302.3	WW domain binding protein 1 like 	1517	1	1	0	0	1	0	1	0	0	mmu-miR-29b-3p	-0.27	-0.31	0.88	2007, 2009, 2011
+Fbrs	ENSMUST00000048896.6	fibrosin 	1113	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.28	0.89	2007, 2011
+Stx16	ENSMUST00000087908.4	syntaxin 16 	958	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.27	-0.30	0.57	2005, 2007, 2009, 2011
+Nsd1	ENSMUST00000099490.2	nuclear receptor-binding SET-domain protein 1 	1937	2	2	0	0	0	0	0	0	1	mmu-miR-29b-3p	-0.27	-0.33	> 0.99	2009, 2011
+Mapre2	ENSMUST00000170802.2	microtubule-associated protein, RP/EB family, member 2 	366	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.27	-0.39	0.85	2005, 2007, 2009, 2011
+Hspg2	ENSMUST00000030547.9	perlecan (heparan sulfate proteoglycan 2) 	5498	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.27	0.91	2007, 2009, 2011
+Palm	ENSMUST00000046945.7	paralemmin 	17	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.27	-0.34	0.81	2005, 2007, 2009, 2011
+Pcgf3	ENSMUST00000046975.6	polycomb group ring finger 3 	636	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.27	-0.36	0.93	2005, 2007, 2009, 2011
+Wac	ENSMUST00000167020.2	WW domain containing adaptor with coiled-coil 	218	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.27	-0.30	0.75	2011
+Sp1	ENSMUST00000001326.6	trans-acting transcription factor 1 	1975	1	1	0	0	2	0	0	2	0	mmu-miR-29b-3p	-0.27	-0.30	0.71	2005, 2007, 2009, 2011
+AU019823	ENSMUST00000131351.2	expressed sequence AU019823 	31	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.27	-0.27	0.46	2009, 2011
+Arhgap36	ENSMUST00000114904.4	Rho GTPase activating protein 36 	19	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.27	-0.27	0.45	2007, 2009, 2011
+Pten	ENSMUST00000013807.7	phosphatase and tensin homolog 	1182	2	1	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.26	-0.56	0.99	2005, 2007, 2009, 2011
+Hiatl1	ENSMUST00000155487.2	hippocampus abundant transcript-like 1 	954	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.26	-0.27	0.61	2005, 2009, 2011
+Gpr85	ENSMUST00000060442.8	G protein-coupled receptor 85 	46	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.26	-0.26	0.88	2005, 2007, 2009, 2011
+Tmem65	ENSMUST00000072113.5	transmembrane protein 65 	3129	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.26	-0.38	0.87	2005, 2007, 2009, 2011
+Enpp2	ENSMUST00000171545.2	ectonucleotide pyrophosphatase/phosphodiesterase 2 	3978	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.26	-0.26	0.86	2005, 2007, 2009, 2011
+Def8	ENSMUST00000065534.4	differentially expressed in FDCP 8 	1168	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.26	-0.30	0.75	2007, 2009, 2011
+Kctd21	ENSMUST00000054107.5	potassium channel tetramerisation domain containing 21 	138	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.26	-0.36	0.44	2007, 2009, 2011
+Prrc2c	ENSMUST00000182149.2	proline-rich coiled-coil 2C 	78	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.26	-0.26	0.79	2007, 2009, 2011
+Car3	ENSMUST00000029076.4	carbonic anhydrase 3 	62728	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.26	-0.26	0.57	2009, 2011
+Phldb3	ENSMUST00000073325.5	pleckstrin homology-like domain, family B, member 3 	24	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.26	-0.26	0.34	2009, 2011
+Kcnj6	ENSMUST00000095873.5	potassium inwardly-rectifying channel, subfamily J, member 6 	0	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.26	-0.26	0.23	
+Arvcf	ENSMUST00000115614.3	armadillo repeat gene deleted in velo-cardio-facial syndrome 	90	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.26	-0.26	0.82	2005, 2007, 2009, 2011
+Kpna4	ENSMUST00000029353.3	karyopherin (importin) alpha 4 	1495	1	0	1	0	1	0	0	1	0	mmu-miR-29b-3p	-0.26	-0.34	0.88	2005, 2007, 2009, 2011
+Lrp6	ENSMUST00000032322.9	low density lipoprotein receptor-related protein 6 	302	2	0	2	0	0	0	0	0	1	mmu-miR-29b-3p	-0.26	-0.37	0.98	2011
+Stx1a	ENSMUST00000005509.5	syntaxin 1A (brain) 	67	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.26	-0.26	0.71	2005, 2007, 2009, 2011
+Arhgap28	ENSMUST00000024840.6	Rho GTPase activating protein 28 	107	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.26	-0.26	0.71	2005, 2007, 2009, 2011
+Lemd2	ENSMUST00000055117.7	LEM domain containing 2 	530	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.26	-0.26	0.66	2005, 2007, 2009, 2011
+Hs3st3b1	ENSMUST00000094103.3	heparan sulfate (glucosamine) 3-O-sulfotransferase 3B1 	907	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.26	-0.26	0.88	2005, 2007, 2009, 2011
+Prpf40a	ENSMUST00000076313.7	PRP40 pre-mRNA processing factor 40 homolog A (yeast) 	3927	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.26	-0.27	0.45	2009, 2011
+Slc6a2	ENSMUST00000072939.6	solute carrier family 6 (neurotransmitter transporter, noradrenalin), member 2 	44	2	1	1	0	1	0	0	1	1	mmu-miR-29a-3p	-0.26	-0.33	0.97	2009, 2011
+Slc25a44	ENSMUST00000168755.1	solute carrier family 25, member 44 	24	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.26	-0.26	0.85	2007, 2009, 2011
+Mstn	ENSMUST00000191197.1	myostatin 	1683	1	0	0	1	0	0	0	0	2	mmu-miR-29a-3p	-0.26	-0.26	0.93	2007, 2009, 2011
+Tmem86a	ENSMUST00000010451.5	transmembrane protein 86A 	78	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.26	-0.37	0.77	2007, 2009, 2011
+Plcxd2	ENSMUST00000130481.1	phosphatidylinositol-specific phospholipase C, X domain containing 2 	1217	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.26	-0.26	0.77	2009, 2011
+Cnot6	ENSMUST00000145353.2	CCR4-NOT transcription complex, subunit 6 	874	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.26	-0.26	0.89	2005, 2007, 2009, 2011
+Camk2g	ENSMUST00000100837.4	calcium/calmodulin-dependent protein kinase II gamma 	508	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.26	-0.26	0.47	2005, 2007, 2009, 2011
+Sox12	ENSMUST00000182625.1	SRY (sex determining region Y)-box 12 	2247	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.26	-0.28	0.83	2005, 2007, 2009, 2011
+Ammecr1	ENSMUST00000041317.2	Alport syndrome, mental retardation, midface hypoplasia and elliptocytosis chromosomal region gene 1 	88	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.26	-0.26	0.92	2007
+Scn3b	ENSMUST00000171835.3	sodium channel, voltage-gated, type III, beta 	478	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.26	-0.29	0.84	2007, 2009, 2011
+Mblac2	ENSMUST00000057598.5	metallo-beta-lactamase domain containing 2 	283	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.26	-0.26	0.56	2007, 2009, 2011
+Ubfd1	ENSMUST00000033158.4	ubiquitin family domain containing 1 	2965	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.26	-0.33	0.81	2007, 2009, 2011
+D630045J12Rik	ENSMUST00000117556.2	RIKEN cDNA D630045J12 gene 	244	1	1	0	0	3	1	1	1	1	mmu-miR-29a-3p	-0.26	-0.35	0.89	2011
+Fermt2	ENSMUST00000045905.7	fermitin family homolog 2 (Drosophila) 	7798	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.35	0.49	2007, 2009, 2011
+Prkg1	ENSMUST00000065067.7	protein kinase, cGMP-dependent, type I 	65	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.26	0.81	2005, 2007, 2009, 2011
+Atxn1l	ENSMUST00000093162.3	ataxin 1-like 	808	1	0	0	1	1	0	1	0	2	mmu-miR-29a-3p	-0.25	-0.26	0.81	2009, 2011
+Col5a1	ENSMUST00000028280.8	collagen, type V, alpha 1 	2756	3	2	1	0	1	0	1	0	3	mmu-miR-29a-3p	-0.25	-0.80	> 0.99	2007, 2009, 2011
+En1	ENSMUST00000079721.8	engrailed 1 	179	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.25	0.57	2005, 2007, 2009, 2011
+Otud4	ENSMUST00000173078.2	OTU domain containing 4 	2329	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.25	-0.26	0.48	2007, 2009, 2011
+Slco5a1	ENSMUST00000188454.1	solute carrier organic anion transporter family, member 5A1 	20	1	1	0	0	2	0	1	1	0	mmu-miR-29a-3p	-0.25	-0.26	0.90	2009, 2011
+Igf1	ENSMUST00000105300.3	insulin-like growth factor 1 	5701	2	2	0	0	0	0	0	0	1	mmu-miR-29b-3p	-0.25	-0.78	> 0.99	2005, 2007, 2009, 2011
+Kbtbd8	ENSMUST00000119582.1	kelch repeat and BTB (POZ) domain containing 8 	62	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.25	-0.25	0.76	2005, 2007, 2009, 2011
+Chmp6	ENSMUST00000026434.7	charged multivesicular body protein 6 	3087	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.25	-0.25	0.67	2007, 2009, 2011
+Kifc2	ENSMUST00000004294.10	kinesin family member C2 	86	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.28	0.88	2005, 2007, 2009, 2011
+Clock	ENSMUST00000075159.1	circadian locomotor output cycles kaput 	748	1	1	0	0	2	0	1	1	1	mmu-miR-29b-3p	-0.25	-0.35	< 0.1	2005, 2007, 2009, 2011
+Mtmr4	ENSMUST00000103179.4	myotubularin related protein 4 	504	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.25	0.78	2005, 2007, 2009, 2011
+Nrsn1	ENSMUST00000057866.7	neurensin 1 	5	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.25	-0.25	0.52	2007, 2009, 2011
+Ncoa3	ENSMUST00000088095.5	nuclear receptor coactivator 3 	1832	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.25	-0.49	0.51	2005, 2007, 2009, 2011
+Bace1	ENSMUST00000034591.5	beta-site APP cleaving enzyme 1 	924	1	0	1	0	1	0	0	1	0	mmu-miR-29b-3p	-0.25	-0.27	0.82	2005, 2007, 2009, 2011
+Itga6	ENSMUST00000028522.4	integrin alpha 6 	3454	1	0	0	1	1	0	0	1	1	mmu-miR-29b-3p	-0.25	-0.26	0.92	2005, 2007
+Rab12	ENSMUST00000070538.5	RAB12, member RAS oncogene family 	3783	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.25	0.87	2007, 2009, 2011
+Grin2b	ENSMUST00000053880.7	glutamate receptor, ionotropic, NMDA2B (epsilon 2) 	5	1	0	0	1	3	1	1	1	3	mmu-miR-29a-3p	-0.25	-0.25	0.60	
+Dcun1d4	ENSMUST00000063882.6	DCN1, defective in cullin neddylation 1, domain containing 4 (S. cerevisiae) 	353	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.26	0.92	2007, 2009, 2011
+Rnf165	ENSMUST00000026494.8	ring finger protein 165 	56	2	0	2	0	0	0	0	0	0	mmu-miR-29b-3p	-0.25	-0.29	0.98	2005, 2007, 2011
+Dpp4	ENSMUST00000047812.7	dipeptidylpeptidase 4 	905	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.26	0.93	2005, 2007, 2009, 2011
+F11r	ENSMUST00000043839.4	F11 receptor 	5127	1	0	0	1	0	0	0	0	1	mmu-miR-29a-3p	-0.25	-0.25	0.85	2005, 2007, 2009, 2011
+March1	ENSMUST00000110255.2	membrane-associated ring finger (C3HC4) 1 	57	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.39	0.88	
+Tmem178b	ENSMUST00000061740.7	transmembrane protein 178B 	8	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.25	-0.62	0.82	
+Frmd4a	ENSMUST00000075767.8	FERM domain containing 4A 	256	1	0	0	1	1	0	1	0	0	mmu-miR-29a-3p	-0.25	-0.26	0.92	2005, 2007, 2009, 2011
+Mat2a	ENSMUST00000059472.8	methionine adenosyltransferase II, alpha 	204	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.26	0.89	2005, 2007, 2009, 2011
+Pgap1	ENSMUST00000097739.4	post-GPI attachment to proteins 1 	503	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.25	-0.38	0.88	2007
+Rarb	ENSMUST00000063750.6	retinoic acid receptor, beta 	34	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.34	0.83	2005, 2007, 2009, 2011
+Spsb4	ENSMUST00000055433.4	splA/ryanodine receptor domain and SOCS box containing 4 	25	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.29	0.83	2007, 2009, 2011
+Prr14l	ENSMUST00000120129.3	proline rich 14-like 	620	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.25	0.93	2009, 2011
+Foxj2	ENSMUST00000003238.8	forkhead box J2 	32	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.25	-0.41	0.78	2005, 2007, 2009, 2011
+Ddi2	ENSMUST00000102484.4	DNA-damage inducible protein 2 	2606	1	1	0	0	0	0	0	0	1	mmu-miR-29b-3p	-0.24	-0.27	0.92	
+Agpat4	ENSMUST00000024594.3	1-acylglycerol-3-phosphate O-acyltransferase 4 (lysophosphatidic acid acyltransferase, delta) 	69	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.24	0.76	2005, 2007, 2009, 2011
+Gan	ENSMUST00000064488.5	giant axonal neuropathy 	541	1	0	1	0	4	0	4	0	2	mmu-miR-29a-3p	-0.24	-0.29	0.88	2005, 2007, 2009, 2011
+Zbtb10	ENSMUST00000155203.1	zinc finger and BTB domain containing 10 	220	1	0	1	0	2	0	0	2	0	mmu-miR-29a-3p	-0.24	-0.43	0.81	2011
+Cox10	ENSMUST00000049091.8	cytochrome c oxidase assembly protein 10 	296	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.24	-0.24	0.84	2005, 2007, 2009, 2011
+Pdgfb	ENSMUST00000000500.6	platelet derived growth factor, B polypeptide 	26	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.24	0.88	2005, 2007, 2009, 2011
+Cdkl2	ENSMUST00000086978.6	cyclin-dependent kinase-like 2 (CDC2-related kinase) 	161	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.24	-0.25	0.18	2007, 2009, 2011
+Rcor1	ENSMUST00000084968.8	REST corepressor 1 	350	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.24	-0.24	0.84	2007, 2009, 2011
+Htr7	ENSMUST00000166074.1	5-hydroxytryptamine (serotonin) receptor 7 	21	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.24	0.62	2005, 2007, 2009, 2011
+Arrdc4	ENSMUST00000048068.8	arrestin domain containing 4 	212	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.24	-0.25	0.59	2005, 2007, 2009, 2011
+Tmed9	ENSMUST00000109905.3	transmembrane emp24 protein transport domain containing 9 	119	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.24	-0.28	0.77	2005, 2007, 2009, 2011
+Elavl4	ENSMUST00000106598.2	ELAV (embryonic lethal, abnormal vision, Drosophila)-like 4 (Hu antigen D) 	8	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.24	0.92	2009, 2011
+Pex5	ENSMUST00000112532.2	peroxisomal biogenesis factor 5 	1325	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.24	0.54	2005, 2007, 2009, 2011
+Mest	ENSMUST00000163949.3	mesoderm specific transcript 	769	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.24	-0.33	0.75	2005, 2007, 2009, 2011
+Emp2	ENSMUST00000078357.4	epithelial membrane protein 2 	3979	1	0	1	0	1	0	1	0	0	mmu-miR-29b-3p	-0.24	-0.36	0.48	2009, 2011
+Adcyap1r1	ENSMUST00000070756.6	adenylate cyclase activating polypeptide 1 receptor 1 	174	1	0	1	0	0	0	0	0	3	mmu-miR-29a-3p	-0.24	-0.25	0.77	2009, 2011
+Rsc1a1	ENSMUST00000105782.1	regulatory solute carrier protein, family 1, member 1 	874	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.24	-0.31	0.92	
+Cecr2	ENSMUST00000112686.2	cat eye syndrome chromosome region, candidate 2 	350	1	0	1	0	4	1	1	2	1	mmu-miR-29b-3p	-0.24	-0.33	0.67	2009, 2011
+Slk	ENSMUST00000026043.6	STE20-like kinase 	5393	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.28	0.92	2005, 2007, 2011
+Hdgf	ENSMUST00000005017.9	hepatoma-derived growth factor 	18948	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.24	0.91	2005, 2007, 2009, 2011
+Eif3j1	ENSMUST00000028668.7	eukaryotic translation initiation factor 3, subunit J1 	350	1	0	0	1	1	0	1	0	0	mmu-miR-29a-3p	-0.24	-0.24	0.90	2009, 2011
+Jarid2	ENSMUST00000173246.2	jumonji, AT rich interactive domain 2 	1458	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.37	0.82	2005, 2007, 2009, 2011
+Lpl	ENSMUST00000015712.9	lipoprotein lipase 	52537	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.41	0.91	2005, 2007, 2009, 2011
+4833424O15Rik	ENSMUST00000106473.3	RIKEN cDNA 4833424O15 gene 	5	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.24	0.89	2007, 2009, 2011
+Pcsk5	ENSMUST00000050715.8	proprotein convertase subtilisin/kexin type 5 	74	1	0	1	0	1	0	0	1	0	mmu-miR-29b-3p	-0.24	-0.30	0.86	2011
+Nyap2	ENSMUST00000123285.1	neuronal tyrosine-phophorylated phosphoinositide 3-kinase adaptor 2 	5	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.24	0.90	
+Akap17b	ENSMUST00000051906.7	A kinase (PRKA) anchor protein 17B 	221	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.24	-0.24	0.84	2009, 2011
+Rnf169	ENSMUST00000080817.4	ring finger protein 169 	779	2	0	2	0	0	0	0	0	1	mmu-miR-29b-3p	-0.24	-0.27	0.97	2011
+Fzd5	ENSMUST00000063982.6	frizzled homolog 5 (Drosophila) 	316	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.24	0.76	2007, 2009, 2011
+Sidt1	ENSMUST00000127567.2	SID1 transmembrane family, member 1 	6	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.24	0.67	2005, 2007, 2009, 2011
+Adamts15	ENSMUST00000065112.6	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 15 	17	1	0	1	0	0	0	0	0	4	mmu-miR-29a-3p	-0.24	-0.24	0.55	2009, 2011
+Mafb	ENSMUST00000099126.4	v-maf musculoaponeurotic fibrosarcoma oncogene family, protein B (avian) 	852	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.24	-0.28	0.82	2005, 2007, 2009, 2011
+Syt14	ENSMUST00000016344.7	synaptotagmin XIV 	81	2	0	2	0	2	0	2	0	1	mmu-miR-29b-3p	-0.24	-0.49	0.95	2007
+Fam126b	ENSMUST00000161600.2	family with sequence similarity 126, member B 	493	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.23	-0.24	0.66	2007, 2009, 2011
+Fras1	ENSMUST00000036019.4	Fraser syndrome 1 homolog (human) 	67	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.23	-0.26	0.87	2005, 2007, 2009, 2011
+Fam83f	ENSMUST00000023044.5	family with sequence similarity 83, member F 	47	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.23	-0.23	0.46	2007, 2009, 2011
+Ppp1r15b	ENSMUST00000052529.3	protein phosphatase 1, regulatory (inhibitor) subunit 15b 	2416	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.23	-0.25	0.88	2005, 2007, 2011
+Atp2b1	ENSMUST00000020107.7	ATPase, Ca++ transporting, plasma membrane 1 	1855	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.23	-0.25	0.43	2005, 2007, 2011
+Gas7	ENSMUST00000108682.3	growth arrest specific 7 	469	1	0	0	1	0	0	0	0	2	mmu-miR-29b-3p	-0.23	-0.24	0.83	2005, 2007, 2009, 2011
+Rnf150	ENSMUST00000078525.5	ring finger protein 150 	347	1	0	1	0	1	0	1	0	0	mmu-miR-29b-3p	-0.23	-0.27	0.70	2011
+Ccdc88a	ENSMUST00000040182.7	coiled coil domain containing 88A 	178	1	0	0	1	1	1	0	0	0	mmu-miR-29b-3p	-0.23	-0.46	0.86	2007, 2009, 2011
+Nav1	ENSMUST00000067414.7	neuron navigator 1 	499	3	1	2	0	1	0	1	0	1	mmu-miR-29b-3p	-0.23	-0.34	> 0.99	2005, 2007, 2009, 2011
+Gng12	ENSMUST00000043148.7	guanine nucleotide binding protein (G protein), gamma 12 	1571	1	1	0	0	0	0	0	0	1	mmu-miR-29b-3p	-0.23	-0.54	0.90	2005, 2007, 2009, 2011
+Cspg4	ENSMUST00000035661.5	chondroitin sulfate proteoglycan 4 	54	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.23	-0.27	0.72	2005, 2007, 2009, 2011
+Epb4.1l4b	ENSMUST00000030142.3	erythrocyte protein band 4.1-like 4b 	2577	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.23	-0.23	0.62	2009, 2011
+Nfix	ENSMUST00000076715.7	nuclear factor I/X 	291	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.23	-0.34	0.85	2005, 2007
+Gtf3c4	ENSMUST00000171404.2	general transcription factor IIIC, polypeptide 4 	211	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.23	-0.43	0.82	2009, 2011
+Slc35b2	ENSMUST00000041353.6	solute carrier family 35, member B2 	1048	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.23	-0.23	0.39	2007, 2009, 2011
+Ror1	ENSMUST00000039630.5	receptor tyrosine kinase-like orphan receptor 1 	168	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.23	-0.23	0.46	
+Mief1	ENSMUST00000023048.5	mitochondrial elongation factor 1 	144	1	1	0	0	1	0	0	1	1	mmu-miR-29a-3p	-0.23	-0.38	< 0.1	2007, 2009, 2011
+Gmeb1	ENSMUST00000168553.2	glucocorticoid modulatory element binding protein 1 	202	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.23	-0.29	0.88	2009, 2011
+Coro6	ENSMUST00000102493.2	coronin 6 	1424	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.23	-0.23	0.74	2005, 2007
+Ago3	ENSMUST00000069097.7	argonaute RISC catalytic subunit 3 	292	2	1	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.23	-0.32	0.99	
+Strn3	ENSMUST00000013130.9	striatin, calmodulin binding protein 3 	4069	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.23	-0.26	0.89	2005, 2007, 2009, 2011
+Setd8	ENSMUST00000059580.5	SET domain containing (lysine methyltransferase) 8 	582	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.23	-0.23	< 0.1	2009, 2011
+Tubb2b	ENSMUST00000075774.3	tubulin, beta 2B class IIB 	49	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.23	-0.27	0.88	2007, 2009, 2011
+Tmod3	ENSMUST00000072232.7	tropomodulin 3 	1070	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.23	-0.34	0.87	2009, 2011
+Mmp2	ENSMUST00000034187.7	matrix metallopeptidase 2 	835	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.23	-0.23	0.78	2005, 2007, 2009, 2011
+Akt3	ENSMUST00000111160.3	thymoma viral proto-oncogene 3 	344	1	1	0	0	1	0	0	1	0	mmu-miR-29a-3p	-0.23	-0.44	0.88	2005, 2007, 2009, 2011
+Mob1a	ENSMUST00000055261.5	MOB kinase activator 1A 	157	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.23	-0.25	0.68	
+Gsk3b	ENSMUST00000023507.7	glycogen synthase kinase 3 beta 	944	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.23	-0.25	0.72	2009, 2011
+Adamts6	ENSMUST00000065766.6	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 6 	49	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.23	-0.29	0.89	2005, 2007
+Etv4	ENSMUST00000164750.2	ets variant 4 	201	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.23	-0.23	0.66	2005, 2007, 2009, 2011
+Gm10300	ENSMUST00000094662.1	predicted gene 10300 	7	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.23	-0.23	0.53	
+Cenpb	ENSMUST00000089510.4	centromere protein B 	1863	1	0	0	1	0	0	0	0	1	mmu-miR-29a-3p	-0.22	-0.23	0.92	2005, 2007, 2009, 2011
+Gpr165	ENSMUST00000033554.4	G protein-coupled receptor 165 	16	2	2	0	0	1	0	0	1	0	mmu-miR-29a-3p	-0.22	-0.34	0.14	
+Palm2	ENSMUST00000102905.2	paralemmin 2 	12	1	0	1	0	1	0	1	0	1	mmu-miR-29b-3p	-0.22	-0.26	0.80	2007, 2009, 2011
+Slc39a9	ENSMUST00000085245.5	solute carrier family 39 (zinc transporter), member 9 	1215	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.22	-0.22	0.68	2005, 2007, 2011
+Ppip5k2	ENSMUST00000042509.7	diphosphoinositol pentakisphosphate kinase 2 	1566	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.22	-0.23	0.86	2007, 2009, 2011
+Abi1	ENSMUST00000140164.2	abl-interactor 1 	2098	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.22	-0.22	0.34	2005, 2009, 2011
+Map4k4	ENSMUST00000163854.3	mitogen-activated protein kinase kinase kinase kinase 4 	4132	2	0	1	1	0	0	0	0	0	mmu-miR-29a-3p	-0.22	-0.26	> 0.99	2005, 2007, 2009, 2011
+Mapkbp1	ENSMUST00000066058.7	mitogen-activated protein kinase binding protein 1 	503	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.22	-0.22	0.81	2005, 2007, 2009, 2011
+Rnd1	ENSMUST00000003451.5	Rho family GTPase 1 	105	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.22	-0.22	0.80	2005, 2007, 2009, 2011
+Xkr7	ENSMUST00000037235.6	X Kell blood group precursor related family member 7 homolog 	13	1	1	0	0	0	0	0	0	1	mmu-miR-29b-3p	-0.22	-0.22	0.92	2005, 2007, 2009, 2011
+Lmln	ENSMUST00000023497.2	leishmanolysin-like (metallopeptidase M8 family) 	51	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.22	-0.22	0.85	
+Slc24a4	ENSMUST00000079020.5	solute carrier family 24 (sodium/potassium/calcium exchanger), member 4 	97	1	0	0	1	0	0	0	0	2	mmu-miR-29a-3p	-0.22	-0.26	0.90	2007
+Zmiz1	ENSMUST00000162645.2	zinc finger, MIZ-type containing 1 	2629	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.22	-0.22	0.93	2007, 2011
+Col25a1	ENSMUST00000080335.5	collagen, type XXV, alpha 1 	21	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.22	-0.29	0.70	
+Atp2b4	ENSMUST00000048953.8	ATPase, Ca++ transporting, plasma membrane 4 	529	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.22	-0.23	0.79	2005, 2007
+Dlgap2	ENSMUST00000133298.2	discs, large (Drosophila) homolog-associated protein 2 	5	2	0	1	1	0	0	0	0	2	mmu-miR-29a-3p	-0.22	-0.35	0.98	2007, 2009, 2011
+Plekha1	ENSMUST00000120441.2	pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 1 	3231	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.22	-0.23	0.77	2005, 2007, 2009, 2011
+Rbmx	ENSMUST00000098470.3	RNA binding motif protein, X chromosome 	830	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.22	-0.22	0.62	
+Wdfy1	ENSMUST00000113512.2	WD repeat and FYVE domain containing 1 	340	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.22	-0.52	0.84	2005, 2007, 2009, 2011
+Gpam	ENSMUST00000061856.5	glycerol-3-phosphate acyltransferase, mitochondrial 	336	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.22	-0.29	0.74	2005, 2007
+Kirrel	ENSMUST00000159976.2	kin of IRRE like (Drosophila) 	961	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.22	-0.22	0.87	2005, 2007, 2009, 2011
+Prelp	ENSMUST00000048432.5	proline arginine-rich end leucine-rich repeat 	5811	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.21	-0.23	0.64	2005, 2007, 2009, 2011
+Bbc3	ENSMUST00000002152.7	BCL2 binding component 3 	1965	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.21	-0.21	0.77	2005, 2007, 2009, 2011
+Clcn5	ENSMUST00000004428.8	chloride channel 5 	504	2	0	1	1	0	0	0	0	1	mmu-miR-29b-3p	-0.21	-0.23	0.96	2007
+Camk1d	ENSMUST00000044009.8	calcium/calmodulin-dependent protein kinase ID 	507	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.21	-0.21	0.89	2005, 2007, 2009, 2011
+E2f7	ENSMUST00000073781.6	E2F transcription factor 7 	271	1	0	0	1	0	0	0	0	0	mmu-miR-29b-3p	-0.21	-0.23	0.93	2005, 2007, 2009, 2011
+Stx17	ENSMUST00000107720.3	syntaxin 17 	664	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.21	-0.24	0.84	2005, 2007, 2009, 2011
+Unk	ENSMUST00000021116.6	unkempt homolog (Drosophila) 	453	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.21	-0.21	0.52	2007, 2009, 2011
+Pitpnm2	ENSMUST00000162812.2	phosphatidylinositol transfer protein, membrane-associated 2 	115	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.21	-0.22	0.77	2005, 2007, 2009, 2011
+Sh3pxd2a	ENSMUST00000081619.3	SH3 and PX domains 2A 	2455	3	1	2	0	1	0	1	0	3	mmu-miR-29b-3p	-0.21	-0.24	0.99	2007, 2011
+Hpcal4	ENSMUST00000059667.3	hippocalcin-like 4 	5	1	0	0	1	0	0	0	0	1	mmu-miR-29a-3p	-0.21	-0.21	0.55	2005, 2007, 2009, 2011
+Nfic	ENSMUST00000020461.9	nuclear factor I/C 	184	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.21	-0.22	0.83	2009, 2011
+Osbp	ENSMUST00000025590.9	oxysterol binding protein 	315	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.21	-0.22	0.39	2005, 2007, 2009, 2011
+Zkscan4	ENSMUST00000062609.5	zinc finger with KRAB and SCAN domains 4 	52	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.21	-0.21	0.83	2009, 2011
+Adamts7	ENSMUST00000113060.2	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 7 	63	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.21	-0.21	0.82	2005, 2007, 2009, 2011
+Gk5	ENSMUST00000122383.2	glycerol kinase 5 (putative) 	228	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.21	-0.21	< 0.1	2007
+Cbx3	ENSMUST00000114445.2	chromobox 3 	45	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.21	-0.21	ORF	
+Parg	ENSMUST00000022470.9	poly (ADP-ribose) glycohydrolase 	1461	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.21	-0.22	0.85	2005, 2007, 2009, 2011
+Slc16a1	ENSMUST00000046212.1	solute carrier family 16 (monocarboxylic acid transporters), member 1 	1864	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.21	-0.21	0.88	2005, 2007, 2009, 2011
+Smurf2	ENSMUST00000103067.4	SMAD specific E3 ubiquitin protein ligase 2 	2823	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.21	-0.22	0.58	2011
+Elmo2	ENSMUST00000103091.3	engulfment and cell motility 2 	730	1	0	1	0	2	0	2	0	0	mmu-miR-29a-3p	-0.21	-0.25	0.71	2005, 2007, 2009, 2011
+Med26	ENSMUST00000058534.5	mediator complex subunit 26 	132	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.21	-0.22	0.91	2007, 2009, 2011
+Dtx4	ENSMUST00000045521.7	deltex 4 homolog (Drosophila) 	449	2	0	2	0	0	0	0	0	1	mmu-miR-29a-3p	-0.21	-0.29	0.91	2007, 2009, 2011
+Zbtb40	ENSMUST00000049583.7	zinc finger and BTB domain containing 40 	110	1	0	1	0	1	0	1	0	0	mmu-miR-29b-3p	-0.21	-0.21	0.88	2005, 2007, 2009, 2011
+Gab1	ENSMUST00000034150.8	growth factor receptor bound protein 2-associated protein 1 	699	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.21	-0.21	0.61	2005, 2007, 2009, 2011
+Daam1	ENSMUST00000085299.2	dishevelled associated activator of morphogenesis 1 	590	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.21	-0.26	0.88	2009, 2011
+Antxr2	ENSMUST00000031281.9	anthrax toxin receptor 2 	143	2	1	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.21	-0.43	0.82	
+Vash1	ENSMUST00000021681.3	vasohibin 1 	111	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.21	-0.22	0.37	2007, 2011
+Serinc5	ENSMUST00000049488.7	serine incorporator 5 	20	1	0	1	0	1	0	1	0	1	mmu-miR-29b-3p	-0.20	-0.33	0.83	2009, 2011
+Ankrd52	ENSMUST00000014642.4	ankyrin repeat domain 52 	1083	2	1	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.20	-0.25	0.93	2009, 2011
+Gm608	ENSMUST00000119746.2	predicted gene 608 	951	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.20	-0.24	0.78	2007, 2009, 2011
+Pcdh17	ENSMUST00000071370.5	protocadherin 17 	470	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.20	-0.21	0.67	2007, 2011
+Ephb3	ENSMUST00000006112.6	Eph receptor B3 	56	1	0	1	0	0	0	0	0	3	mmu-miR-29b-3p	-0.20	-0.23	0.86	2005, 2007, 2009, 2011
+Svil	ENSMUST00000143254.2	supervillin 	1016	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.20	-0.21	0.91	2005, 2007, 2009, 2011
+Ralgps1	ENSMUST00000042615.7	Ral GEF with PH domain and SH3 binding motif 1 	213	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.20	-0.21	0.93	2005, 2007
+Ythdf1	ENSMUST00000037299.9	YTH domain family 1 	985	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.20	-0.34	0.42	2005, 2007, 2009, 2011
+Celf2	ENSMUST00000170438.2	CUGBP, Elav-like family member 2 	1988	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.20	-0.20	0.82	2007, 2009, 2011
+Kdm5c	ENSMUST00000112588.3	lysine (K)-specific demethylase 5C 	919	1	0	1	0	2	0	1	1	1	mmu-miR-29b-3p	-0.20	-0.42	0.86	2007, 2009, 2011
+Wdr26	ENSMUST00000162819.2	WD repeat domain 26 	3481	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.20	-0.21	0.74	2005, 2007, 2009, 2011
+Ttyh2	ENSMUST00000045779.5	tweety homolog 2 (Drosophila) 	679	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.20	-0.20	0.83	2005, 2007, 2009, 2011
+Aqp4	ENSMUST00000079081.6	aquaporin 4 	166	1	0	0	1	0	0	0	0	0	mmu-miR-29b-3p	-0.20	-0.22	0.75	2005, 2007, 2009, 2011
+Rnf214	ENSMUST00000161203.2	ring finger protein 214 	678	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.20	-0.25	0.77	2007, 2009, 2011
+Ndst1	ENSMUST00000169273.1	N-deacetylase/N-sulfotransferase (heparan glucosaminyl) 1 	4723	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.20	-0.20	0.91	2005, 2007, 2009, 2011
+Syt7	ENSMUST00000169121.2	synaptotagmin VII 	210	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.20	-0.21	0.92	2005, 2007, 2009, 2011
+Ccnj	ENSMUST00000025983.7	cyclin J 	116	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.20	-0.48	0.63	2005, 2007, 2009, 2011
+Ctnnbip1	ENSMUST00000030839.7	catenin beta interacting protein 1 	164	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.20	-0.35	0.89	2005, 2007, 2009, 2011
+Amfr	ENSMUST00000053766.7	autocrine motility factor receptor 	7076	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.20	-0.24	0.85	2005, 2007, 2009, 2011
+Kdm6b	ENSMUST00000094077.4	KDM1 lysine (K)-specific demethylase 6B 	38	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.20	-0.20	0.72	2007, 2009, 2011
+Tnfaip1	ENSMUST00000017759.3	tumor necrosis factor, alpha-induced protein 1 (endothelial) 	4213	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.19	-0.20	0.73	2005, 2007, 2009, 2011
+Nek10	ENSMUST00000112630.3	NIMA (never in mitosis gene a)- related kinase 10 	5	1	0	0	1	2	0	2	0	0	mmu-miR-29b-3p	-0.19	-0.21	0.92	
+Cnr1	ENSMUST00000057188.6	cannabinoid receptor 1 (brain) 	63	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.19	-0.32	0.76	2005, 2007, 2009, 2011
+Usp37	ENSMUST00000044260.5	ubiquitin specific peptidase 37 	659	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.19	-0.21	0.86	2005, 2007, 2011
+Impdh1	ENSMUST00000160878.2	inosine 5'-phosphate dehydrogenase 1 	2090	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.19	-0.19	0.71	2005, 2007, 2009, 2011
+Ube2h	ENSMUST00000102993.4	ubiquitin-conjugating enzyme E2H 	1830	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.19	-0.19	0.76	2009, 2011
+Pgp	ENSMUST00000053024.6	phosphoglycolate phosphatase 	1903	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.19	-0.22	0.35	2007
+Lsm14b	ENSMUST00000058764.5	LSM14 homolog B (SCD6, S. cerevisiae) 	211	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.19	-0.21	0.70	2009, 2011
+Tiam1	ENSMUST00000114122.2	T cell lymphoma invasion and metastasis 1 	22	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.19	-0.21	0.70	2007, 2009, 2011
+Phactr2	ENSMUST00000105545.5	phosphatase and actin regulator 2 	1395	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.19	-0.29	0.82	2011
+Fscn1	ENSMUST00000031565.9	fascin homolog 1, actin bundling protein (Strongylocentrotus purpuratus) 	10155	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.19	-0.19	0.53	2005, 2007, 2009, 2011
+Klhdc3	ENSMUST00000165007.2	kelch domain containing 3 	64	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.19	-0.22	0.59	2005, 2007, 2009, 2011
+Slc25a22	ENSMUST00000106007.4	solute carrier family 25 (mitochondrial carrier, glutamate), member 22 	334	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.19	-0.22	0.70	2007, 2009, 2011
+Tfap2c	ENSMUST00000030391.3	transcription factor AP-2, gamma 	13	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.19	-0.28	0.92	2005, 2007, 2009, 2011
+Slc31a1	ENSMUST00000122092.1	solute carrier family 31, member 1 	2201	2	1	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.19	-0.54	0.78	2005, 2007, 2009, 2011
+Bsdc1	ENSMUST00000048162.8	BSD domain containing 1 	1278	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.19	-0.19	0.66	2005, 2007, 2009, 2011
+Cops7b	ENSMUST00000121534.2	COP9 (constitutive photomorphogenic) homolog, subunit 7b (Arabidopsis thaliana) 	458	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.19	-0.19	0.35	2005, 2007, 2009, 2011
+Ttc14	ENSMUST00000099153.4	tetratricopeptide repeat domain 14 	924	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.19	-0.23	0.88	2009, 2011
+Rnf152	ENSMUST00000058688.6	ring finger protein 152 	313	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.19	-0.20	0.76	2011
+Itga11	ENSMUST00000034774.8	integrin alpha 11 	170	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.19	-0.19	0.63	2005, 2007, 2009, 2011
+FMN1	ENSMUST00000081349.7	formin 1 (Fmn1), transcript variant 4, mRNA 	178	1	0	0	1	0	0	0	0	1	mmu-miR-29a-3p	-0.19	-0.27	0.90	
+Zfp366	ENSMUST00000056558.8	zinc finger protein 366 	51	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.19	-0.19	0.84	2009, 2011
+Vps25	ENSMUST00000100414.6	vacuolar protein sorting 25 (yeast) 	1718	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.19	-0.20	0.46	2005, 2007, 2009, 2011
+St8sia6	ENSMUST00000003509.8	ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 6 	194	1	1	0	0	1	0	1	0	0	mmu-miR-29b-3p	-0.19	-0.22	< 0.1	
+Snx22	ENSMUST00000044711.5	sorting nexin 22 	7	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.19	-0.19	< 0.1	2007, 2011
+Nfib	ENSMUST00000107245.3	nuclear factor I/B 	2888	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.19	-0.19	0.82	2007, 2009, 2011
+Kdm5a	ENSMUST00000005108.7	lysine (K)-specific demethylase 5A 	844	1	0	1	0	1*	0	0	0	0	mmu-miR-29b-3p	-0.19	-0.19	0.78	2007, 2011
+Fam78b	ENSMUST00000165874.2	family with sequence similarity 78, member B 	124	1	0	0	1	0	0	0	0	2	mmu-miR-29b-3p	-0.18	-0.63	0.79	2009, 2011
+Btla	ENSMUST00000063654.4	B and T lymphocyte associated 	63	1	0	1	0	2	0	1	1	0	mmu-miR-29a-3p	-0.18	-0.40	0.38	2005, 2007, 2009, 2011
+Ncor2	ENSMUST00000111398.2	nuclear receptor co-repressor 2 	479	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.18	-0.18	0.87	2005, 2007, 2009, 2011
+Cemip	ENSMUST00000064174.6	cell migration inducing protein, hyaluronan binding 	27	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.18	-0.18	0.79	2007, 2009, 2011
+Vps37c	ENSMUST00000087951.5	vacuolar protein sorting 37C (yeast) 	1594	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.18	-0.18	0.48	2005, 2007, 2009, 2011
+Ak3	ENSMUST00000025696.4	adenylate kinase 3 	592	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.18	-0.58	0.78	2005, 2007, 2009, 2011
+Fer	ENSMUST00000000129.7	fer (fms/fps related) protein kinase 	648	1	1	0	0	1	0	1	0	4	mmu-miR-29b-3p	-0.18	-0.44	0.91	2009, 2011
+Dcaf10	ENSMUST00000155551.2	DDB1 and CUL4 associated factor 10 	821	1	0	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.18	-0.36	0.39	2007, 2009, 2011
+Loxl4	ENSMUST00000026190.8	lysyl oxidase-like 4 	34	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.18	-0.18	0.70	2005, 2007, 2009, 2011
+Pou4f3	ENSMUST00000025374.3	POU domain, class 4, transcription factor 3 	5	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.18	-0.18	0.47	
+Adam12	ENSMUST00000067680.5	a disintegrin and metallopeptidase domain 12 (meltrin alpha) 	17	2	1	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.18	-0.22	0.88	2005, 2007, 2009, 2011
+Fign	ENSMUST00000131615.3	fidgetin 	56	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.18	-0.20	0.86	2007, 2009, 2011
+Fmn1	ENSMUST00000099576.3	formin 1 	183	1	0	0	1	0	0	0	0	1	mmu-miR-29a-3p	-0.18	-0.26	0.90	2009, 2011
+Gid4	ENSMUST00000070681.6	GID complex subunit 4, VID24 homolog (S. cerevisiae) 	563	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.18	-0.23	0.73	2007, 2009, 2011
+Akap13	ENSMUST00000147005.2	A kinase (PRKA) anchor protein 13 	1510	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.18	-0.18	0.88	2005, 2007, 2009, 2011
+Zbtb41	ENSMUST00000039867.7	zinc finger and BTB domain containing 41 homolog 	806	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.18	-0.25	0.58	2007, 2009, 2011
+Kcnc3	ENSMUST00000107907.3	potassium voltage gated channel, Shaw-related subfamily, member 3 	68	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.18	-0.26	0.91	2009, 2011
+Hip1	ENSMUST00000060311.8	huntingtin interacting protein 1 	1166	1	0	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.18	-0.22	0.86	2005, 2007, 2009, 2011
+Insrr	ENSMUST00000029711.3	insulin receptor-related receptor 	23	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.18	-0.19	0.81	2009, 2011
+Phlpp2	ENSMUST00000034175.4	PH domain and leucine rich repeat protein phosphatase 2 	37	1	0	0	1	0	0	0	0	2	mmu-miR-29a-3p	-0.18	-0.21	0.82	2007, 2009, 2011
+Arnt	ENSMUST00000090804.6	aryl hydrocarbon receptor nuclear translocator 	998	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.18	-0.22	0.70	2005, 2007, 2009, 2011
+Cx3cl1	ENSMUST00000034230.5	chemokine (C-X3-C motif) ligand 1 	416	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.18	-0.18	0.93	2005, 2007, 2009, 2011
+Slc30a10	ENSMUST00000061093.6	solute carrier family 30, member 10 	291	1	0	1	0	2	0	2	0	0	mmu-miR-29b-3p	-0.18	-0.46	0.85	2005, 2009, 2011
+Zfp384	ENSMUST00000046064.11	zinc finger protein 384 	288	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.18	-0.18	0.69	2009, 2011
+Zfp385c	ENSMUST00000103119.4	zinc finger protein 385C 	5	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.18	-0.18	0.68	2009, 2011
+Col5a2	ENSMUST00000086430.4	collagen, type V, alpha 2 	1978	2	1	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.18	-1.17	> 0.99	2005, 2007, 2009, 2011
+Adc	ENSMUST00000106068.2	arginine decarboxylase 	48	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.17	-0.17	0.47	2007, 2009, 2011
+Rel	ENSMUST00000102864.3	reticuloendotheliosis oncogene 	73	1	0	1	0	1	1	0	0	1	mmu-miR-29b-3p	-0.17	-0.24	0.63	
+Rnpepl1	ENSMUST00000027487.9	arginyl aminopeptidase (aminopeptidase B)-like 1 	4508	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.17	-0.17	0.54	2005, 2007, 2009, 2011
+Mapk8	ENSMUST00000111945.3	mitogen-activated protein kinase 8 	1259	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.22	0.61	2011
+Htr6	ENSMUST00000105802.2	5-hydroxytryptamine (serotonin) receptor 6 	9	2	0	2	0	1	0	1	0	0	mmu-miR-29a-3p	-0.17	-0.43	0.96	
+Mospd2	ENSMUST00000004715.1	motile sperm domain containing 2 	119	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.35	0.88	
+Nras	ENSMUST00000029445.7	neuroblastoma ras oncogene 	1567	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.40	0.91	2009, 2011
+Iffo2	ENSMUST00000174078.1	intermediate filament family orphan 2 	867	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.17	0.88	2009, 2011
+Kcnc2	ENSMUST00000092175.2	potassium voltage gated channel, Shaw-related subfamily, member 2 	28	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.17	-0.17	0.82	2005, 2007, 2009, 2011
+Rnf138	ENSMUST00000072847.6	ring finger protein 138 	436	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.31	0.65	2005, 2007, 2009, 2011
+Aplnr	ENSMUST00000057019.8	apelin receptor 	264	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.18	< 0.1	2007, 2009, 2011
+Ythdf3	ENSMUST00000108345.3	YTH domain family 3 	4194	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.25	0.35	2005, 2007, 2009, 2011
+Ncoa4	ENSMUST00000163336.2	nuclear receptor coactivator 4 	165	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.17	0.87	2005, 2007, 2009, 2011
+Camkk2	ENSMUST00000111668.3	calcium/calmodulin-dependent protein kinase kinase 2, beta 	701	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.18	0.91	2005, 2007, 2011
+Prdm11	ENSMUST00000111274.2	PR domain containing 11 	40	1	1	0	0	2	0	2	0	1	mmu-miR-29a-3p	-0.17	-0.20	0.92	2005, 2007
+Usp31	ENSMUST00000046929.6	ubiquitin specific peptidase 31 	327	1	0	0	1	0	0	0	0	1	mmu-miR-29a-3p	-0.17	-0.22	0.93	2007, 2011
+Dip2b	ENSMUST00000100203.4	DIP2 disco-interacting protein 2 homolog B (Drosophila) 	1957	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.18	0.87	2007, 2011
+Mast4	ENSMUST00000167058.2	microtubule associated serine/threonine kinase family member 4 	591	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.17	-0.17	0.79	2011
+Camk4	ENSMUST00000042868.4	calcium/calmodulin-dependent protein kinase IV 	12	1	1	0	0	1	0	1	0	0	mmu-miR-29b-3p	-0.17	-0.38	0.91	2009, 2011
+Tgfb2	ENSMUST00000045288.8	transforming growth factor, beta 2 	436	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.17	-0.46	0.89	2009, 2011
+Il1rapl1	ENSMUST00000113966.2	interleukin 1 receptor accessory protein-like 1 	5	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.17	-0.17	0.51	
+Ago1	ENSMUST00000097888.4	argonaute RISC catalytic subunit 1 	460	1	0	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.17	-0.18	0.68	2007, 2011
+Megf6	ENSMUST00000030897.9	multiple EGF-like-domains 6 	119	1	1	0	0	0	0	0	0	2	mmu-miR-29b-3p	-0.17	-0.19	0.89	2007, 2011
+Kpna1	ENSMUST00000004054.7	karyopherin (importin) alpha 1 	5043	1	0	0	1	0	0	0	0	1	mmu-miR-29a-3p	-0.17	-0.18	0.72	2007, 2009, 2011
+Atp1b1	ENSMUST00000027863.7	ATPase, Na+/K+ transporting, beta 1 polypeptide 	27156	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.18	0.83	2005, 2007, 2009, 2011
+Ercc6	ENSMUST00000066807.6	excision repair cross-complementing rodent repair deficiency, complementation group 6 	156	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.17	0.76	2009, 2011
+Atp6v1a	ENSMUST00000114666.3	ATPase, H+ transporting, lysosomal V1 subunit A 	293	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.18	0.61	2005, 2007, 2009, 2011
+Capn7	ENSMUST00000022451.8	calpain 7 	939	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.19	0.64	2005, 2007, 2009, 2011
+Ddah2	ENSMUST00000174493.2	dimethylarginine dimethylaminohydrolase 2 	295	1	0	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.17	-0.22	< 0.1	2009
+Creb5	ENSMUST00000047450.7	cAMP responsive element binding protein 5 	82	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.17	-0.17	0.77	2005, 2007, 2009, 2011
+2210018M11Rik	ENSMUST00000038359.4	RIKEN cDNA 2210018M11 gene 	780	1	0	1	0	1	1	0	0	0	mmu-miR-29a-3p	-0.17	-0.33	0.89	2007
+Syt2	ENSMUST00000121990.1	synaptotagmin II 	5	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.17	-0.17	0.67	
+Uhrf1bp1l	ENSMUST00000020112.5	UHRF1 (ICBP90) binding protein 1-like 	1527	1	0	1	0	1	0	0	1	0	mmu-miR-29b-3p	-0.17	-0.33	0.86	2011
+Zfp641	ENSMUST00000023722.6	zinc finger protein 641 	114	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.17	-0.17	0.60	2009, 2011
+Dlgap1	ENSMUST00000133983.2	discs, large (Drosophila) homolog-associated protein 1 	8	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.16	-0.20	0.63	2009, 2011
+Tmem229b	ENSMUST00000070174.8	transmembrane protein 229B 	8	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.16	-0.16	0.77	2007, 2009, 2011
+N4bp2	ENSMUST00000113738.2	NEDD4 binding protein 2 	342	1	0	1	0	1*	0	0	0	0	mmu-miR-29a-3p	-0.16	-0.19	0.83	
+Plod1	ENSMUST00000019199.8	procollagen-lysine, 2-oxoglutarate 5-dioxygenase 1 	250	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.16	-0.20	0.63	2005, 2007, 2009, 2011
+Ehd2	ENSMUST00000098799.3	EH-domain containing 2 	722	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.16	-0.20	0.84	2005, 2007, 2009, 2011
+Kdm2a	ENSMUST00000047898.8	lysine (K)-specific demethylase 2A 	185	1	0	1	0	1	0	1	0	1	mmu-miR-29b-3p	-0.16	-0.20	0.86	2007, 2009, 2011
+Mlxip	ENSMUST00000068237.6	MLX interacting protein 	256	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.16	-0.17	0.84	2007, 2009, 2011
+D430041D05Rik	ENSMUST00000089726.4	RIKEN cDNA D430041D05 gene 	37	1	0	0	1	1	0	0	1	0	mmu-miR-29b-3p	-0.16	-0.19	0.89	2009, 2011
+C77370	ENSMUST00000118314.2	expressed sequence C77370 	9	2	2	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.16	-0.25	0.93	2009, 2011
+Orai3	ENSMUST00000121504.1	ORAI calcium release-activated calcium modulator 3 	1468	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.16	-0.22	0.54	2009, 2011
+Hnrnpul1	ENSMUST00000043765.8	heterogeneous nuclear ribonucleoprotein U-like 1 	6257	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.16	-0.16	0.41	2007, 2009, 2011
+Ppp1r13b	ENSMUST00000054815.8	protein phosphatase 1, regulatory (inhibitor) subunit 13B 	130	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.16	-0.16	0.85	2005, 2007, 2009, 2011
+Tmem136	ENSMUST00000061833.4	transmembrane protein 136 	133	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.16	-0.21	< 0.1	2009, 2011
+Hcfc2	ENSMUST00000020478.8	host cell factor C2 	317	1	1	0	0	1	0	1	0	1	mmu-miR-29a-3p	-0.16	-0.34	< 0.1	
+Zfp362	ENSMUST00000106072.3	zinc finger protein 362 	221	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.16	-0.22	0.60	2009, 2011
+Csgalnact2	ENSMUST00000049344.9	chondroitin sulfate N-acetylgalactosaminyltransferase 2 	70	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.16	-0.36	0.92	2007, 2009, 2011
+Gmfb	ENSMUST00000111817.2	glia maturation factor, beta 	1574	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.16	-0.31	0.81	2005, 2007, 2009, 2011
+Ubtd2	ENSMUST00000051053.4	ubiquitin domain containing 2 	77	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.16	-0.38	0.88	2007, 2009, 2011
+Cbx5	ENSMUST00000118152.2	chromobox 5 	1766	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.16	-0.28	0.86	2009, 2011
+Prkra	ENSMUST00000002808.6	protein kinase, interferon inducible double stranded RNA dependent activator 	426	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.16	-0.32	0.68	2005, 2007, 2009, 2011
+Nat8l	ENSMUST00000056355.8	N-acetyltransferase 8-like 	183	1	1	0	0	1	1	0	0	0	mmu-miR-29a-3p	-0.16	-0.25	< 0.1	2007, 2009, 2011
+Ank3	ENSMUST00000182884.2	ankyrin 3, epithelial 	1269	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.16	-0.17	0.88	2005, 2007, 2009, 2011
+Rab40c	ENSMUST00000167626.2	Rab40C, member RAS oncogene family 	39	2	1	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.15	-0.15	0.78	2005, 2007, 2009, 2011
+Rfx7	ENSMUST00000093820.4	regulatory factor X, 7 	269	1	1	0	0	2	0	1	1	1	mmu-miR-29a-3p	-0.15	-0.33	0.93	2007, 2009, 2011
+Rmnd5a	ENSMUST00000002292.9	required for meiotic nuclear division 5 homolog A (S. cerevisiae) 	291	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.15	-0.32	0.12	2007, 2009, 2011
+Ctnnd1	ENSMUST00000111696.2	catenin (cadherin associated protein), delta 1 	1459	1	0	1	0	1	0	1	0	5	mmu-miR-29a-3p	-0.15	-0.18	0.89	2005, 2007, 2009, 2011
+Brd4	ENSMUST00000114475.3	bromodomain containing 4 	572	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.15	-0.15	0.51	2007
+Hook3	ENSMUST00000037182.8	hook homolog 3 (Drosophila) 	1176	1	0	0	1	0	0	0	0	2	mmu-miR-29a-3p	-0.15	-0.18	0.92	2005, 2007, 2009, 2011
+CTNND1	ENSMUST00000189772.1	Catenin delta-1  	1459	1	0	1	0	1	0	1	0	5	mmu-miR-29a-3p	-0.15	-0.18	0.89	
+Ndrg4	ENSMUST00000073139.8	N-myc downstream regulated gene 4 	79	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.15	-0.15	0.44	2005, 2007, 2009, 2011
+Atrn	ENSMUST00000028781.8	attractin 	640	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.15	-0.17	0.71	2005, 2007, 2009, 2011
+Fam124a	ENSMUST00000039064.7	family with sequence similarity 124, member A 	64	1	0	1	0	1	0	1	0	2	mmu-miR-29a-3p	-0.15	-0.18	0.67	
+Thoc2	ENSMUST00000047037.9	THO complex 2 	657	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.15	-0.15	0.34	2009, 2011
+Diap2	ENSMUST00000113320.2	diaphanous homolog 2 (Drosophila) 	549	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.15	-0.15	0.73	2005, 2007, 2011
+Ago2	ENSMUST00000044113.10	argonaute RISC catalytic subunit 2 	1138	2	0	0	2	3*	0	0	2	1	mmu-miR-29a-3p	-0.15	-0.32	0.98	
+Luzp1	ENSMUST00000105849.3	leucine zipper protein 1 	845	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.15	-0.15	0.69	2005, 2007, 2009, 2011
+Jmy	ENSMUST00000065537.7	junction-mediating and regulatory protein 	482	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.15	-0.33	0.88	2011
+C030046E11Rik	ENSMUST00000043610.7	RIKEN cDNA C030046E11 gene 	417	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.15	-0.24	0.93	2009, 2011
+Zfp652	ENSMUST00000107717.2	zinc finger protein 652 	474	1	0	1	0	0	0	0	0	3	mmu-miR-29a-3p	-0.15	-0.18	0.63	2009, 2011
+Ski	ENSMUST00000084103.4	ski sarcoma viral oncogene homolog (avian) 	1989	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.15	-0.15	0.77	2005, 2007, 2009, 2011
+Pik3cb	ENSMUST00000035037.8	phosphatidylinositol 3-kinase, catalytic, beta polypeptide 	530	1	0	0	1	0	0	0	0	1	mmu-miR-29a-3p	-0.15	-0.20	0.93	2009, 2011
+1110002E22Rik	ENSMUST00000163080.2	RIKEN cDNA 1110002E22 gene 	457	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.15	-0.20	0.79	
+Diablo	ENSMUST00000111587.4	diablo homolog (Drosophila) 	316	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.15	-0.18	0.34	2005, 2007, 2009, 2011
+Syn3	ENSMUST00000120638.2	synapsin III 	99	2	1	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.14	-0.25	0.97	2011
+Mxi1	ENSMUST00000003870.8	Max interacting protein 1 	348	1	0	0	1	0	0	0	0	1	mmu-miR-29a-3p	-0.14	-0.19	0.93	2005, 2007, 2009, 2011
+Reps2	ENSMUST00000112334.2	RALBP1 associated Eps domain containing protein 2 	136	1	0	0	1	1	0	1	0	0	mmu-miR-29b-3p	-0.14	-0.27	0.91	2007, 2009, 2011
+Sidt2	ENSMUST00000038488.10	SID1 transmembrane family, member 2 	1715	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.14	-0.14	0.64	2007, 2009, 2011
+Appbp2	ENSMUST00000018625.9	amyloid beta precursor protein (cytoplasmic tail) binding protein 2 	1396	1	1	0	0	0	0	0	0	1	mmu-miR-29b-3p	-0.14	-0.17	0.58	2005, 2007
+Pdp2	ENSMUST00000059588.6	pyruvate dehyrogenase phosphatase catalytic subunit 2 	672	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.14	-0.28	0.76	
+Ubiad1	ENSMUST00000051633.2	UbiA prenyltransferase domain containing 1 	85	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.14	-0.26	0.66	2009, 2011
+Bicd1	ENSMUST00000086829.5	bicaudal D homolog 1 (Drosophila) 	134	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.14	-0.17	0.87	2009, 2011
+Zfyve26	ENSMUST00000021547.6	zinc finger, FYVE domain containing 26 	42	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.14	-0.17	0.87	2005, 2007, 2009, 2011
+Abcc3	ENSMUST00000178136.2	ATP-binding cassette, sub-family C (CFTR/MRP), member 3 	321	1	1	0	0	1	0	1	0	1	mmu-miR-29a-3p	-0.14	-0.23	0.70	2005, 2007, 2009, 2011
+Prickle2	ENSMUST00000032093.6	prickle homolog 2 (Drosophila) 	175	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.14	-0.14	0.87	2005, 2007, 2009, 2011
+Grm4	ENSMUST00000118161.1	glutamate receptor, metabotropic 4 	11	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.14	-0.14	0.47	2005, 2007
+Rest	ENSMUST00000080359.6	RE1-silencing transcription factor 	21	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.14	-0.30	0.80	2011
+Gcc2	ENSMUST00000057659.8	GRIP and coiled-coil domain containing 2 	321	1	0	1	0	1	0	0	1	2	mmu-miR-29b-3p	-0.14	-0.18	0.74	2005, 2009, 2011
+Bcorl1	ENSMUST00000136348.2	BCL6 co-repressor-like 1 	306	2	0	1	1	0	0	0	0	1	mmu-miR-29b-3p	-0.14	-0.28	0.99	2005, 2007
+Oxct1	ENSMUST00000110690.3	3-oxoacid CoA transferase 1 	14143	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.14	-0.21	0.57	2005, 2007, 2009, 2011
+Phf21a	ENSMUST00000044036.9	PHD finger protein 21A 	306	1	0	1	0	0	0	0	0	3	mmu-miR-29b-3p	-0.14	-0.86	0.73	2009, 2011
+Pdik1l	ENSMUST00000105877.3	PDLIM1 interacting kinase 1 like 	117	1	1	0	0	1	0	1	0	2	mmu-miR-29a-3p	-0.14	-0.50	0.87	2005, 2007, 2009, 2011
+Pde3a	ENSMUST00000043259.8	phosphodiesterase 3A, cGMP inhibited 	654	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.14	-0.27	0.57	
+Rps6ka3	ENSMUST00000033671.7	ribosomal protein S6 kinase polypeptide 3 	1770	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.14	-0.22	0.49	2005, 2007
+Fbxo42	ENSMUST00000030757.9	F-box protein 42 	936	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.14	-0.17	0.66	2009, 2011
+Ppp2ca	ENSMUST00000020608.2	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform 	12540	1	0	1	0	1	1	0	0	1	mmu-miR-29a-3p	-0.13	-1.48	0.88	2005, 2007, 2009, 2011
+Cpeb3	ENSMUST00000079754.5	cytoplasmic polyadenylation element binding protein 3 	708	1	0	1	0	1	0	1	0	2	mmu-miR-29a-3p	-0.13	-0.16	0.81	2005, 2007, 2009, 2011
+Nol4l	ENSMUST00000035346.8	nucleolar protein 4-like 	84	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.13	-0.38	0.80	2009, 2011
+Fam136a	ENSMUST00000071492.7	family with sequence similarity 136, member A 	139	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.13	-0.52	0.82	2007, 2009, 2011
+Tspan9	ENSMUST00000112173.2	tetraspanin 9 	534	1	0	0	1	1	0	1	0	0	mmu-miR-29a-3p	-0.13	-0.23	0.92	2005, 2007, 2009, 2011
+Faxc	ENSMUST00000029908.7	failed axon connections homolog (Drosophila) 	133	1	0	0	1	0	0	0	0	1	mmu-miR-29b-3p	-0.13	-0.15	0.88	2009, 2011
+Scml2	ENSMUST00000112345.2	sex comb on midleg-like 2 (Drosophila) 	44	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.13	-0.31	0.45	2005, 2007, 2009, 2011
+Mxd1	ENSMUST00000001184.7	MAX dimerization protein 1 	98	2	0	2	0	1	0	1	0	0	mmu-miR-29b-3p	-0.13	-1.33	0.96	2007, 2009, 2011
+Hapln1	ENSMUST00000022108.7	hyaluronan and proteoglycan link protein 1 	31	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.13	-0.19	0.54	2009, 2011
+Rab6b	ENSMUST00000035155.7	RAB6B, member RAS oncogene family 	192	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.13	-0.16	0.85	2005, 2007, 2009, 2011
+Srgap2	ENSMUST00000097588.3	SLIT-ROBO Rho GTPase activating protein 2 	856	1	0	1	0	2	0	2	0	0	mmu-miR-29a-3p	-0.13	-0.15	0.42	2007, 2009, 2011
+Klhl25	ENSMUST00000092073.6	kelch-like 25 	24	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.13	-0.15	0.47	2007, 2009, 2011
+5430427O19Rik	ENSMUST00000113976.1	RIKEN cDNA 5430427O19 gene 	38	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.13	-0.95	< 0.1	2011
+Zic5	ENSMUST00000039118.6	zinc finger protein of the cerebellum 5 	259	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.13	-0.14	0.75	2007
+Enah	ENSMUST00000078719.7	enabled homolog (Drosophila) 	2081	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.13	-0.16	0.89	2007
+Adam23	ENSMUST00000087374.4	a disintegrin and metallopeptidase domain 23 	451	1	0	0	1	0	0	0	0	1	mmu-miR-29b-3p	-0.13	-0.18	0.86	2009, 2011
+Slitrk4	ENSMUST00000069926.8	SLIT and NTRK-like family, member 4 	18	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.13	-0.13	0.44	
+Lgi2	ENSMUST00000039750.5	leucine-rich repeat LGI family, member 2 	122	1	0	1	0	1	1	0	0	1	mmu-miR-29a-3p	-0.13	-0.14	0.46	2005, 2007
+Tmem127	ENSMUST00000035871.9	transmembrane protein 127 	656	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.13	-0.14	0.86	2007, 2009, 2011
+Zbtb20	ENSMUST00000114694.3	zinc finger and BTB domain containing 20 	293	1	0	1	0	3	1	2	0	4	mmu-miR-29a-3p	-0.13	-0.15	0.84	
+Bcl11b	ENSMUST00000066060.5	B cell leukemia/lymphoma 11B 	29	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.13	-0.27	0.83	2005, 2007, 2009, 2011
+Nfatc3	ENSMUST00000109308.1	nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 3 	217	1	0	1	0	1	0	1	0	3	mmu-miR-29b-3p	-0.13	-0.20	0.76	2009, 2011
+Ttc9	ENSMUST00000036116.5	tetratricopeptide repeat domain 9 	109	1	0	1	0	1	0	0	1	1	mmu-miR-29a-3p	-0.13	-0.68	0.66	
+Tmtc3	ENSMUST00000058154.9	transmembrane and tetratricopeptide repeat containing 3 	5	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.12	-0.12	0.86	2007, 2009, 2011
+Tmem255a	ENSMUST00000089054.5	transmembrane protein 255A 	9	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.12	-0.12	0.61	2007, 2009, 2011
+Sdk1	ENSMUST00000085774.5	sidekick homolog 1 (chicken) 	30	1	0	0	1	1	0	1	0	0	mmu-miR-29a-3p	-0.12	-0.74	0.90	2007, 2009, 2011
+Peak1	ENSMUST00000188142.1	pseudopodium-enriched atypical kinase 1 	241	1	0	0	1	2	0	1	1	1	mmu-miR-29a-3p	-0.12	-0.23	0.83	2009, 2011
+Cdc42bpa	ENSMUST00000111117.2	CDC42 binding protein kinase alpha 	1168	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.12	-0.15	0.84	2007, 2011
+Pura	ENSMUST00000051301.3	purine rich element binding protein A 	652	1	1	0	0	1	0	0	1	1	mmu-miR-29a-3p	-0.12	-0.19	0.83	2007
+Larp4	ENSMUST00000057632.9	La ribonucleoprotein domain family, member 4 	11	1	0	0	1	0	0	0	0	1	mmu-miR-29a-3p	-0.12	-0.27	0.93	2005, 2007, 2009, 2011
+Cdk6	ENSMUST00000165117.2	cyclin-dependent kinase 6 	1100	3	0	2	1	3*	0	1	1	6	mmu-miR-29b-3p	-0.12	-1.02	> 0.99	2005, 2007
+Glis3	ENSMUST00000162022.2	GLIS family zinc finger 3 	235	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.12	-0.12	0.72	2007
+Trim71	ENSMUST00000111816.2	tripartite motif-containing 71 	123	1	1	0	0	1	0	1	0	3	mmu-miR-29a-3p	-0.12	-0.17	< 0.1	
+Dcaf7	ENSMUST00000058438.8	DDB1 and CUL4 associated factor 7 	2608	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.12	-0.13	0.82	2007, 2009, 2011
+Ostc	ENSMUST00000043937.7	oligosaccharyltransferase complex subunit 	173	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.12	-0.37	0.56	2007, 2009, 2011
+Plxna1	ENSMUST00000163139.2	plexin A1 	558	1	0	0	1	0	0	0	0	1	mmu-miR-29b-3p	-0.11	-0.12	0.74	2005, 2007, 2011
+Dennd5b	ENSMUST00000111557.2	DENN/MADD domain containing 5B 	493	1	0	0	1	0	0	0	0	0	mmu-miR-29b-3p	-0.11	-0.12	0.67	2007, 2009, 2011
+Klhl42	ENSMUST00000036003.7	kelch-like 42 	477	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.11	-0.15	0.47	2007, 2009, 2011
+Zhx3	ENSMUST00000103111.3	zinc fingers and homeoboxes 3 	562	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.11	-0.16	0.91	2007
+Zer1	ENSMUST00000044751.9	zyg-11 related, cell cycle regulator 	55	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.11	-0.11	0.71	2007, 2009, 2011
+Gabpb2	ENSMUST00000107209.2	GA repeat binding protein, beta 2 	107	1	0	0	1	4	0	4	0	0	mmu-miR-29b-3p	-0.11	-0.18	0.94	2009, 2011
+Morc2a	ENSMUST00000096441.3	microrchidia 2A 	726	1	1	0	0	1	0	0	1	2	mmu-miR-29a-3p	-0.11	-0.24	< 0.1	2009, 2011
+Sbf2	ENSMUST00000164759.2	SET binding factor 2 	168	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.11	-0.11	0.47	2005, 2007, 2011
+Ubtf	ENSMUST00000174302.2	upstream binding transcription factor, RNA polymerase I 	2923	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.11	-0.33	0.59	2007, 2009, 2011
+Lamc1	ENSMUST00000027752.9	laminin, gamma 1 	609	1	1	0	0	1	0	0	1	0	mmu-miR-29b-3p	-0.11	-0.28	< 0.1	2005, 2007, 2009, 2011
+Homer1	ENSMUST00000079086.6	homer homolog 1 (Drosophila) 	959	1	0	0	1	2	0	2	0	2	mmu-miR-29b-3p	-0.11	-0.30	0.78	
+B230219D22Rik	ENSMUST00000057844.8	RIKEN cDNA B230219D22 gene 	3545	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.10	-0.10	0.74	2009, 2011
+Irs1	ENSMUST00000069799.2	insulin receptor substrate 1 	229	1	0	0	1	1	1	0	0	0	mmu-miR-29a-3p	-0.10	-0.13	0.62	2009, 2011
+Npas4	ENSMUST00000056129.7	neuronal PAS domain protein 4 	6	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.10	-0.10	0.39	2007, 2009, 2011
+Rab14	ENSMUST00000113025.1	RAB14, member RAS oncogene family 	6563	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.10	-0.12	0.33	2007, 2009, 2011
+Lsm11	ENSMUST00000129820.2	U7 snRNP-specific Sm-like protein LSM11 	369	3	1	1	1	1	0	1	0	3	mmu-miR-29b-3p	-0.10	-0.52	> 0.99	2005, 2007, 2009, 2011
+Xirp2	ENSMUST00000112347.2	xin actin-binding repeat containing 2 	5357	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.10	-0.10	ORF	
+Dab2ip	ENSMUST00000112987.2	disabled 2 interacting protein 	31	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.10	-0.10	0.84	2005, 2007, 2009, 2011
+Nufip2	ENSMUST00000100802.5	nuclear fragile X mental retardation protein interacting protein 2 	1959	1	0	0	1	1	0	1	0	1	mmu-miR-29a-3p	-0.10	-0.29	0.82	2009, 2011
+Nktr	ENSMUST00000035112.7	natural killer tumor recognition sequence 	2029	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.10	-0.11	0.78	2005, 2007, 2009, 2011
+Acvr2a	ENSMUST00000063886.3	activin receptor IIA 	293	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.10	-0.21	0.53	2007, 2009, 2011
+Drp2	ENSMUST00000153424.2	dystrophin related protein 2 	39	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.10	-0.22	0.85	2009, 2011
+Onecut1	ENSMUST00000056006.10	one cut domain, family member 1 	487	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.10	-0.22	0.85	
+Rbfox2	ENSMUST00000171751.2	RNA binding protein, fox-1 homolog (C. elegans) 2 	788	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.10	-0.13	0.56	2007, 2009, 2011
+Nebl	ENSMUST00000028080.6	nebulette 	1082	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.10	-0.10	0.56	2007, 2009, 2011
+Mier3	ENSMUST00000109272.3	mesoderm induction early response 1, family member 3 	680	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.10	-0.13	0.81	2007, 2009, 2011
+Hlf	ENSMUST00000004051.7	hepatic leukemia factor 	348	1	0	0	1	1	0	1	0	0	mmu-miR-29a-3p	-0.10	-0.27	0.91	2007, 2009, 2011
+Raph1	ENSMUST00000140485.2	Ras association (RalGDS/AF-6) and pleckstrin homology domains 1 	289	1	0	0	1	1	0	1	0	1	mmu-miR-29a-3p	-0.09	-0.23	0.86	2005, 2007, 2011
+Trim56	ENSMUST00000054384.5	tripartite motif-containing 56 	1783	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.09	-0.09	0.47	
+Kcnj12	ENSMUST00000089184.5	potassium inwardly-rectifying channel, subfamily J, member 12 	445	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.09	-0.15	0.78	2007
+Gopc	ENSMUST00000105475.3	golgi associated PDZ and coiled-coil motif containing 	1074	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.09	-0.21	0.49	2007, 2009, 2011
+Rfx5	ENSMUST00000107254.2	regulatory factor X, 5 (influences HLA class II expression) 	945	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.09	-0.09	ORF	
+Tbck	ENSMUST00000169172.2	TBC1 domain containing kinase 	414	1	0	1	0	1	0	1	0	1	mmu-miR-29b-3p	-0.09	-0.62	0.49	
+Rhobtb1	ENSMUST00000020101.6	Rho-related BTB domain containing 1 	93	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.09	-0.21	0.24	2009, 2011
+Elmsan1	ENSMUST00000046266.7	ELM2 and Myb/SANT-like domain containing 1 	220	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.09	-0.10	0.54	2007, 2011
+Etv6	ENSMUST00000081028.7	ets variant 6 	61	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.09	-0.39	0.92	2005, 2007, 2009, 2011
+Sh3glb1	ENSMUST00000163279.1	SH3-domain GRB2-like B1 (endophilin) 	6534	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.09	-0.48	0.92	2007, 2009, 2011
+Rras2	ENSMUST00000069449.5	related RAS viral (r-ras) oncogene homolog 2 	4798	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.09	-0.29	0.84	2009, 2011
+Dennd2c	ENSMUST00000173206.2	DENN/MADD domain containing 2C 	49	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.09	-0.16	0.34	2005, 2009, 2011
+Spty2d1	ENSMUST00000061639.7	SPT2, Suppressor of Ty, domain containing 1 (S. cerevisiae) 	96	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.09	-0.23	0.85	2007, 2011
+Kdm4a	ENSMUST00000106406.3	lysine (K)-specific demethylase 4A 	1341	1	0	1	0	1	0	0	1	3	mmu-miR-29a-3p	-0.09	-0.16	0.74	2007, 2011
+Cse1l	ENSMUST00000002790.8	chromosome segregation 1-like (S. cerevisiae) 	3849	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.08	-0.72	0.72	2011
+Dcp2	ENSMUST00000025350.8	DCP2 decapping enzyme homolog (S. cerevisiae) 	434	1	0	0	1	0	0	0	0	2	mmu-miR-29a-3p	-0.08	-0.29	0.89	2005, 2007, 2009, 2011
+Bahd1	ENSMUST00000036578.6	bromo adjacent homology domain containing 1 	147	1	0	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.08	-0.08	0.53	2005, 2007, 2009, 2011
+H2bfm	ENSMUST00000059808.4	H2B histone family, member M 	9	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.08	-0.21	0.73	
+Med28	ENSMUST00000118833.1	mediator complex subunit 28 	7190	1	0	1	0	1	0	0	1	1	mmu-miR-29b-3p	-0.08	-0.48	0.67	2009, 2011
+Dcaf12	ENSMUST00000030145.8	DDB1 and CUL4 associated factor 12 	408	1	0	0	1	0	0	0	0	0	mmu-miR-29b-3p	-0.08	-0.31	0.89	2007, 2009, 2011
+Brd3	ENSMUST00000028282.9	bromodomain containing 3 	296	2	0	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.08	-0.38	0.74	2009, 2011
+Setd5	ENSMUST00000042889.6	SET domain containing 5 	1573	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.08	-0.08	0.73	2007, 2009, 2011
+Aff4	ENSMUST00000060945.6	AF4/FMR2 family, member 4 	466	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.08	-0.21	0.73	2007, 2009, 2011
+Rybp	ENSMUST00000101118.2	RING1 and YY1 binding protein 	75	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.08	-0.25	0.85	2005, 2007, 2009, 2011
+Ccser2	ENSMUST00000090024.5	coiled-coil serine rich 2 	263	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.08	-0.17	0.38	2007, 2009, 2011
+Wscd2	ENSMUST00000094452.3	WSC domain containing 2 	35	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.08	-0.08	0.51	2007, 2009, 2011
+Sgms2	ENSMUST00000090246.4	sphingomyelin synthase 2 	321	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.08	-0.23	0.92	2011
+Sike1	ENSMUST00000029447.6	suppressor of IKBKE 1 	631	1	0	0	1	2	1	1	0	2	mmu-miR-29b-3p	-0.07	-0.39	0.93	2007, 2009, 2011
+Emc3	ENSMUST00000032425.5	ER membrane protein complex subunit 3 	383	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.07	-0.24	0.46	2009, 2011
+Armc8	ENSMUST00000035043.6	armadillo repeat containing 8 	825	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.07	-0.10	0.38	2011
+L3mbtl4	ENSMUST00000093007.4	l(3)mbt-like 4 (Drosophila) 	3	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.07	-0.07	0.75	2009, 2011
+Tmem151b	ENSMUST00000180252.1	transmembrane protein 151B 	21	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.07	-0.07	0.74	2009, 2011
+Btbd7	ENSMUST00000045652.6	BTB (POZ) domain containing 7 	1023	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.07	-0.08	0.76	2005, 2007
+Tmem259	ENSMUST00000052885.8	transmembrane protein 259 	231	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.07	-0.07	0.37	2007, 2009, 2011
+Sntb2	ENSMUST00000047425.3	syntrophin, basic 2 	169	1	0	0	1	0	0	0	0	0	mmu-miR-29b-3p	-0.07	-0.15	0.84	2007, 2009, 2011
+Tmem132d	ENSMUST00000044441.6	transmembrane protein 132D 	19	1	1	0	0	0	0	0	0	0	mmu-miR-29b-3p	-0.07	-0.09	< 0.1	2007
+Fbxo7	ENSMUST00000130320.2	F-box protein 7 	265	1	0	1	0	4	0	4	0	0	mmu-miR-29a-3p	-0.07	-0.27	0.61	
+Slc7a11	ENSMUST00000029297.4	solute carrier family 7 (cationic amino acid transporter, y+ system), member 11 	57	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.07	-0.07	0.43	2007, 2009, 2011
+Zmym2	ENSMUST00000022511.8	zinc finger, MYM-type 2 	1100	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.07	-0.28	0.66	2011
+AI314180	ENSMUST00000102889.4	expressed sequence AI314180 	955	2	1	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.07	-0.25	0.94	
+Dgkk	ENSMUST00000067410.8	diacylglycerol kinase kappa 	11	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.07	-0.07	0.62	2009, 2011
+Vps36	ENSMUST00000033866.8	vacuolar protein sorting 36 (yeast) 	2780	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.07	-0.24	0.66	2007
+Tnrc6b	ENSMUST00000067689.7	trinucleotide repeat containing 6b 	464	1	0	0	1	0	0	0	0	4	mmu-miR-29b-3p	-0.07	-0.07	0.88	2007, 2009, 2011
+Pitpnm3	ENSMUST00000075258.7	PITPNM family member 3 	10	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.06	-0.07	0.65	2009, 2011
+Klf13	ENSMUST00000063694.8	Kruppel-like factor 13 	96	1	0	0	1	1	0	0	1	3	mmu-miR-29b-3p	-0.06	-0.21	0.58	2005, 2007, 2011
+Cuedc1	ENSMUST00000018522.7	CUE domain containing 1 	2362	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.06	-0.39	0.80	2011
+Ino80d	ENSMUST00000097718.3	INO80 complex subunit D 	52	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.06	-0.07	0.58	2007, 2009, 2011
+Asic1	ENSMUST00000023758.7	acid-sensing (proton-gated) ion channel 1 	53	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.06	-0.08	0.40	2007, 2009, 2011
+B630005N14Rik	ENSMUST00000045235.5	RIKEN cDNA B630005N14 gene 	432	1	1	0	0	0	0	0	0	1	mmu-miR-29b-3p	-0.06	-0.50	0.92	2009, 2011
+Slc1a2	ENSMUST00000080210.4	solute carrier family 1 (glial high affinity glutamate transporter), member 2 	383	1	0	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.06	-0.11	0.78	2005, 2007, 2011
+Pcdha10	ENSMUST00000115659.4	protocadherin alpha 10 	47	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.06	-0.49	0.71	2005, 2007, 2009, 2011
+Zfp704	ENSMUST00000041124.7	zinc finger protein 704 	246	1	1	0	0	1	0	1	0	2	mmu-miR-29a-3p	-0.06	-0.31	0.93	2009, 2011
+Erc1	ENSMUST00000183703.2	ELKS/RAB6-interacting/CAST family member 1 	121	1	1	0	0	0	0	0	0	1	mmu-miR-29b-3p	-0.06	-0.15	0.92	2009, 2011
+Chtf8	ENSMUST00000177068.2	CTF8, chromosome transmission fidelity factor 8 	192	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.06	-0.06	ORF	2007, 2009, 2011
+Snx11	ENSMUST00000021246.3	sorting nexin 11 	875	1	0	1	0	2	0	1	1	0	mmu-miR-29a-3p	-0.06	-0.28	0.50	2005, 2007, 2009, 2011
+Nfatc4	ENSMUST00000172271.2	nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 4 	406	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.06	-0.06	0.87	2005, 2007, 2009, 2011
+Src	ENSMUST00000029175.8	Rous sarcoma oncogene 	1288	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.06	-0.10	0.33	2005, 2007, 2009, 2011
+Rnf19a	ENSMUST00000022890.8	ring finger protein 19A 	205	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.06	-0.56	0.91	2007, 2009, 2011
+Acer3	ENSMUST00000033020.8	alkaline ceramidase 3 	754	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.06	-0.30	< 0.1	2007, 2009, 2011
+Rasal2	ENSMUST00000078308.7	RAS protein activator like 2 	577	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.06	-0.06	0.81	2011
+Ppard	ENSMUST00000002320.9	peroxisome proliferator activator receptor delta 	404	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.06	-0.06	0.63	2005, 2007, 2009, 2011
+Nova1	ENSMUST00000021438.6	neuro-oncological ventral antigen 1 	234	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.06	-0.43	0.92	2011
+Pggt1b	ENSMUST00000025354.3	protein geranylgeranyltransferase type I, beta subunit 	430	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.06	-0.10	0.50	
+Cnnm2	ENSMUST00000099373.5	cyclin M2 	538	1	0	1	0	2	0	0	2	2	mmu-miR-29a-3p	-0.05	-0.16	0.69	
+Ptprk	ENSMUST00000166468.1	protein tyrosine phosphatase, receptor type, K 	824	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.05	-0.34	0.84	2005, 2007, 2009, 2011
+Spry4	ENSMUST00000025295.6	sprouty homolog 4 (Drosophila) 	199	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.05	-0.21	0.93	2005, 2007, 2009, 2011
+Paip2	ENSMUST00000041314.9	polyadenylate-binding protein-interacting protein 2 	8516	1	0	1	0	3	1	2	0	1	mmu-miR-29a-3p	-0.05	-2.28	0.89	2005, 2007, 2009, 2011
+Dedd	ENSMUST00000111300.2	death effector domain-containing 	678	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.05	-0.19	0.72	2005, 2007, 2009, 2011
+Dip2c	ENSMUST00000174552.2	DIP2 disco-interacting protein 2 homolog C (Drosophila) 	50	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.05	-0.64	0.85	2009, 2011
+Me3	ENSMUST00000032856.7	malic enzyme 3, NADP(+)-dependent, mitochondrial 	328	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.05	-0.20	< 0.1	2009, 2011
+Foxp1	ENSMUST00000113326.3	forkhead box P1 	1050	1	0	1	0	1	0	0	1	3	mmu-miR-29a-3p	-0.05	-0.25	0.81	2011
+Camta1	ENSMUST00000097774.3	calmodulin binding transcription activator 1 	228	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.05	-0.05	0.80	2005, 2007, 2009, 2011
+Hepacam	ENSMUST00000051839.7	hepatocyte cell adhesion molecule 	17	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.05	-0.06	0.57	2007, 2009, 2011
+Dennd4a	ENSMUST00000038890.5	DENN/MADD domain containing 4A 	513	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.05	-0.14	0.76	2011
+Ppargc1a	ENSMUST00000132734.2	peroxisome proliferative activated receptor, gamma, coactivator 1 alpha 	191	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.05	-0.10	0.39	2005, 2007, 2011
+Sfpq	ENSMUST00000030623.7	splicing factor proline/glutamine rich (polypyrimidine tract binding protein associated) 	6136	1	1	0	0	1	0	1	0	2	mmu-miR-29a-3p	-0.05	-0.37	< 0.1	2005, 2007, 2009, 2011
+Prr5l	ENSMUST00000163762.2	proline rich 5 like 	113	1	1	0	0	1	0	1	0	2	mmu-miR-29a-3p	-0.05	-0.58	< 0.1	2009, 2011
+Hspa4l	ENSMUST00000077083.7	heat shock protein 4 like 	2273	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.05	-0.16	0.82	
+D3Bwg0562e	ENSMUST00000061071.8	DNA segment, Chr 3, Brigham & Women's Genetics 0562 expressed 	21	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.05	-0.05	0.77	2007, 2009, 2011
+Ubn2	ENSMUST00000160583.2	ubinuclein 2 	207	1	0	1	0	0	0	0	0	2	mmu-miR-29b-3p	-0.05	-0.10	0.73	2009, 2011
+Ntrk3	ENSMUST00000039431.8	neurotrophic tyrosine kinase, receptor, type 3 	19	1	1	0	0	0	0	0	0	5	mmu-miR-29a-3p	-0.05	-0.07	0.44	
+Fam131b	ENSMUST00000031891.9	family with sequence similarity 131, member B 	207	1	0	1	0	1	0	1	0	1	mmu-miR-29a-3p	-0.05	-0.09	0.59	2007, 2009, 2011
+Ptprd	ENSMUST00000107289.3	protein tyrosine phosphatase, receptor type, D 	575	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.05	-0.16	0.92	2007, 2009, 2011
+Nasp	ENSMUST00000030457.6	nuclear autoantigenic sperm protein (histone-binding) 	5454	3	1	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.05	-1.06	0.92	2005, 2007, 2009, 2011
+Plekhf2	ENSMUST00000054776.3	pleckstrin homology domain containing, family F (with FYVE domain) member 2 	208	1	0	1	0	1	0	1	0	1	mmu-miR-29b-3p	-0.04	-0.49	0.89	2007, 2009, 2011
+Ube2e3	ENSMUST00000028398.8	ubiquitin-conjugating enzyme E2E 3 	3174	1	0	1	0	2	0	2	0	4	mmu-miR-29a-3p	-0.04	-0.81	0.74	
+Smpd3	ENSMUST00000067512.7	sphingomyelin phosphodiesterase 3, neutral 	40	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.04	-0.32	0.88	2005, 2007, 2009, 2011
+Zfp609	ENSMUST00000159109.1	zinc finger protein 609 	200	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.04	-0.04	0.58	2011
+Ubxn7	ENSMUST00000115151.3	UBX domain protein 7 	356	1	0	0	1	0	0	0	0	1	mmu-miR-29b-3p	-0.04	-0.24	0.82	2011
+Trove2	ENSMUST00000159879.1	TROVE domain family, member 2 	122	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.04	-0.22	0.78	2009, 2011
+Ide	ENSMUST00000131070.1	insulin degrading enzyme 	1142	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.04	-0.08	0.58	2009, 2011
+Clmn	ENSMUST00000109937.2	calmin 	584	1	1	0	0	1	0	1	0	2	mmu-miR-29a-3p	-0.04	-0.21	0.92	2009, 2011
+D16Ertd472e	ENSMUST00000114220.2	DNA segment, Chr 16, ERATO Doi 472, expressed 	108	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.04	-0.11	0.75	2009, 2011
+Kcnh7	ENSMUST00000075052.4	potassium voltage-gated channel, subfamily H (eag-related), member 7 	5	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.04	-0.04	0.75	
+4931428F04Rik	ENSMUST00000171788.2	RIKEN cDNA 4931428F04 gene 	57	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.04	-0.20	0.78	2009, 2011
+Tmem167	ENSMUST00000161568.2	transmembrane protein 167 	3072	1	0	1	0	2	0	1	1	0	mmu-miR-29b-3p	-0.04	-0.51	0.52	2011
+Tmem33	ENSMUST00000037918.6	transmembrane protein 33 	3570	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.04	-0.27	0.65	2009, 2011
+Socs7	ENSMUST00000045540.3	suppressor of cytokine signaling 7 	64	2	0	2	0	0	0	0	0	2	mmu-miR-29a-3p	-0.03	-0.09	0.86	2009, 2011
+Vps26b	ENSMUST00000034470.9	vacuolar protein sorting 26 homolog B (yeast) 	1731	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.03	-0.04	0.75	2007, 2009, 2011
+Xylt1	ENSMUST00000032892.5	xylosyltransferase 1 	15	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.03	-0.05	0.50	2005, 2007
+Dicer1	ENSMUST00000041987.6	dicer 1, ribonuclease type III 	545	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.03	-0.17	0.93	2005, 2007, 2009, 2011
+Apc	ENSMUST00000115781.4	adenomatosis polyposis coli 	1914	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.03	-0.32	0.89	2009, 2011
+Fgd4	ENSMUST00000161861.2	FYVE, RhoGEF and PH domain containing 4 	46	1	0	0	1	0	0	0	0	1	mmu-miR-29a-3p	-0.03	-0.23	0.93	
+Gng2	ENSMUST00000160013.2	guanine nucleotide binding protein (G protein), gamma 2 	555	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.03	-0.30	0.84	2005, 2007, 2009, 2011
+Fbxw2	ENSMUST00000028220.4	F-box and WD-40 domain protein 2 	1375	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.03	-0.27	0.92	2007, 2009, 2011
+Fbxl20	ENSMUST00000103143.4	F-box and leucine-rich repeat protein 20 	170	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.03	-0.07	0.81	2009, 2011
+Hip1r	ENSMUST00000000939.9	huntingtin interacting protein 1 related 	823	1	1	0	0	0	0	0	0	2	mmu-miR-29a-3p	-0.03	-0.04	< 0.1	2005, 2007, 2009, 2011
+Kif3c	ENSMUST00000020999.5	kinesin family member 3C 	103	1	0	1	0	0	0	0	0	2	mmu-miR-29a-3p	-0.03	-0.71	0.60	2005, 2007, 2009, 2011
+Ube2k	ENSMUST00000142407.2	ubiquitin-conjugating enzyme E2K 	1794	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.03	-0.31	0.81	2009, 2011
+Ppp1r12b	ENSMUST00000045665.7	protein phosphatase 1, regulatory (inhibitor) subunit 12B 	2779	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.03	-0.03	0.34	2005, 2007
+Helz	ENSMUST00000106746.2	helicase with zinc finger domain 	1110	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.03	-0.28	0.88	2007
+Mlkl	ENSMUST00000056157.8	mixed lineage kinase domain-like 	33	1	1	0	0	1	0	1	0	0	mmu-miR-29b-3p	-0.03	-0.12	0.73	
+Ipo9	ENSMUST00000041023.8	importin 9 	1060	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	-0.03	-0.21	< 0.1	2007, 2009, 2011
+Zfhx3	ENSMUST00000043896.9	zinc finger homeobox 3 	295	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.03	-0.03	< 0.1	2007, 2009, 2011
+Myo18a	ENSMUST00000108375.3	myosin XVIIIA 	2564	1	0	1	0	1	0	1	0	2	mmu-miR-29a-3p	-0.03	-0.05	0.34	2007, 2009, 2011
+Dlg2	ENSMUST00000107196.3	discs, large homolog 2 (Drosophila) 	11	2	2	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.03	-0.19	0.97	2007, 2009, 2011
+Adam22	ENSMUST00000088761.5	a disintegrin and metallopeptidase domain 22 	155	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.03	-0.16	0.58	2009, 2011
+Dclre1b	ENSMUST00000063502.7	DNA cross-link repair 1B, PSO2 homolog (S. cerevisiae) 	114	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.02	-0.28	0.61	2005, 2009, 2011
+Erp44	ENSMUST00000030028.4	endoplasmic reticulum protein 44 	3073	1	1	0	0	1	0	1	0	0	mmu-miR-29b-3p	-0.02	-0.40	0.92	2007, 2009, 2011
+Lpgat1	ENSMUST00000110855.2	lysophosphatidylglycerol acyltransferase 1 	2359	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.02	-0.03	0.62	2005, 2007, 2009, 2011
+Bcl9l	ENSMUST00000074989.5	B cell CLL/lymphoma 9-like 	320	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.02	-0.09	0.75	2005, 2007
+Sap30l	ENSMUST00000020826.5	SAP30-like 	4466	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	-0.02	-0.38	0.80	
+Rnf217	ENSMUST00000081989.7	ring finger protein 217 	754	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.02	-0.23	0.75	
+Mapk10	ENSMUST00000112848.2	mitogen-activated protein kinase 10 	33	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.02	-0.13	0.79	2009, 2011
+Metap2	ENSMUST00000047910.9	methionine aminopeptidase 2 	2658	1	0	1	0	1	0	0	1	0	mmu-miR-29a-3p	-0.02	-0.32	0.74	2007, 2009, 2011
+Mmp16	ENSMUST00000029881.4	matrix metallopeptidase 16 	95	3	1	2	0	0	0	0	0	0	mmu-miR-29a-3p	-0.02	-0.68	> 0.99	
+Wdfy3	ENSMUST00000053177.8	WD repeat and FYVE domain containing 3 	1336	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.02	-0.02	0.66	2005, 2007, 2011
+U2surp	ENSMUST00000079659.6	U2 snRNP-associated SURP domain containing 	2101	1	0	1	0	0	0	0	0	0	mmu-miR-29b-3p	-0.02	-0.23	0.80	2007, 2009, 2011
+Vps13a	ENSMUST00000068156.6	vacuolar protein sorting 13A (yeast) 	1288	1	0	1	0	0	0	0	0	1	mmu-miR-29b-3p	-0.02	-0.24	0.66	
+Lsamp	ENSMUST00000099761.4	limbic system-associated membrane protein 	28	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.02	-0.06	0.61	
+Kcnh5	ENSMUST00000042299.2	potassium voltage-gated channel, subfamily H (eag-related), member 5 	6	1	0	1	0	2	0	1	1	0	mmu-miR-29a-3p	-0.02	-0.10	0.46	
+Ext1	ENSMUST00000077273.3	exostoses (multiple) 1 	425	1	0	1	0	0	0	0	0	3	mmu-miR-29a-3p	-0.02	-0.22	0.86	
+Col1a2	ENSMUST00000031668.8	collagen, type I, alpha 2 	5625	1	0	0	1	0	0	0	0	1	mmu-miR-29b-3p	-0.01	-0.46	0.92	2005, 2007, 2009, 2011
+Fyn	ENSMUST00000063091.7	Fyn proto-oncogene 	547	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	-0.01	-0.18	0.93	2009, 2011
+Rcc2	ENSMUST00000071169.3	regulator of chromosome condensation 2 	12432	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.01	-0.14	0.67	2005, 2007, 2011
+Ccdc80	ENSMUST00000061050.5	coiled-coil domain containing 80 	8312	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.01	-0.49	0.35	2007, 2009, 2011
+Pole3	ENSMUST00000030091.4	polymerase (DNA directed), epsilon 3 (p17 subunit) 	87	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.01	-0.14	0.42	2005, 2007
+Pitpna	ENSMUST00000143219.2	phosphatidylinositol transfer protein, alpha 	3031	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.01	-0.11	0.44	2005, 2007, 2009, 2011
+Arpp19	ENSMUST00000169492.2	cAMP-regulated phosphoprotein 19 	16301	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.01	-0.31	0.75	2007, 2009, 2011
+Ank1	ENSMUST00000084038.5	ankyrin 1, erythroid 	8997	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.01	-0.11	0.70	2007, 2009, 2011
+Trim24	ENSMUST00000031859.8	tripartite motif-containing 24 	61	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.01	-0.24	0.84	
+Fkbp4	ENSMUST00000032508.5	FK506 binding protein 4 	7528	1	0	0	1	2	0	1	1	1	mmu-miR-29a-3p	-0.01	-0.48	0.86	2005, 2007, 2009, 2011
+Arfgef2	ENSMUST00000099078.4	ADP-ribosylation factor guanine nucleotide-exchange factor 2 (brefeldin A-inhibited) 	745	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.01	-0.08	0.75	2009, 2011
+Dctn1	ENSMUST00000113913.2	dynactin 1 	9	1	1	0	0	1	0	1	0	1	mmu-miR-29a-3p	-0.01	-0.05	< 0.1	
+Zfp292	ENSMUST00000098163.3	zinc finger protein 292 	571	1	0	1	0	2	0	1	1	3	mmu-miR-29a-3p	-0.01	-0.23	0.71	
+Fam149a	ENSMUST00000093526.7	family with sequence similarity 149, member A 	796	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.01	-0.12	0.52	2009, 2011
+Arl4a	ENSMUST00000146905.1	ADP-ribosylation factor-like 4A 	2069	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	-0.01	-0.40	0.82	2007, 2009, 2011
+Ctc1	ENSMUST00000021278.8	CTS telomere maintenance complex component 1 	602	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	-0.01	-0.35	0.92	
+Thoc1	ENSMUST00000025137.7	THO complex 1 	1441	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.01	-0.16	0.74	2009, 2011
+Birc6	ENSMUST00000180037.2	baculoviral IAP repeat-containing 6 	1358	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	-0.01	-0.03	0.41	2007, 2009, 2011
+Ing2	ENSMUST00000080353.2	inhibitor of growth family, member 2 	1262	1	0	1	0	2	0	2	0	2	mmu-miR-29a-3p	-0.01	-0.41	0.88	2009, 2011
+Luc7l3	ENSMUST00000107820.1	LUC7-like 3 (S. cerevisiae) 	4142	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	0	-0.41	0.83	
+March9	ENSMUST00000040307.5	membrane-associated ring finger (C3HC4) 9 	113	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	0	-0.13	0.83	
+Lyl1	ENSMUST00000037165.4	lymphoblastomic leukemia 1 	434	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	0	-0.10	0.57	
+Actn2	ENSMUST00000064204.8	actinin alpha 2 	3619	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	0	-0.26	0.93	
+Ldlrad4	ENSMUST00000063775.3	low density lipoprotein receptor class A domain containing 4 	132	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	0	-0.37	0.89	2007
+Vps13d	ENSMUST00000036579.8	vacuolar protein sorting 13 D (yeast) 	2642	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	0	-0.02	0.47	2007
+Emb	ENSMUST00000022242.7	embigin 	7412	1	0	1	0	1	0	1	0	0	mmu-miR-29a-3p	0	-0.21	0.52	
+Oxnad1	ENSMUST00000022462.8	oxidoreductase NAD-binding domain containing 1 	905	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	0	-0.27	< 0.1	2007
+Mtif3	ENSMUST00000066675.4	mitochondrial translational initiation factor 3 	891	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	0	-0.06	ORF	
+Fga	ENSMUST00000029630.9	fibrinogen alpha chain 	44685	1	0	0	1	1	0	1	0	0	mmu-miR-29b-3p	0	-0.41	0.93	2005, 2007, 2009, 2011
+Exoc7	ENSMUST00000106411.4	exocyst complex component 7 	4443	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	0	-0.07	0.59	2005, 2007
+Tyw5	ENSMUST00000162686.2	tRNA-yW synthesizing protein 5 	189	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	0	-0.33	< 0.1	
+Dcun1d5	ENSMUST00000034499.8	DCN1, defective in cullin neddylation 1, domain containing 5 (S. cerevisiae) 	7108	1	0	1	0	2	0	1	1	0	mmu-miR-29a-3p	0	-0.34	0.72	
+Clpx	ENSMUST00000113824.2	caseinolytic mitochondrial matrix peptidase chaperone subunit 	4767	1	0	1	0	3	0	3	0	3	mmu-miR-29a-3p	0	-0.46	0.61	
+Zfyve9	ENSMUST00000106657.2	zinc finger, FYVE domain containing 9 	705	1	1	0	0	0	0	0	0	1	mmu-miR-29b-3p	0	-0.05	< 0.1	
+Kcnk10	ENSMUST00000110113.1	potassium channel, subfamily K, member 10 	5	1	0	1	0	0	0	0	0	1	mmu-miR-29a-3p	0	-0.43	0.88	
+Ccdc108	ENSMUST00000094844.3	coiled-coil domain containing 108 	77	1	0	0	1	0	0	0	0	2	mmu-miR-29a-3p	0	-0.09	0.83	
+Adamts5	ENSMUST00000023611.5	a disintegrin-like and metallopeptidase (reprolysin type) with thrombospondin type 1 motif, 5 (aggrecanase-2) 	857	1	0	0	1	0	0	0	0	0	mmu-miR-29a-3p	0	-0.14	0.64	2007
+Nrg3	ENSMUST00000166968.3	neuregulin 3 	5	1	1	0	0	0	0	0	0	0	mmu-miR-29a-3p	0	-0.19	0.86	
+Gpr161	ENSMUST00000178700.2	G protein-coupled receptor 161 	40	1	1	0	0	3	0	1	2	4	mmu-miR-29a-3p	0	-2.07	< 0.1	
+Acadl	ENSMUST00000027153.5	acyl-Coenzyme A dehydrogenase, long-chain 	1619	1	1	0	0	0	0	0	0	1	mmu-miR-29a-3p	0	-0.27	< 0.1	
+Slitrk3	ENSMUST00000059407.7	SLIT and NTRK-like family, member 3 	5	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	0	-0.02	0.78	
+Denr	ENSMUST00000023869.9	density-regulated protein 	3850	1	0	1	0	0	0	0	0	0	mmu-miR-29a-3p	0	-0.31	0.59	2005, 2007
