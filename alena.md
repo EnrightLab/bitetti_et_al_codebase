@@ -166,7 +166,6 @@ pca <- princomp(vstcounts)
 
 
 quartz()
-par(mfrow=c(2,1))
 plot(pca$loadings, col=cond_colours,  pch=19, cex=2, main="Sample to Sample PCA (VST)")
 text(pca$loadings, as.vector(colnames(mircounts)), pos=3, cex=0.4)
 legend("topright",levels(conds),fill=cond_colours[levels(conds)],cex=0.4)
