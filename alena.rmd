@@ -1,8 +1,9 @@
 ---
 title: "Analysis of Alena Shkumatava miRNASeq Data"
 author: "Anton Enright"
-date: "`r format(Sys.Date())`"
+date: \'`r format(Sys.time(), '%d %B, %Y')`\'
 output:
+<<<<<<< HEAD
   html_document:
     keep_md: yes
     theme: flatly
@@ -10,12 +11,19 @@ output:
     dpi: 300
     toc: yes
   pdf_document:
+=======
+ github_document:
+>>>>>>> 4a9f77b87a35e0ff522d8cbd9d0a416463aecff9
     toc: yes
 ---
+
 
 ```{r setup, results='hide',message=F, warning=F, echo=F}
 require(knitr)
 opts_knit$set(root.dir = '/Users/aje/anton_r_notebook/alena_mirna_oct_2016')
+opts_chunk$set(dev="png", 
+               dev.args=list(type="cairo"),
+               dpi=300)
 ```
 
 # Experiment Setup
@@ -47,7 +55,6 @@ library(reshape2)
 library(ggplot2)
 hmcol = colorRampPalette(brewer.pal(9, "GnBu"))(100)
 spectral <- colorRampPalette(rev(brewer.pal(11, "Spectral")), space="Lab")(100)
-
 ```
 
 # Mouse Analysis
@@ -58,10 +65,6 @@ We can now load all the count data
 setwd("/Users/aje/anton_r_notebook/alena_mirna_oct_2016/")
 mircounts <- read.table("mouse_counts3.txt",header=TRUE,row.names=1)
 mircounts=mircounts[-nrow(mircounts),]
-
-
-
-
 ```
 
 As well as the pdata, which contains information on each sample. We will subset for one species at a time, now Mouse
@@ -222,7 +225,8 @@ Volcanoplots of Significant Hits
 ```{r}
 plot(res$log2FoldChange,-log(res$padj,10),ylab="-log10(Adjusted P)",xlab="Log2 FoldChange",main=paste("Volcano Plot","WT v Scr\nmir-29 in green\nsig. in red"),pch=19,cex=0.4)      
 if (length(sig)>=1){
-text(res[sig,]$log2FoldChange,-log(res[sig,]$padj,10),labels=rownames(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],]),pos=3,cex=0.6)
+text(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],]$log2FoldChange,-log(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],]$padj,10),labels=rownames(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],]),pos=3,cex=0.6)
+text(res[sig,]$log2FoldChange,-log(res[sig,]$padj,10),labels=sig,pos=3,cex=0.6)
 points(res[sig,"log2FoldChange"],-log(res[sig,"padj"],10),pch=19,cex=0.4,col="red")
 points(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],"log2FoldChange"],-log(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],"padj"],10),pch=19,cex=0.6,col="green")
 
@@ -257,7 +261,7 @@ write.table(cbind(as.matrix(counts(dds,normalized=T)[rownames(res),]),as.matrix(
 ## Length Analysis
 
 Now we load in the length data from the mapping analysis separately to analyse.
-We will analyse the top 10 expressed, top 10 differential miRs and the miR-29 family, (Excluding miRs with norm counts sum < 50)
+We will analyse the top 10 expressed, top 10 differential miRs and the miR-29 family, (Excluding miRs with norm counts sum < 30)
 
 
 ```{r}
@@ -270,7 +274,7 @@ mirlist=unique(c(rownames(counts(dds,normalized=T)[1:10,]),rownames(res[1:15,]),
 for (i in 1:length(mirlist)){
 mir=mirlist[i]
 
-if (median(normcounts[mirlist[i],]) >= 50){
+if (median(normcounts[mirlist[i],]) >= 30){
 length_table=as.matrix(length_mouse[length_mouse$V1==mir,4:34])/apply(as.matrix(length_mouse[length_mouse$V1==mir,4:34]),1,max)
 rownames(length_table)=length_mouse[length_mouse$V1==mir,"genotype"]
 
@@ -395,7 +399,6 @@ pca <- princomp(vstcounts)
 
 
 quartz()
-par(mfrow=c(2,1))
 plot(pca$loadings, col=cond_colours,  pch=19, cex=2, main="Sample to Sample PCA (VST)")
 text(pca$loadings, as.vector(colnames(mircounts)), pos=3, cex=0.4)
 legend("topright",levels(conds),fill=cond_colours[levels(conds)],cex=0.4)
@@ -463,12 +466,16 @@ sig = rownames(res[(abs(res$log2FoldChange) > lfc_threshold) & (res$padj < p_thr
 Volcanoplots of Significant Hits
 ```{r}
 plot(res$log2FoldChange,-log(res$padj,10),ylab="-log10(Adjusted P)",xlab="Log2 FoldChange",main=paste("Volcano Plot","WT v Del\nmir-7 in green\nsig. in red"),pch=19,cex=0.4)      
+
 if (length(sig)>=1){
-text(res[sig,]$log2FoldChange,-log(res[sig,]$padj,10),labels=rownames(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],]),pos=3,cex=0.6)
-points(res[sig,"log2FoldChange"],-log(res[sig,"padj"],10),pch=19,cex=0.4,col="red")
-points(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],"log2FoldChange"],-log(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],"padj"],10),pch=19,cex=0.6,col="green")
+  
+  text(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],]$log2FoldChange,-log(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],]$padj,10),labels=rownames(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],]),pos=3,cex=0.6)
+  text(res[sig,]$log2FoldChange,-log(res[sig,]$padj,10),labels=sig,pos=3,cex=0.6)
+  points(res[sig,"log2FoldChange"],-log(res[sig,"padj"],10),pch=19,cex=0.4,col="red")
+  points(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],"log2FoldChange"],-log(res[rownames(mircounts)[grep("mir-7[a-z]",rownames(mircounts))],"padj"],10),pch=19,cex=0.6,col="green")
 
 }
+
 abline(h=-log10(p_threshold),lty=3)
 abline(v=-lfc_threshold,lty=3)
 abline(v=lfc_threshold,lty=3)   
