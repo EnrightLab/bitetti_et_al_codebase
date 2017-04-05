@@ -256,10 +256,10 @@ protein_coding=grep("gene_biotype:protein_coding",pData(featureData(geneCore))[,
 non_coding=grep("gene_biotype:non_coding",pData(featureData(geneCore))[, "mrnaassignment"])
 
 # Restrict to protein coding ?
-expression=exprs(geneCore)[protein_coding,]
+#expression=exprs(geneCore)[protein_coding,]
 
 # Or all genes
-#expression=exprs(geneCore)
+expression=exprs(geneCore)
 ```
 
 Load TargetScan Targets for mir-29
@@ -291,7 +291,7 @@ hist(apply(expression,1,IQR),breaks=50,main="Interquartile Range (IQR) Distribut
 print(paste(c("Size Before Filter: ",nrow(expression))))
 ```
 
-    ## [1] "Size Before Filter: " "21693"
+    ## [1] "Size Before Filter: " "41345"
 
 ``` r
 filter <-  function(x) ( IQR(x) > 0.1 )
@@ -300,7 +300,7 @@ filtered = expression[genefilter(expression,filter),]
 print(paste(c("Size After Filter:",nrow(filtered))))
 ```
 
-    ## [1] "Size After Filter:" "17684"
+    ## [1] "Size After Filter:" "34773"
 
 Statistical Analysis
 --------------------

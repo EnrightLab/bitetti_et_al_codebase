@@ -56,6 +56,7 @@ We load the experimental design and create colour schemes for different plots.
 
 hmcol = colorRampPalette(brewer.pal(9, "GnBu"))(100)
 spectral <- colorRampPalette(rev(brewer.pal(11, "Spectral")), space="Lab")(100)
+spectral2 <- rev(brewer.pal(11, "Spectral"))
 
 setwd("/Users/aje/anton_r_notebook/alena_mirna_oct_2016/alena_affy_2017")
 
@@ -113,10 +114,40 @@ protein_coding=grep("gene_biotype:protein_coding",pData(featureData(geneCore))[,
 non_coding=grep("gene_biotype:non_coding",pData(featureData(geneCore))[, "mrnaassignment"])
 
 # Restrict to protein coding ?
-expression=exprs(geneCore)[protein_coding,]
+#expression=exprs(geneCore)[protein_coding,]
 
 # Or all genes
-#expression=exprs(geneCore)
+expression=exprs(geneCore)
+```
+
+
+```{r}
+
+annotation_table=as.data.frame(matrix(,ncol=4))
+
+insertRow <- function(existingDF, newrow, r) {
+  existingDF[seq(r+1,nrow(existingDF)+1),] <- existingDF[seq(r,nrow(existingDF)),]
+  existingDF[r,] <- newrow
+  existingDF
+}
+
+for (i in 1:length(probes)){
+  name=strsplit(pData(featureData(geneCore))[probes[i], "geneassignment"],"//")[[1]][2]
+  refseq=strsplit(pData(featureData(geneCore))[probes[i], "mrnaassignment"],"//")[[1]][1]
+  ensembltrans=strsplit(pData(featureData(geneCore))[probes[i], "mrnaassignment"],"//")[[1]][10]
+  desc=strsplit(pData(featureData(geneCore))[probes[i], "mrnaassignment"],"//")[[1]][3]
+  name=gsub(" ","",name)
+  refseq=gsub(" ","",refseq)
+  ensembltrans=gsub("/ ","",ensembltrans)
+  ensembltrans=gsub(" ","",ensembltrans)
+  desc=gsub("^ ","",desc)
+  desc=gsub(" $","",desc)
+  #annotation_table[probes[i],"name"]=name
+  #annotation_table[probes[i],"desc"]=desc
+  #annotation_table[probes[i],"ensembltrans"]=ensembltrans
+  #annotation_table[probes[i],"refseq"]=refseq
+  insertRow(annotation_table,c(name,desc,ensembltrans,refseq),(nrow(annotation_table)+1))
+}
 ```
 
 ## Load TargetScan Targets for mir-29
@@ -129,6 +160,43 @@ symbol_lookup$affy_id=rownames(symbol_lookup)
 
 targetscan_hits=merge(as.matrix(targetscan),symbol_lookup,by.x=0,by.y=1)
 targetscan_list = unique(targetscan_hits$affy_id)
+
+scores=targetscan$Aggregate.PCT
+scores=gsub("> ","",scores)
+scores=gsub("< ","",scores)
+scores=as.double(scores)
+
+
+
+targetscan_hits_90 = merge(as.matrix(targetscan[scores >= 0.9,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_90 = unique(targetscan_hits_90$affy_id)
+
+targetscan_hits_80 = merge(as.matrix(targetscan[scores >= 0.8,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_80 = unique(targetscan_hits_80$affy_id)
+
+targetscan_hits_70 = merge(as.matrix(targetscan[scores >= 0.7,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_70 = unique(targetscan_hits_70$affy_id)
+
+targetscan_hits_60 = merge(as.matrix(targetscan[scores >= 0.6,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_60 = unique(targetscan_hits_60$affy_id)
+
+targetscan_hits_50 = merge(as.matrix(targetscan[scores >= 0.5,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_50 = unique(targetscan_hits_50$affy_id)
+
+targetscan_hits_40 = merge(as.matrix(targetscan[scores >= 0.4,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_40 = unique(targetscan_hits_40$affy_id)
+
+targetscan_hits_30 = merge(as.matrix(targetscan[scores >= 0.3,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_30 = unique(targetscan_hits_30$affy_id)
+
+targetscan_hits_20 = merge(as.matrix(targetscan[scores >= 0.2,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_20 = unique(targetscan_hits_20$affy_id)
+
+targetscan_hits_10 = merge(as.matrix(targetscan[scores >= 0.1,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_10 = unique(targetscan_hits_10$affy_id)
+
+
+
 ```
 
 ## Gene Filtering
@@ -238,6 +306,20 @@ plot(ecdf(stats[targetscan_list,]$logFC),add=T,cex=0.1,pch=19,col="red")
 abline(v=0,col="grey",lty=2)
 legend("topleft",c("All genes","TargetScan miR-29"),col=c("darkblue","red"),lty=1,lwd=2,cex=0.4)
 
+plot(ecdf(stats$logFC),pch=19,cex=0.1,col="darkblue",main="Expression S-curve (Bartel)",xlim=c(-2,2),xlab="ECDF Log Fold Change mir-29")
+plot(ecdf(stats[targetscan_list,]$logFC),add=T,cex=0.1,pch=19,col="red")
+plot(ecdf(stats[targetscan_list_90,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[1])
+plot(ecdf(stats[targetscan_list_80,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[2])
+plot(ecdf(stats[targetscan_list_70,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[3])
+plot(ecdf(stats[targetscan_list_60,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[4])
+plot(ecdf(stats[targetscan_list_50,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[5])
+plot(ecdf(stats[targetscan_list_40,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[6])
+plot(ecdf(stats[targetscan_list_30,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[7])
+plot(ecdf(stats[targetscan_list_20,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[8])
+plot(ecdf(stats[targetscan_list_10,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[9])
+abline(v=0,col="grey",lty=2)
+legend("topleft",c("All genes","All TargetScan",paste("TargetScan Score > 0.",rev(seq(9:1)))),col=c("darkblue","red",spectral2),lty=1,lwd=2,cex=0.4)
+
 ```
 
 ### Median expression levels of TargetScan hits
@@ -253,3 +335,125 @@ legend("topleft",c("All genes","TargetScan miR-29"),lty=1,col=c("purple","red"),
 ```{r}
 write.table(stats[!is.na(stats$ID.Ensembl),],"fold_change_affy_alena.txt",sep="\t",quote=F)
 ```
+
+
+```{r}
+targetscan=read.table("TargetScan7.1__miR-9-5p.predicted_targets.txt",row.names=1,sep="\t",header=T)
+
+symbol_lookup=as.data.frame(genesymbols)
+colnames(symbol_lookup)=c("affy_gene_name")
+symbol_lookup$affy_id=rownames(symbol_lookup)
+
+targetscan_hits=merge(as.matrix(targetscan),symbol_lookup,by.x=0,by.y=1)
+targetscan_list = unique(targetscan_hits$affy_id)
+
+scores=targetscan$Aggregate.PCT
+scores=gsub("> ","",scores)
+scores=gsub("< ","",scores)
+scores=as.double(scores)
+
+
+
+targetscan_hits_90 = merge(as.matrix(targetscan[scores >= 0.9,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_90 = unique(targetscan_hits_90$affy_id)
+
+targetscan_hits_80 = merge(as.matrix(targetscan[scores >= 0.8,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_80 = unique(targetscan_hits_80$affy_id)
+
+targetscan_hits_70 = merge(as.matrix(targetscan[scores >= 0.7,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_70 = unique(targetscan_hits_70$affy_id)
+
+targetscan_hits_60 = merge(as.matrix(targetscan[scores >= 0.6,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_60 = unique(targetscan_hits_60$affy_id)
+
+targetscan_hits_50 = merge(as.matrix(targetscan[scores >= 0.5,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_50 = unique(targetscan_hits_50$affy_id)
+
+targetscan_hits_40 = merge(as.matrix(targetscan[scores >= 0.4,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_40 = unique(targetscan_hits_40$affy_id)
+
+targetscan_hits_30 = merge(as.matrix(targetscan[scores >= 0.3,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_30 = unique(targetscan_hits_30$affy_id)
+
+targetscan_hits_20 = merge(as.matrix(targetscan[scores >= 0.2,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_20 = unique(targetscan_hits_20$affy_id)
+
+targetscan_hits_10 = merge(as.matrix(targetscan[scores >= 0.1,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_10 = unique(targetscan_hits_10$affy_id)
+
+plot(ecdf(stats$logFC),pch=19,cex=0.1,col="darkblue",main="Expression S-curve (Bartel)",xlim=c(-2,2),xlab="ECDF Log Fold Change mir-9")
+plot(ecdf(stats[targetscan_list,]$logFC),add=T,cex=0.1,pch=19,col="red")
+plot(ecdf(stats[targetscan_list_90,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[1])
+plot(ecdf(stats[targetscan_list_80,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[2])
+plot(ecdf(stats[targetscan_list_70,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[3])
+plot(ecdf(stats[targetscan_list_60,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[4])
+plot(ecdf(stats[targetscan_list_50,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[5])
+plot(ecdf(stats[targetscan_list_40,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[6])
+plot(ecdf(stats[targetscan_list_30,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[7])
+plot(ecdf(stats[targetscan_list_20,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[8])
+plot(ecdf(stats[targetscan_list_10,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[9])
+abline(v=0,col="grey",lty=2)
+legend("topleft",c("All genes","All TargetScan",paste("TargetScan Score > 0.",rev(seq(9:1)))),col=c("darkblue","red",spectral2),lty=1,lwd=2,cex=0.4)
+
+```
+
+```{r}
+targetscan=read.table("TargetScan7.1__let-7-5p_miR-98-5p.predicted_targets.txt",row.names=1,sep="\t",header=T)
+
+symbol_lookup=as.data.frame(genesymbols)
+colnames(symbol_lookup)=c("affy_gene_name")
+symbol_lookup$affy_id=rownames(symbol_lookup)
+
+targetscan_hits=merge(as.matrix(targetscan),symbol_lookup,by.x=0,by.y=1)
+targetscan_list = unique(targetscan_hits$affy_id)
+
+scores=targetscan$Aggregate.PCT
+scores=gsub("> ","",scores)
+scores=gsub("< ","",scores)
+scores=as.double(scores)
+
+
+
+targetscan_hits_90 = merge(as.matrix(targetscan[scores >= 0.9,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_90 = unique(targetscan_hits_90$affy_id)
+
+targetscan_hits_80 = merge(as.matrix(targetscan[scores >= 0.8,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_80 = unique(targetscan_hits_80$affy_id)
+
+targetscan_hits_70 = merge(as.matrix(targetscan[scores >= 0.7,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_70 = unique(targetscan_hits_70$affy_id)
+
+targetscan_hits_60 = merge(as.matrix(targetscan[scores >= 0.6,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_60 = unique(targetscan_hits_60$affy_id)
+
+targetscan_hits_50 = merge(as.matrix(targetscan[scores >= 0.5,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_50 = unique(targetscan_hits_50$affy_id)
+
+targetscan_hits_40 = merge(as.matrix(targetscan[scores >= 0.4,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_40 = unique(targetscan_hits_40$affy_id)
+
+targetscan_hits_30 = merge(as.matrix(targetscan[scores >= 0.3,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_30 = unique(targetscan_hits_30$affy_id)
+
+targetscan_hits_20 = merge(as.matrix(targetscan[scores >= 0.2,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_20 = unique(targetscan_hits_20$affy_id)
+
+targetscan_hits_10 = merge(as.matrix(targetscan[scores >= 0.1,]),symbol_lookup,by.x=0,by.y=1)
+targetscan_list_10 = unique(targetscan_hits_10$affy_id)
+
+plot(ecdf(stats$logFC),pch=19,cex=0.1,col="darkblue",main="Expression S-curve (Bartel)",xlim=c(-2,2),xlab="ECDF Log Fold Change let-7")
+plot(ecdf(stats[targetscan_list,]$logFC),add=T,cex=0.1,pch=19,col="red")
+plot(ecdf(stats[targetscan_list_90,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[1])
+plot(ecdf(stats[targetscan_list_80,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[2])
+plot(ecdf(stats[targetscan_list_70,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[3])
+plot(ecdf(stats[targetscan_list_60,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[4])
+plot(ecdf(stats[targetscan_list_50,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[5])
+plot(ecdf(stats[targetscan_list_40,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[6])
+plot(ecdf(stats[targetscan_list_30,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[7])
+plot(ecdf(stats[targetscan_list_20,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[8])
+plot(ecdf(stats[targetscan_list_10,]$logFC),add=T,cex=0.1,pch=19,col=spectral2[9])
+abline(v=0,col="grey",lty=2)
+legend("topleft",c("All genes","All TargetScan",paste("TargetScan Score > 0.",rev(seq(9:1)))),col=c("darkblue","red",spectral2),lty=1,lwd=2,cex=0.4)
+
+```
+
