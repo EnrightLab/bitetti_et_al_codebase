@@ -3,7 +3,17 @@ title: "Analysis of Alena Shkumatava miRNASeq Data"
 author: "Anton Enright"
 date: \'`r format(Sys.time(), '%d %B, %Y')`\'
 output:
+<<<<<<< HEAD
+  html_document:
+    keep_md: yes
+    theme: flatly
+    fig_retina: 2
+    dpi: 300
+    toc: yes
+  pdf_document:
+=======
  github_document:
+>>>>>>> 4a9f77b87a35e0ff522d8cbd9d0a416463aecff9
     toc: yes
 ---
 
