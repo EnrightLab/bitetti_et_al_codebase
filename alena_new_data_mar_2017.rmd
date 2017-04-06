@@ -210,21 +210,24 @@ Volcanoplots of Significant Hits
 ```{r}
 plot(res$log2FoldChange,-log(res$padj,10),ylab="-log10(Adjusted P)",xlab="Log2 FoldChange",main=paste("Volcano Plot","WT v Scr\nmir-29 in green\nsig. in red"),pch=19,cex=0.4)      
 points(res[sig,"log2FoldChange"],-log(res[sig,"padj"],10),pch=19,cex=0.4,col="red")
-text(res[sig,"log2FoldChange"],-log(res[sig,"padj"],10),pch=19,cex=0.4,pos=2,labels = rownames(res[sig,]))
+text(res[sig[1:10],"log2FoldChange"],-log(res[sig[1:10],"padj"],10),pch=19,cex=0.4,pos=2,labels = rownames(res[sig[1:10],]))
 points(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],"log2FoldChange"],-log(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],"padj"],10),pch=19,cex=0.6,col="green")
+text(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],"log2FoldChange"],-log(res[rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))],"padj"],10),pch=19,cex=0.4,pos=2,labels =rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))])
 abline(h=-log10(p_threshold),lty=3)
 abline(v=-lfc_threshold,lty=3)
 abline(v=lfc_threshold,lty=3)   
 ```
 
+## Scatter Plot
+```{r}
 wt_median = apply(vstcounts[,pdata$Genotype == "wt"],1,median)
 mt_median = apply(vstcounts[,pdata$Genotype == "mut"],1,median)
 plot(wt_median,mt_median,cex=0.4,pch=19,col="darkblue")
-points(wt_median[grep("mir-29[a-z]",rownames(mircounts))],mt_median[grep("mir-29[a-z]",rownames(mircounts))],cex=0.4,pch=19,col="green")
+points(wt_median[grep("mir-29[a-z]",rownames(vstcounts))],mt_median[grep("mir-29[a-z]",rownames(vstcounts))],cex=0.4,pch=19,col="green")
 points(wt_median[sig],mt_median[sig],cex=1,col="red")
-text(wt_median[grep("mir-29[a-z]",rownames(mircounts))],mt_median[grep("mir-29[a-z]",rownames(mircounts))],cex=0.4,pos=1,labels=rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))])
+text(wt_median[grep("mir-29[a-z]",rownames(vstcounts))],mt_median[grep("mir-29[a-z]",rownames(vstcounts))],cex=0.4,pos=3,labels=rownames(vstcounts)[grep("mir-29[a-z]",rownames(vstcounts))])
 abline(a=0,b=1,lty=2,col="red")
-
+```
 
 Heatmap of significant hits.
 
@@ -241,7 +244,7 @@ write.table(cbind(as.matrix(counts(dds,normalized=T)[rownames(res),]),as.matrix(
 ## Length Analysis
 
 Now we load in the length data from the mapping analysis separately to analyse.
-We will analyse the top 10 expressed, top 10 differential miRs and the miR-29 family, (Excluding miRs with norm counts sum < 50)
+We will analyse the top 5 expressed, top 5 differential miRs and the miR-29 family, (Excluding miRs with norm counts sum < 50)
 
 
 ```{r}
@@ -249,7 +252,7 @@ We will analyse the top 10 expressed, top 10 differential miRs and the miR-29 fa
 length_mouse=read.table("length_tables_mouse_mar_2017.txt",sep="\t",header=FALSE)
 length_mouse$genotype=gsub("\\d+.lane.clean.uniquified.fa.gz","",gsub("mouse_","",length_mouse$V2))
 
-mirlist=unique(c(rownames(counts(dds,normalized=T)[1:10,]),rownames(res[1:15,]),rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))]))
+mirlist=unique(c(rownames(counts(dds,normalized=T)[1:5,]),rownames(res[1:5,]),rownames(mircounts)[grep("mir-29[a-z]",rownames(mircounts))]))
 
 for (i in 1:length(mirlist)){
 mir=mirlist[i]
