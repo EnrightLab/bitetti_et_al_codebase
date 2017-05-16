@@ -12,8 +12,11 @@ Silvia Mandillo<sup>5</sup>, Dónal O'Carroll<sup>4</sup> and Alena Shkumatava<s
 
 <sub>
 1. Institut Curie, 26 Rue d’Ulm, 75248 Paris Cedex 05, France.
+
 2. CNRS UMR3215, 75248 Paris Cedex 05, France.
+
 3. INSERM U934, 75248 Paris Cedex 05, France. 
+
 4. MRC Centre for Regenerative Medicine, Institute for Stem Cell Research, School of Biological Sciences, University of Edinburgh, 5 Little France Drive, Edinburgh, UK.
 5. Consiglio Nazionale delle Ricerche, Istituto di Biologia Cellulare e Neurobiologia, European Mouse Mutant Archive-Infrafrontier-International Mouse Phenotyping Consortium, I-00015 Monterotondo Scalo (Rome), Italy.
 6. Department of Neuroscience, Psychology and Behaviour, University of Leicester, Leicester, UK.
