@@ -30,8 +30,9 @@ The codebase describes the small RNA analysis and was authored by Anton Enright 
 
 ## Version Information
 
-R version used was: _R 3.3.1_ (2016-06-21) -- "Bug in Your Hair"
-BioConductor version used was: _Bioconductor version 3.4_
+[ChimiRa](http://www.ebi.ac.uk/research/enright/software/chimira) was used to trim adapters and map reads to microRNA precursors<br>
+R version used was: _R 3.3.1_ (2016-06-21) -- "Bug in Your Hair"<br>
+BioConductor version used was: _Bioconductor version 3.4_<br><br>
 
-Dependencies: *RColorBrewer, gplots, DESeq2, reshape2, ggplot2*
+Dependencies: *RColorBrewer, gplots, DESeq2, reshape2, ggplot2*<br>
 
