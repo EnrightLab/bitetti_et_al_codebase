@@ -28,3 +28,10 @@ The codebase describes the small RNA analysis and was authored by Anton Enright 
 * [The count-table derived from the chimiRa mapping tool](mouse_counts_mar_2017.txt)
 * [An accessory table containing small RNA lengths extracted from the chimiRa mapping tool](length_tables_mouse_mar_2017.txt)
 
+## Version Information
+
+R version used was: _R 3.3.1_ (2016-06-21) -- "Bug in Your Hair"
+BioConductor version used was: _Bioconductor version 3.4_
+
+Dependencies: *RColorBrewer, gplots, DESeq2, reshape2, ggplot2*
+
