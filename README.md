@@ -3,15 +3,14 @@ Supporting code for:
 
 ## "A conserved RNA regulates miRNA turnover and animal behavior through a near-perfect miRNA site"
 
-Angelo Bitetti<sup>1,2,3,*</sup>, Allison C. Mallory<sup>1,2,3,*</sup>, Claudia Carrieri<sup>4</sup>, 
+Angelo Bitetti<sup>1,2,3,*</sup>, Allison C Mallory<sup>1,2,3,*</sup>, Claudia Carrieri<sup>4</sup>, 
 Elisabetta Golini<sup>5</sup>, Hector Carreño Gutierrez<sup>6</sup>, Emerald Perlas<sup>7</sup>, Yuvia A. Pérez-Rico<sup>1,2,3,8</sup>, 
 Glauco P. Tocchini-Valentini<sup>5</sup>, Anton J. Enright<sup>9</sup>, William H. J. Norton<sup>6</sup>, 
 Silvia Mandillo<sup>5</sup>, Dónal O'Carroll<sup>4</sup> and Alena Shkumatava<sup>1,2,3</sup>	
 
 *These authors contributed equally to this work.
-
+<span style="color:#fff; font-family: 'Bebas Neue'; font-size: 4em;">
 1. Institut Curie, 26 Rue d’Ulm, 75248 Paris Cedex 05, France.
-
 2. CNRS UMR3215, 75248 Paris Cedex 05, France.
 3. INSERM U934, 75248 Paris Cedex 05, France. 
 4. MRC Centre for Regenerative Medicine, Institute for Stem Cell Research, School of Biological Sciences, University of Edinburgh, 5 Little France Drive, Edinburgh, UK.
@@ -20,7 +19,7 @@ Silvia Mandillo<sup>5</sup>, Dónal O'Carroll<sup>4</sup> and Alena Shkumatava<s
 7. European Molecular Biology Laboratory (EMBL), Mouse Biology Unit, Monterotondo Scalo, Italy 
 8. INSERM, U900, 75248 Paris Cedex 05, France.
 9. European Molecular Biology Laboratory (EMBL), European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, United Kingdom.
-
+</span>
 
 The code was authored by Anton Enright (aje@ebi.ac.uk).
 
