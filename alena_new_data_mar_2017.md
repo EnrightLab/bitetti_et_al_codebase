@@ -48,8 +48,8 @@ As well as the pdata, which contains information on each sample.
 ```r
 pdata <- read.table("pdata_mar_2017.txt",header=TRUE,row.names=1)
 
-pdata=pdata[c(1,2,5,6),]
-mircounts=mircounts[,c(1,2,5,6)]
+#pdata=pdata[c(1,2,5,6),]
+#mircounts=mircounts[,c(1,2,5,6)]
 
 colnames(mircounts)=rownames(pdata)
 
@@ -239,32 +239,32 @@ res
 ## log2 fold change (MAP): treatment wt vs mut 
 ## Wald test p-value: treatment wt vs mut 
 ## DataFrame with 1471 rows and 6 columns
-##                      baseMean log2FoldChange     lfcSE       stat
-##                     <numeric>      <numeric> <numeric>  <numeric>
-## mmu-mir-615-3p      3609.8275      -5.177049 0.5714101  -9.060128
-## mmu-mir-214-3p      1361.5034       2.859961 0.4581695   6.242147
-## mmu-mir-199a-1-5p  19534.9911       3.035111 0.5433508   5.585914
-## mmu-mir-708-5p       301.9575      -3.304867 0.5965390  -5.540068
-## mmu-mir-10b-5p    527649.3071      -2.249164 0.4161631  -5.404526
-## ...                       ...            ...       ...        ...
-## mmu-mir-875-3p      0.1981177     -0.3179015  1.053734 -0.3016906
-## mmu-mir-882-5p      0.3350875     -0.3179015  1.053734 -0.3016906
-## mmu-mir-489-5p      0.0000000             NA        NA         NA
-## mmu-mir-804-3p      0.1843738      0.2904719  1.053734  0.2756597
-## mmu-mir-142-5p      0.1981177     -0.3179015  1.053734 -0.3016906
-##                         pvalue         padj
-##                      <numeric>    <numeric>
-## mmu-mir-615-3p    1.302974e-19 9.550800e-17
-## mmu-mir-214-3p    4.316057e-10 1.581835e-07
-## mmu-mir-199a-1-5p 2.324745e-08 5.540627e-06
-## mmu-mir-708-5p    3.023534e-08 5.540627e-06
-## mmu-mir-10b-5p    6.497999e-08 9.526066e-06
-## ...                        ...          ...
-## mmu-mir-875-3p       0.7628880           NA
-## mmu-mir-882-5p       0.7628880           NA
-## mmu-mir-489-5p              NA           NA
-## mmu-mir-804-3p       0.7828095           NA
-## mmu-mir-142-5p       0.7628880           NA
+##                      baseMean log2FoldChange     lfcSE        stat
+##                     <numeric>      <numeric> <numeric>   <numeric>
+## mmu-mir-708-5p      370.21877      -3.880212 0.5208669   -7.449528
+## mmu-mir-219-2-3p   2508.84257      -3.586149 0.6161118   -5.820615
+## mmu-mir-204-5p      595.61606       3.605966 0.6224714    5.792982
+## mmu-mir-219-2-5p     89.54399      -2.535594 0.4502091   -5.632036
+## mmu-mir-10b-5p   632527.44731      -2.852560 0.5180408   -5.506439
+## ...                       ...            ...       ...         ...
+## mmu-mir-875-3p     0.12715984    -0.42370466  1.021558 -0.41476320
+## mmu-mir-882-5p     0.22104968    -0.42370466  1.021558 -0.41476320
+## mmu-mir-489-5p     0.08632002     0.05517826  1.021749  0.05400371
+## mmu-mir-804-3p     0.21019972     0.26690316  1.024176  0.26060278
+## mmu-mir-142-5p     0.12715984    -0.42370466  1.021558 -0.41476320
+##                        pvalue         padj
+##                     <numeric>    <numeric>
+## mmu-mir-708-5p   9.367487e-14 8.814805e-11
+## mmu-mir-219-2-3p 5.863146e-09 2.168921e-06
+## mmu-mir-204-5p   6.914734e-09 2.168921e-06
+## mmu-mir-219-2-5p 1.780944e-08 4.189672e-06
+## mmu-mir-10b-5p   3.661657e-08 6.891239e-06
+## ...                       ...          ...
+## mmu-mir-875-3p      0.6783153           NA
+## mmu-mir-882-5p      0.6783153           NA
+## mmu-mir-489-5p      0.9569322           NA
+## mmu-mir-804-3p      0.7943988           NA
+## mmu-mir-142-5p      0.6783153           NA
 ```
 
 ```r
