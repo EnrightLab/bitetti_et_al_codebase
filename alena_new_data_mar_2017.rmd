@@ -61,6 +61,9 @@ As well as the pdata, which contains information on each sample.
 ```{r}
 pdata <- read.table("pdata_mar_2017.txt",header=TRUE,row.names=1)
 
+pdata=pdata[c(1,2,5,6),]
+mircounts=mircounts[,c(1,2,5,6)]
+
 colnames(mircounts)=rownames(pdata)
 
 conds=as.factor(as.character(pdata$Genotype))
