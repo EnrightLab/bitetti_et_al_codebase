@@ -10,7 +10,8 @@ Silvia Mandillo<sup>5</sup>, Dónal O'Carroll<sup>4</sup> and Alena Shkumatava<s
 
 *These authors contributed equally to this work.
 
-#####1. Institut Curie, 26 Rue d’Ulm, 75248 Paris Cedex 05, France.
+<sub>
+1. Institut Curie, 26 Rue d’Ulm, 75248 Paris Cedex 05, France.
 2. CNRS UMR3215, 75248 Paris Cedex 05, France.
 3. INSERM U934, 75248 Paris Cedex 05, France. 
 4. MRC Centre for Regenerative Medicine, Institute for Stem Cell Research, School of Biological Sciences, University of Edinburgh, 5 Little France Drive, Edinburgh, UK.
@@ -19,7 +20,7 @@ Silvia Mandillo<sup>5</sup>, Dónal O'Carroll<sup>4</sup> and Alena Shkumatava<s
 7. European Molecular Biology Laboratory (EMBL), Mouse Biology Unit, Monterotondo Scalo, Italy 
 8. INSERM, U900, 75248 Paris Cedex 05, France.
 9. European Molecular Biology Laboratory (EMBL), European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, United Kingdom.
-
+</sub>
 
 The code was authored by Anton Enright (aje@ebi.ac.uk).
 
