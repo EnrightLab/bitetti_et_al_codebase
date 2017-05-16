@@ -29,3 +29,4 @@ The code was authored by Anton Enright (aje@ebi.ac.uk).
 * The R/BioConductor code for small RNA analysis
 * An accessory table containing small RNA lengths extracted from the chimiRa mapping tool
 
+[test](https://github.com/user/repo/blob/branch/other_file.md)
