@@ -279,7 +279,7 @@ legend("topright",levels(as.factor(rownames(length_table))),fill=colours[levels(
 
 
 for (i in 16:18){
-  for (j in 21:23){
+    j=i+5
     pvalue=NA
     pvalue=t.test(length_table[1:3,i:j],length_table[4:6,i:j])$p.value
     if (pvalue <= 0.05){
@@ -289,11 +289,11 @@ for (i in 16:18){
     }
     
     print(paste(mir," trimming-test ",i,"-",j," P-value:",pvalue," >>",sig,sep=""))
-  }
+  
 }
 
 for (i in 21:23){
-  for (j in 26:28){
+    j=i+5
     pvalue=NA;
     pvalue=t.test(length_table[1:3,i:j],length_table[4:6,i:j])$p.value
     if (pvalue <= 0.05){
@@ -302,7 +302,7 @@ for (i in 21:23){
       sig="ns"
     }
     print(paste(mir," tailing-test ",i,"-",j," P-value:",pvalue," >>",sig,sep=""))
-  }
+  
 }
 
 
