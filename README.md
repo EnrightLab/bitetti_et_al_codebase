@@ -24,9 +24,9 @@ Silvia Mandillo<sup>5</sup>, Dónal O'Carroll<sup>4</sup> and Alena Shkumatava<s
 
 The code was authored by Anton Enright (aje@ebi.ac.uk).
 
-* [The R/BioConductor code and results (markdown) for small RNA analysis] (https://github.com/antonenright/bitetti_et_al_codebase/blob/master/alena_new_data_mar_2017.md)
-* The [Rmarkdown] (https://github.com/antonenright/bitetti_et_al_codebase/blob/master/alena_new_data_mar_2017.rmd) for small RNA analysis
-* [The experimental design (pdata) file] (https://github.com/antonenright/bitetti_et_al_codebase/blob/master/pdata_mar_2017.txt)
-* [The count-table derived from the chimiRa mapping tool] (https://github.com/antonenright/bitetti_et_al_codebase/blob/master/mouse_counts_mar_2017.txt)
-* [An accessory table containing small RNA lengths extracted from the chimiRa mapping tool] (https://github.com/antonenright/bitetti_et_al_codebase/blob/master/length_tables_mouse_mar_2017.txt)
+* [The R/BioConductor code and results (markdown) for small RNA analysis](alena_new_data_mar_2017.md)
+* The [Rmarkdown](alena_new_data_mar_2017.rmd) for small RNA analysis
+* [The experimental design (pdata) file](pdata_mar_2017.txt)
+* [The count-table derived from the chimiRa mapping tool](mouse_counts_mar_2017.txt)
+* [An accessory table containing small RNA lengths extracted from the chimiRa mapping tool](length_tables_mouse_mar_2017.txt)
 
