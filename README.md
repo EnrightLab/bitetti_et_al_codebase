@@ -26,8 +26,10 @@ The codebase describes the small RNA analysis and was authored by Anton Enright 
 * [The R/BioConductor code and results (markdown) for small RNA analysis](alena_new_data_mar_2017.md)
 * The [Rmarkdown](alena_new_data_mar_2017.rmd) for small RNA analysis
 * The [final table](mouse_results.txt) (tab-delimited) of normalised miRNA counts and statistical results for each miR
+
+### Initial Data
+* [The raw count-table derived from the chimiRa mapping tool](mouse_counts_mar_2017.txt)
 * [The experimental design (pdata) file](pdata_mar_2017.txt)
-* [The count-table derived from the chimiRa mapping tool](mouse_counts_mar_2017.txt)
 * [An accessory table containing small RNA lengths extracted from the chimiRa mapping tool](length_tables_mouse_mar_2017.txt)
 
 ## Version Information
