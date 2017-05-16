@@ -276,6 +276,36 @@ barplot(length_table,beside=T,col=colours,names=paste(c(0:30),"nt"),las=2)
 matplot(t(length_table),type="b",col=colours,pch=19,cex=0.4,lty=1,lwd=0.4,main=paste("Length Analysis:",mir),xlab=paste(c(0:30),"nt"),las=2,xaxt="n")
 axis(1, at = 1:31, labels = paste(c(0:30),"nt"), cex.axis = 0.7,las=2)
 legend("topright",levels(as.factor(rownames(length_table))),fill=colours[levels(as.factor(rownames(length_table)))])
+
+
+for (i in 16:18){
+  for (j in 21:23){
+    pvalue=NA
+    pvalue=t.test(length_table[1:3,i:j],length_table[4:6,i:j])$p.value
+    if (pvalue <= 0.05){
+      sig="*"
+    } else {
+      sig="ns"
+    }
+    
+    print(paste(mir," trimming-test ",i,"-",j," P-value:",pvalue," >>",sig,sep=""))
+  }
+}
+
+for (i in 21:23){
+  for (j in 26:28){
+    pvalue=NA;
+    pvalue=t.test(length_table[1:3,i:j],length_table[4:6,i:j])$p.value
+    if (pvalue <= 0.05){
+      sig="*"
+    } else {
+      sig="ns"
+    }
+    print(paste(mir," tailing-test ",i,"-",j," P-value:",pvalue," >>",sig,sep=""))
+  }
+}
+
+
 }
 }
 ```
