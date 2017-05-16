@@ -20,7 +20,7 @@ Silvia Mandillo<sup>5</sup>, Dónal O'Carroll<sup>4</sup> and Alena Shkumatava<s
 <sub>8. INSERM, U900, 75248 Paris Cedex 05, France.</sub><br>
 <sub>9. European Molecular Biology Laboratory (EMBL), European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, United Kingdom.</sub><br>
 
-The code was authored by Anton Enright (aje@ebi.ac.uk).
+The codebase describes the small RNA analysis and was authored by Anton Enright (aje@ebi.ac.uk) March-May 2017.
 
 * [The R/BioConductor code and results (markdown) for small RNA analysis](alena_new_data_mar_2017.md)
 * The [Rmarkdown](alena_new_data_mar_2017.rmd) for small RNA analysis
