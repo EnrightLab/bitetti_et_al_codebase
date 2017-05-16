@@ -3,7 +3,7 @@ Supporting code for:
 
 ## A conserved RNA regulates miRNA turnover and animal behavior through a near-perfect miRNA site
 
-Angelo Bitetti<sup>1,2,3,*</sup>, Allison C Mallory<sup>1,2,3,*</sup>, Claudia Carrieri<sup>4</sup>, 
+Angelo Bitetti<sup>1,2,3,\*</sup>, Allison C Mallory<sup>1,2,3,\*</sup>, Claudia Carrieri<sup>4</sup>, 
 Elisabetta Golini<sup>5</sup>, Hector Carreño Gutierrez<sup>6</sup>, Emerald Perlas<sup>7</sup>, Yuvia A. Pérez-Rico<sup>1,2,3,8</sup>, 
 Glauco P. Tocchini-Valentini<sup>5</sup>, Anton J. Enright<sup>9</sup>, William H. J. Norton<sup>6</sup>, 
 Silvia Mandillo<sup>5</sup>, Dónal O'Carroll<sup>4</sup> and Alena Shkumatava<sup>1,2,3</sup>	
