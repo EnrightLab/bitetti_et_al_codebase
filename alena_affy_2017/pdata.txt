@@ -1,7 +1,0 @@
-Sample_ID	Genotype	Sample_Origin	Sample_ID_Plateform	Data_FileName	Array_Name_Ref	Platform_Name	Hybridation_Date	Platform_QC	Species
-1WT	WT	Other	CM40_ARN0013	CM40_ARN0013_s1h1_mGene2.0.CEL	MoGene-2_0-st	InstitutCurie_Paris	42814	Good	Musmusculus
-6WT	WT	Other	CM40_ARN0014	CM40_ARN0014_s1h1_mGene2.0.CEL	MoGene-2_0-st	InstitutCurie_Paris	42814	Good	Musmusculus
-7WT	WT	Other	CM40_ARN0015	CM40_ARN0015_s1h1_mGene2.0.CEL	MoGene-2_0-st	InstitutCurie_Paris	42814	Good	Musmusculus
-8HO	HO	Other	CM40_ARN0016	CM40_ARN0016_s1h1_mGene2.0.CEL	MoGene-2_0-st	InstitutCurie_Paris	42814	Good	Musmusculus
-28HO	HO	Other	CM40_ARN0017	CM40_ARN0017_s1h1_mGene2.0.CEL	MoGene-2_0-st	InstitutCurie_Paris	42814	Good	Musmusculus
-29HO	HO	Other	CM40_ARN0018	CM40_ARN0018_s1h1_mGene2.0.CEL	MoGene-2_0-st	InstitutCurie_Paris	42814	Good	Musmusculus
