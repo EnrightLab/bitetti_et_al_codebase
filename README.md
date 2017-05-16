@@ -10,15 +10,15 @@ Silvia Mandillo<sup>5</sup>, Dónal O'Carroll<sup>4</sup> and Alena Shkumatava<s
 
 *These authors contributed equally to this work.
 
-<sub>1. Institut Curie, 26 Rue d’Ulm, 75248 Paris Cedex 05, France.</sub>
-<sub>2. CNRS UMR3215, 75248 Paris Cedex 05, France.</sub>
-<sub>3. INSERM U934, 75248 Paris Cedex 05, France..</sub>
-<sub>4. MRC Centre for Regenerative Medicine, Institute for Stem Cell Research, School of Biological Sciences, University of Edinburgh, 5 Little France Drive, Edinburgh, UK.</sub>
-<sub>5. Consiglio Nazionale delle Ricerche, Istituto di Biologia Cellulare e Neurobiologia, European Mouse Mutant Archive-Infrafrontier-International Mouse Phenotyping Consortium, I-00015 Monterotondo Scalo (Rome), Italy.</sub>
-<sub>6. Department of Neuroscience, Psychology and Behaviour, University of Leicester, Leicester, UK.</sub>
-<sub>7. European Molecular Biology Laboratory (EMBL), Mouse Biology Unit, Monterotondo Scalo, Italy.</sub>
-<sub>8. INSERM, U900, 75248 Paris Cedex 05, France.</sub>
-<sub>9. European Molecular Biology Laboratory (EMBL), European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, United Kingdom.</sub>
+<sub>1. Institut Curie, 26 Rue d’Ulm, 75248 Paris Cedex 05, France.</sub><br>
+<sub>2. CNRS UMR3215, 75248 Paris Cedex 05, France.</sub><br>
+<sub>3. INSERM U934, 75248 Paris Cedex 05, France..</sub><br>
+<sub>4. MRC Centre for Regenerative Medicine, Institute for Stem Cell Research, School of Biological Sciences, University of Edinburgh, 5 Little France Drive, Edinburgh, UK.</sub><br>
+<sub>5. Consiglio Nazionale delle Ricerche, Istituto di Biologia Cellulare e Neurobiologia, European Mouse Mutant Archive-Infrafrontier-International Mouse Phenotyping Consortium, I-00015 Monterotondo Scalo (Rome), Italy.</sub><br>
+<sub>6. Department of Neuroscience, Psychology and Behaviour, University of Leicester, Leicester, UK.</sub><br>
+<sub>7. European Molecular Biology Laboratory (EMBL), Mouse Biology Unit, Monterotondo Scalo, Italy.</sub><br>
+<sub>8. INSERM, U900, 75248 Paris Cedex 05, France.</sub><br>
+<sub>9. European Molecular Biology Laboratory (EMBL), European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, United Kingdom.</sub><br>
 
 The code was authored by Anton Enright (aje@ebi.ac.uk).
 
