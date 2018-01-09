@@ -384,14 +384,14 @@ for (i in 21:23){
     #Trimming and Tailing Combined
     pvalue=NA
     pvalue_full=NA
-    pvalue_full=t.test(length_table[1:3,16:28],length_table[4:6,16:28])
+    pvalue_full=t.test(as.numeric(rbind(apply(length_table[c(1:3),16:28],2,mean))),as.numeric(rbind(apply(length_table[c(4:6),16:28],2,mean))),paired=TRUE)
     pvalue=pvalue_full$p.value
     if (pvalue <= 0.05){
       sig="*"
     } else {
       sig="ns"
     }
-    print(paste(mir," combined-test (16-28nt) ",i,"-",j," P-value:",pvalue," >>",sig, " DF:",pvalue_full$parameter, " T:",pvalue_full$statistic, " Conf Int 95:",  paste(pvalue_full$conf.int[1],pvalue_full$conf.int[2],sep=" to "),sep=""))
+    print(paste(mir," combined-test (16-28nt) P-value:",pvalue," >>",sig, " DF:",pvalue_full$parameter, " T:",pvalue_full$statistic, " Conf Int 95:",  paste(pvalue_full$conf.int[1],pvalue_full$conf.int[2],sep=" to "),sep=""))
 
 }
 }
@@ -406,7 +406,7 @@ for (i in 21:23){
 ## [1] "mmu-mir-9-2-5p tailing-test 21-26 P-value:0.969498108549098 >>ns DF:33.999812871166 T:0.0385203440628656 Conf Int 95:-0.289183558914827 to 0.300358071496801"
 ## [1] "mmu-mir-9-2-5p tailing-test 22-27 P-value:0.969632325471596 >>ns DF:33.9978075392212 T:0.0383507745822705 Conf Int 95:-0.28452829355675 to 0.29547356495224"
 ## [1] "mmu-mir-9-2-5p tailing-test 23-28 P-value:0.963322451065909 >>ns DF:33.987105833169 T:0.046324870345685 Conf Int 95:-0.233229795015377 to 0.244110583239036"
-## [1] "mmu-mir-9-2-5p combined-test (16-28nt) 23-28 P-value:0.980456164474161 >>ns DF:75.9999988118012 T:0.0245777766880417 Conf Int 95:-0.200640879700385 to 0.205654676342913"
+## [1] "mmu-mir-9-2-5p combined-test (16-28nt) P-value:0.238135870741399 >>ns DF:12 T:1.24151409363319 Conf Int 95:-0.00189261856948422 to 0.00690641521201209"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-4.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-5.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-6.png)<!-- -->
@@ -418,7 +418,7 @@ for (i in 21:23){
 ## [1] "mmu-mir-148a-3p tailing-test 21-26 P-value:0.9996680157295 >>ns DF:33.9999974911181 T:0.000419150840056292 Conf Int 95:-0.345187869385356 to 0.345330288894428"
 ## [1] "mmu-mir-148a-3p tailing-test 22-27 P-value:0.99971287174773 >>ns DF:33.9999972388832 T:0.000362517317625601 Conf Int 95:-0.325950072608663 to 0.326066381081413"
 ## [1] "mmu-mir-148a-3p tailing-test 23-28 P-value:0.99964078082836 >>ns DF:33.999995153129 T:0.000453536603351561 Conf Int 95:-0.257762694248638 to 0.257877769881689"
-## [1] "mmu-mir-148a-3p combined-test (16-28nt) 23-28 P-value:0.999642580607765 >>ns DF:75.9999990064406 T:0.00044943472480557 Conf Int 95:-0.221036193413699 to 0.221135972626787"
+## [1] "mmu-mir-148a-3p combined-test (16-28nt) P-value:0.239968636507565 >>ns DF:12 T:1.23638543418157 Conf Int 95:-3.80280539200181e-05 to 0.000137807267007839"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-7.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-8.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-9.png)<!-- -->
@@ -430,7 +430,7 @@ for (i in 21:23){
 ## [1] "mmu-let-7f-2-5p tailing-test 21-26 P-value:0.995530815031397 >>ns DF:33.9997122943032 T:-0.00564265566914789 Conf Int 95:-0.321783447028004 to 0.320001491031192"
 ## [1] "mmu-let-7f-2-5p tailing-test 22-27 P-value:0.996302361169858 >>ns DF:33.9996056548419 T:-0.00466851727525919 Conf Int 95:-0.299037621925798 to 0.297666859708043"
 ## [1] "mmu-let-7f-2-5p tailing-test 23-28 P-value:0.997226453803235 >>ns DF:33.99924646274 T:-0.00350178282864773 Conf Int 95:-0.225138218749477 to 0.224363677728302"
-## [1] "mmu-let-7f-2-5p combined-test (16-28nt) 23-28 P-value:0.996259309659419 >>ns DF:75.9998855318793 T:-0.00470372453826322 Conf Int 95:-0.214854287627856 to 0.213841837877773"
+## [1] "mmu-let-7f-2-5p combined-test (16-28nt) P-value:0.183212085778741 >>ns DF:12 T:-1.41248912129883 Conf Int 95:-0.00128709407665642 to 0.000274644326572715"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-10.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-11.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-12.png)<!-- -->
@@ -442,7 +442,7 @@ for (i in 21:23){
 ## [1] "mmu-let-7i-5p tailing-test 21-26 P-value:0.999631198394098 >>ns DF:33.999840334052 T:-0.000465635040593305 Conf Int 95:-0.333165212702236 to 0.333012575720575"
 ## [1] "mmu-let-7i-5p tailing-test 22-27 P-value:0.999811793155087 >>ns DF:33.9998092263479 T:-0.000237622880830643 Conf Int 95:-0.314373510878005 to 0.314300002410018"
 ## [1] "mmu-let-7i-5p tailing-test 23-28 P-value:0.999861400997893 >>ns DF:33.999565102234 T:0.000174989893530334 Conf Int 95:-0.245123861807625 to 0.245166079042673"
-## [1] "mmu-let-7i-5p combined-test (16-28nt) 23-28 P-value:0.999721104915163 >>ns DF:75.9999234202944 T:-0.000350694834035975 Conf Int 95:-0.217159405881969 to 0.217082944245809"
+## [1] "mmu-let-7i-5p combined-test (16-28nt) P-value:0.913354484650761 >>ns DF:12 T:-0.111124698574519 Conf Int 95:-0.00078781932531294 to 0.000711357689153109"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-13.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-14.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-15.png)<!-- -->
@@ -454,7 +454,7 @@ for (i in 21:23){
 ## [1] "mmu-mir-21a-5p tailing-test 21-26 P-value:0.978822137736616 >>ns DF:33.9924372712352 T:0.0267416950327245 Conf Int 95:-0.282372454857223 to 0.289902791203375"
 ## [1] "mmu-mir-21a-5p tailing-test 22-27 P-value:0.980685341727589 >>ns DF:33.996846253943 T:0.0243884647494285 Conf Int 95:-0.306491803394869 to 0.313937395634301"
 ## [1] "mmu-mir-21a-5p tailing-test 23-28 P-value:0.979022948296825 >>ns DF:33.9982197254784 T:0.0264880331764493 Conf Int 95:-0.285980949754223 to 0.293534267588676"
-## [1] "mmu-mir-21a-5p combined-test (16-28nt) 23-28 P-value:0.98576109644213 >>ns DF:75.9969792502718 T:0.0179055891074396 Conf Int 95:-0.196303004163272 to 0.199864638962747"
+## [1] "mmu-mir-21a-5p combined-test (16-28nt) P-value:0.424414833426922 >>ns DF:12 T:0.826930670104607 Conf Int 95:-0.00291131452633063 to 0.00647294932580569"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-16.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-17.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-18.png)<!-- -->
@@ -466,7 +466,7 @@ for (i in 21:23){
 ## [1] "mmu-mir-708-5p tailing-test 21-26 P-value:0.73621757694301 >>ns DF:33.9446482486479 T:0.339643561698369 Conf Int 95:-0.211421983915208 to 0.296265298350502"
 ## [1] "mmu-mir-708-5p tailing-test 22-27 P-value:0.779706751718029 >>ns DF:33.8477659621155 T:0.281939336930118 Conf Int 95:-0.233952882792304 to 0.309308694528717"
 ## [1] "mmu-mir-708-5p tailing-test 23-28 P-value:0.779285957154257 >>ns DF:33.6290644194064 T:0.28250749902864 Conf Int 95:-0.216075405878785 to 0.285816308958805"
-## [1] "mmu-mir-708-5p combined-test (16-28nt) 23-28 P-value:0.801947825484251 >>ns DF:75.9825763998142 T:0.251706053473297 Conf Int 95:-0.163223924540235 to 0.210448137368886"
+## [1] "mmu-mir-708-5p combined-test (16-28nt) P-value:0.111724531847424 >>ns DF:12 T:1.71662019892478 Conf Int 95:-0.0063574584452888 to 0.0535816712739401"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-19.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-20.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-21.png)<!-- -->
@@ -478,7 +478,7 @@ for (i in 21:23){
 ## [1] "mmu-mir-219-2-3p tailing-test 21-26 P-value:0.992979193491957 >>ns DF:33.9964855915922 T:0.00886433191348056 Conf Int 95:-0.307341830501197 to 0.310034719961808"
 ## [1] "mmu-mir-219-2-3p tailing-test 22-27 P-value:0.996319142976593 >>ns DF:33.9976314472357 T:0.00464733094369069 Conf Int 95:-0.291702910231647 to 0.293040095436656"
 ## [1] "mmu-mir-219-2-3p tailing-test 23-28 P-value:0.994923980723995 >>ns DF:33.9993134363931 T:-0.00640883673202112 Conf Int 95:-0.230536995141774 to 0.229087535507142"
-## [1] "mmu-mir-219-2-3p combined-test (16-28nt) 23-28 P-value:0.992631304302908 >>ns DF:75.99885136696 T:0.00926585366885971 Conf Int 95:-0.207904673936624 to 0.20984818407339"
+## [1] "mmu-mir-219-2-3p combined-test (16-28nt) P-value:0.405079027713917 >>ns DF:12 T:0.862955661616701 Conf Int 95:-0.00148175732450219 to 0.00342526746126815"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-22.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-23.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-24.png)<!-- -->
@@ -490,7 +490,7 @@ for (i in 21:23){
 ## [1] "mmu-mir-204-5p tailing-test 21-26 P-value:0.906876675718502 >>ns DF:33.933347959726 T:-0.117855938281525 Conf Int 95:-0.291537961019094 to 0.259579332906688"
 ## [1] "mmu-mir-204-5p tailing-test 22-27 P-value:0.887581842889889 >>ns DF:33.9576611473082 T:-0.142430339322638 Conf Int 95:-0.300356515745744 to 0.261014501483345"
 ## [1] "mmu-mir-204-5p tailing-test 23-28 P-value:0.863371773480411 >>ns DF:33.9861814882506 T:-0.173392192576792 Conf Int 95:-0.258119384570933 to 0.217536755157895"
-## [1] "mmu-mir-204-5p combined-test (16-28nt) 23-28 P-value:0.925996385501234 >>ns DF:75.9480826364312 T:-0.0931920599858592 Conf Int 95:-0.204878192713132 to 0.186562549049618"
+## [1] "mmu-mir-204-5p combined-test (16-28nt) P-value:0.0423757630717704 >>* DF:12 T:-2.27081267688628 Conf Int 95:-0.0179446230954341 to -0.00037102056807968"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-25.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-26.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-27.png)<!-- -->
@@ -502,7 +502,7 @@ for (i in 21:23){
 ## [1] "mmu-mir-219-2-5p tailing-test 21-26 P-value:0.111143947806822 >>ns DF:32.4769353415231 T:1.63767501323928 Conf Int 95:-0.0497610923255782 to 0.459182849839864"
 ## [1] "mmu-mir-219-2-5p tailing-test 22-27 P-value:0.200282143550049 >>ns DF:31.0333859188655 T:1.30858977528408 Conf Int 95:-0.0920850710264358 to 0.421849311764322"
 ## [1] "mmu-mir-219-2-5p tailing-test 23-28 P-value:0.291565749783691 >>ns DF:29.1914238182909 T:1.07412457670821 Conf Int 95:-0.107502822350207 to 0.345460013601414"
-## [1] "mmu-mir-219-2-5p combined-test (16-28nt) 23-28 P-value:0.0997100590172797 >>ns DF:75.2012707987845 T:1.66682039885644 Conf Int 95:-0.0297303618938425 to 0.334503006274983"
+## [1] "mmu-mir-219-2-5p combined-test (16-28nt) P-value:0.00271035268070555 >>* DF:12 T:3.76213490344346 Conf Int 95:0.0641329016259005 to 0.24063974275524"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-28.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-29.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-30.png)<!-- -->
@@ -514,7 +514,7 @@ for (i in 21:23){
 ## [1] "mmu-mir-10b-5p tailing-test 21-26 P-value:0.994571765055719 >>ns DF:33.998914419628 T:-0.00685354168537097 Conf Int 95:-0.297625125589059 to 0.295624452975113"
 ## [1] "mmu-mir-10b-5p tailing-test 22-27 P-value:0.996278669940583 >>ns DF:33.9989576502025 T:-0.00469842992685134 Conf Int 95:-0.29422724357655 to 0.292869910975451"
 ## [1] "mmu-mir-10b-5p tailing-test 23-28 P-value:0.99887364306616 >>ns DF:33.9988323811619 T:-0.00142209666380634 Conf Int 95:-0.242046108473334 to 0.24170759425747"
-## [1] "mmu-mir-10b-5p combined-test (16-28nt) 23-28 P-value:0.996280534257993 >>ns DF:75.9996415225826 T:-0.00467703555550663 Conf Int 95:-0.204072233073047 to 0.203116034824275"
+## [1] "mmu-mir-10b-5p combined-test (16-28nt) P-value:0.459879174945897 >>ns DF:12 T:-0.763559570532024 Conf Int 95:-0.0018423522177498 to 0.000886153968977146"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-31.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-32.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-33.png)<!-- -->
@@ -526,7 +526,7 @@ for (i in 21:23){
 ## [1] "mmu-mir-29a-3p tailing-test 21-26 P-value:0.990598526082584 >>ns DF:33.9997739823665 T:-0.0118702341491527 Conf Int 95:-0.299495556028962 to 0.296017197954771"
 ## [1] "mmu-mir-29a-3p tailing-test 22-27 P-value:0.985439715142127 >>ns DF:33.9998897323767 T:-0.0183843333126032 Conf Int 95:-0.262118756443745 to 0.257418853745345"
 ## [1] "mmu-mir-29a-3p tailing-test 23-28 P-value:0.969210112766676 >>ns DF:33.9808976975408 T:-0.0388843964595903 Conf Int 95:-0.154789253079909 to 0.148977191475009"
-## [1] "mmu-mir-29a-3p combined-test (16-28nt) 23-28 P-value:0.997078098387121 >>ns DF:75.9996067575517 T:-0.0036741347748615 Conf Int 95:-0.210257783192797 to 0.209483466277152"
+## [1] "mmu-mir-29a-3p combined-test (16-28nt) P-value:0.766990285239726 >>ns DF:12 T:-0.303118406368457 Conf Int 95:-0.00317005054650869 to 0.0023957336308636"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-34.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-35.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-36.png)<!-- -->
@@ -538,7 +538,7 @@ for (i in 21:23){
 ## [1] "mmu-mir-29b-1-3p tailing-test 21-26 P-value:0.581612254402018 >>ns DF:33.5217471049371 T:0.556430728134715 Conf Int 95:-0.199872756556187 to 0.350481027390253"
 ## [1] "mmu-mir-29b-1-3p tailing-test 22-27 P-value:0.639487059671462 >>ns DF:33.1745132537695 T:0.472750134908387 Conf Int 95:-0.211773554243833 to 0.340015679223932"
 ## [1] "mmu-mir-29b-1-3p tailing-test 23-28 P-value:0.690307198013953 >>ns DF:32.7166103244717 T:0.40198778403265 Conf Int 95:-0.194804894540366 to 0.290701688593442"
-## [1] "mmu-mir-29b-1-3p combined-test (16-28nt) 23-28 P-value:0.652867081917022 >>ns DF:75.8288273951871 T:0.451570874319789 Conf Int 95:-0.150784675449877 to 0.239203189258997"
+## [1] "mmu-mir-29b-1-3p combined-test (16-28nt) P-value:0.017744621104104 >>* DF:12 T:2.74565203368548 Conf Int 95:0.0091269904877137 to 0.0792915233214068"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-37.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-38.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-39.png)<!-- -->
@@ -550,7 +550,7 @@ for (i in 21:23){
 ## [1] "mmu-mir-29c-5p tailing-test 21-26 P-value:0.80054161096952 >>ns DF:33.9916655874462 T:-0.254631944773153 Conf Int 95:-0.276679912739776 to 0.215066633449607"
 ## [1] "mmu-mir-29c-5p tailing-test 22-27 P-value:0.798583315455231 >>ns DF:33.9869670722594 T:-0.257189379732094 Conf Int 95:-0.28975743396186 to 0.224656973356327"
 ## [1] "mmu-mir-29c-5p tailing-test 23-28 P-value:0.810037538082939 >>ns DF:33.9515995026603 T:-0.242258216177191 Conf Int 95:-0.259089156929587 to 0.203900362059837"
-## [1] "mmu-mir-29c-5p combined-test (16-28nt) 23-28 P-value:0.874332383238041 >>ns DF:75.9861000885127 T:-0.1586922169724 Conf Int 95:-0.199126725718938 to 0.169736573323088"
+## [1] "mmu-mir-29c-5p combined-test (16-28nt) P-value:0.0214207672514714 >>* DF:12 T:-2.64385446177496 Conf Int 95:-0.0268053572349086 to -0.00258479516094193"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-40.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-41.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-42.png)<!-- -->
@@ -562,7 +562,7 @@ for (i in 21:23){
 ## [1] "mmu-mir-29c-3p tailing-test 21-26 P-value:0.938130338956058 >>ns DF:33.9999703347325 T:-0.0781962551604969 Conf Int 95:-0.29122398418298 to 0.269643066438616"
 ## [1] "mmu-mir-29c-3p tailing-test 22-27 P-value:0.901939008763118 >>ns DF:33.9643812337362 T:-0.124136449674233 Conf Int 95:-0.246333078783958 to 0.217972783263099"
 ## [1] "mmu-mir-29c-3p tailing-test 23-28 P-value:0.808126889757535 >>ns DF:32.8450105842172 T:-0.244809617223079 Conf Int 95:-0.122511800836618 to 0.0961993889536541"
-## [1] "mmu-mir-29c-3p combined-test (16-28nt) 23-28 P-value:0.967944777715216 >>ns DF:75.9958218450285 T:-0.0403187044017772 Conf Int 95:-0.210867929323097 to 0.202499867666265"
+## [1] "mmu-mir-29c-3p combined-test (16-28nt) P-value:0.543666026527142 >>ns DF:12 T:-0.625011070708 Conf Int 95:-0.0187697245479682 to 0.010401662891136"
 ```
 
 ![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-43.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-44.png)<!-- -->![](alena_new_data_mar_2017_files/figure-html/unnamed-chunk-21-45.png)<!-- -->
@@ -574,6 +574,6 @@ for (i in 21:23){
 ## [1] "mmu-mir-29b-2-5p tailing-test 21-26 P-value:0.904059325822727 >>ns DF:33.4208696686984 T:0.121453292406892 Conf Int 95:-0.193267005024468 to 0.21781911773121"
 ## [1] "mmu-mir-29b-2-5p tailing-test 22-27 P-value:0.874951010107516 >>ns DF:33.6620984902155 T:0.158575324035112 Conf Int 95:-0.242674414020189 to 0.283734748665069"
 ## [1] "mmu-mir-29b-2-5p tailing-test 23-28 P-value:0.862548008566446 >>ns DF:33.8701455511156 T:0.174453091911684 Conf Int 95:-0.250357624738798 to 0.297369269299617"
-## [1] "mmu-mir-29b-2-5p combined-test (16-28nt) 23-28 P-value:0.908129834766223 >>ns DF:75.7848874797997 T:0.11578419193279 Conf Int 95:-0.162978558810023 to 0.183096408982244"
+## [1] "mmu-mir-29b-2-5p combined-test (16-28nt) P-value:0.327837575732214 >>ns DF:12 T:1.02003308462982 Conf Int 95:-0.0114271574346663 to 0.0315450076068869"
 ```
 
