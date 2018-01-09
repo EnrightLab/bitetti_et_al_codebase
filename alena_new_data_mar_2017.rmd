@@ -281,30 +281,44 @@ legend("topright",levels(as.factor(rownames(length_table))),fill=colours[levels(
 for (i in 16:18){
     j=i+5
     pvalue=NA
-    pvalue=t.test(length_table[1:3,i:j],length_table[4:6,i:j])$p.value
+    pvalue_full=NA
+    pvalue_full=t.test(length_table[1:3,i:j],length_table[4:6,i:j])
+    pvalue=pvalue_full$p.value
     if (pvalue <= 0.05){
       sig="*"
     } else {
       sig="ns"
     }
     
-    print(paste(mir," trimming-test ",i,"-",j," P-value:",pvalue," >>",sig,sep=""))
-  
+    print(paste(mir," trimming-test ",i,"-",j," P-value:",pvalue," >>",sig, " DF:",pvalue_full$parameter, " T:",pvalue_full$statistic, " Conf Int 95:",  paste(pvalue_full$conf.int[1],pvalue_full$conf.int[2],sep=" to "),sep=""))
+
 }
 
 for (i in 21:23){
     j=i+5
-    pvalue=NA;
-    pvalue=t.test(length_table[1:3,i:j],length_table[4:6,i:j])$p.value
+    pvalue=NA
+    pvalue_full=NA
+    pvalue_full=t.test(length_table[1:3,i:j],length_table[4:6,i:j])
+    pvalue=pvalue_full$p.value
     if (pvalue <= 0.05){
       sig="*"
     } else {
       sig="ns"
     }
-    print(paste(mir," tailing-test ",i,"-",j," P-value:",pvalue," >>",sig,sep=""))
-  
+    print(paste(mir," tailing-test ",i,"-",j," P-value:",pvalue," >>",sig, " DF:",pvalue_full$parameter, " T:",pvalue_full$statistic, " Conf Int 95:",  paste(pvalue_full$conf.int[1],pvalue_full$conf.int[2],sep=" to "),sep=""))
 }
 
+    #Trimming and Tailing Combined
+    pvalue=NA
+    pvalue_full=NA
+    pvalue_full=t.test(length_table[1:3,16:28],length_table[4:6,16:28])
+    pvalue=pvalue_full$p.value
+    if (pvalue <= 0.05){
+      sig="*"
+    } else {
+      sig="ns"
+    }
+    print(paste(mir," combined-test (16-28nt) ",i,"-",j," P-value:",pvalue," >>",sig, " DF:",pvalue_full$parameter, " T:",pvalue_full$statistic, " Conf Int 95:",  paste(pvalue_full$conf.int[1],pvalue_full$conf.int[2],sep=" to "),sep=""))
 
 }
 }
